@@ -1,0 +1,302 @@
+{
+  "checkpoint_telemetry": {
+    "completed_result_available": false,
+    "confirmed_paid_answers": 2,
+    "decisions": [
+      {
+        "batch": 1,
+        "observed_match": false,
+        "pair": [
+          "r5",
+          "r8"
+        ],
+        "selection_info": {
+          "topology_cache": {
+            "original_centrality_misses": 1
+          }
+        },
+        "selection_seconds": 0.000412300112657249,
+        "spent": 1
+      },
+      {
+        "batch": 2,
+        "observed_match": false,
+        "pair": [
+          "r4",
+          "r7"
+        ],
+        "selection_info": {
+          "topology_cache": {
+            "original_centrality_misses": 1
+          }
+        },
+        "selection_seconds": 0.00018839992117136717,
+        "spent": 2
+      }
+    ],
+    "journal_sha256": "713eddadeeaa9a286d2b5dce1369bdafbe1c5deb4a9f82b102f7fdc690c7a31e",
+    "journal_status": "terminal_marker",
+    "last_evaluated_checkpoint": {
+      "b3_f1": 0.5,
+      "b3_precision": 0.3333333333333333,
+      "b3_recall": 1.0,
+      "fn": 0,
+      "fp": 27,
+      "largest_impure_component": 9,
+      "loss": 27.0,
+      "n_components": 1,
+      "n_edges": 13,
+      "n_records": 9,
+      "normalized_loss": 0.75,
+      "pair_f1": 0.4,
+      "precision": 0.25,
+      "recall": 1.0,
+      "spent": 2,
+      "tp": 9
+    },
+    "last_record_sha256": "72b493479adfe2027ea0c032cc4fc1917873e4bc5b44974f910cbadf805c742e",
+    "paid_count_exact": true,
+    "paid_count_lower_bound": 2,
+    "paid_count_upper_bound": 2,
+    "scope": "Durable observed prefix only. At most one unlogged purchased answer under this sequential fail-fast callback contract; never fill forward partial performance.",
+    "terminal_marker": {
+      "complete": true,
+      "kind": "terminal",
+      "spent": 2,
+      "stop_reason": "budget_exhausted"
+    },
+    "trace": [
+      {
+        "b3_f1": 0.5,
+        "b3_precision": 0.3333333333333333,
+        "b3_recall": 1.0,
+        "fn": 0,
+        "fp": 27,
+        "largest_impure_component": 9,
+        "loss": 27.0,
+        "n_components": 1,
+        "n_edges": 15,
+        "n_records": 9,
+        "normalized_loss": 0.75,
+        "pair_f1": 0.4,
+        "precision": 0.25,
+        "recall": 1.0,
+        "spent": 0,
+        "tp": 9
+      },
+      {
+        "b3_f1": 0.5,
+        "b3_precision": 0.3333333333333333,
+        "b3_recall": 1.0,
+        "fn": 0,
+        "fp": 27,
+        "largest_impure_component": 9,
+        "loss": 27.0,
+        "n_components": 1,
+        "n_edges": 14,
+        "n_records": 9,
+        "normalized_loss": 0.75,
+        "pair_f1": 0.4,
+        "precision": 0.25,
+        "recall": 1.0,
+        "spent": 1,
+        "tp": 9
+      },
+      {
+        "b3_f1": 0.5,
+        "b3_precision": 0.3333333333333333,
+        "b3_recall": 1.0,
+        "fn": 0,
+        "fp": 27,
+        "largest_impure_component": 9,
+        "loss": 27.0,
+        "n_components": 1,
+        "n_edges": 13,
+        "n_records": 9,
+        "normalized_loss": 0.75,
+        "pair_f1": 0.4,
+        "precision": 0.25,
+        "recall": 1.0,
+        "spent": 2,
+        "tp": 9
+      }
+    ],
+    "truncated_tail_bytes": 0,
+    "valid_records": 7
+  },
+  "cleanup_worker_still_alive": false,
+  "deadline_scope": "result wait after synchronous start; start/payload receive may block; cleanup joins bounded to one second each",
+  "identity": {
+    "data_kind": "constructed_synthetic",
+    "freeze_sha256": "b64c88426943ad58c5aa89abe7d22da5ab802cc6b4b0761a772dd299a1b20808",
+    "k": 3,
+    "method": "edge_betweenness",
+    "requested_budget": 2,
+    "run_id": "k3_ranked_edge_betweenness_B2",
+    "score_profile": "ranked",
+    "visible_sha256": "cb0daa159da9fa34e89bd77481b97a0804065d9ec0bcefd7f05a1f7d96dcfc73"
+  },
+  "observed_wall_exceeded_requested_deadline": false,
+  "requested_result_deadline_seconds": 30.0,
+  "run": {
+    "batch_timings": [
+      {
+        "action_size": 1,
+        "batch": 1,
+        "seconds": 0.000412300112657249
+      },
+      {
+        "action_size": 1,
+        "batch": 2,
+        "seconds": 0.00018839992117136717
+      }
+    ],
+    "complete": true,
+    "decisions": [
+      {
+        "batch": 1,
+        "observed_match": false,
+        "pair": [
+          "r5",
+          "r8"
+        ],
+        "selection_info": {
+          "topology_cache": {
+            "original_centrality_misses": 1
+          }
+        },
+        "selection_seconds": 0.000412300112657249,
+        "spent": 1
+      },
+      {
+        "batch": 2,
+        "observed_match": false,
+        "pair": [
+          "r4",
+          "r7"
+        ],
+        "selection_info": {
+          "topology_cache": {
+            "original_centrality_misses": 1
+          }
+        },
+        "selection_seconds": 0.00018839992117136717,
+        "spent": 2
+      }
+    ],
+    "final": {
+      "b3_f1": 0.5,
+      "b3_precision": 0.3333333333333333,
+      "b3_recall": 1.0,
+      "fn": 0,
+      "fp": 27,
+      "largest_impure_component": 9,
+      "loss": 27.0,
+      "n_components": 1,
+      "n_edges": 13,
+      "n_records": 9,
+      "normalized_loss": 0.75,
+      "pair_f1": 0.4,
+      "precision": 0.25,
+      "recall": 1.0,
+      "spent": 2,
+      "tp": 9
+    },
+    "fn_weight": 1.0,
+    "initial": {
+      "b3_f1": 0.5,
+      "b3_precision": 0.3333333333333333,
+      "b3_recall": 1.0,
+      "fn": 0,
+      "fp": 27,
+      "largest_impure_component": 9,
+      "loss": 27.0,
+      "n_components": 1,
+      "n_edges": 15,
+      "n_records": 9,
+      "normalized_loss": 0.75,
+      "pair_f1": 0.4,
+      "precision": 0.25,
+      "recall": 1.0,
+      "spent": 0,
+      "tp": 9
+    },
+    "loss_reduction": 0.0,
+    "method": "edge_betweenness",
+    "noise": 0.0,
+    "requested_budget": 2,
+    "score_accesses": 29,
+    "seconds": 0.0034943000646308064,
+    "seed": 7,
+    "selection_seconds": 0.0006007000338286161,
+    "spent": 2,
+    "stop_reason": "budget_exhausted",
+    "telemetry_seconds": 0.0022359000286087394,
+    "trace": [
+      {
+        "b3_f1": 0.5,
+        "b3_precision": 0.3333333333333333,
+        "b3_recall": 1.0,
+        "fn": 0,
+        "fp": 27,
+        "largest_impure_component": 9,
+        "loss": 27.0,
+        "n_components": 1,
+        "n_edges": 15,
+        "n_records": 9,
+        "normalized_loss": 0.75,
+        "pair_f1": 0.4,
+        "precision": 0.25,
+        "recall": 1.0,
+        "spent": 0,
+        "tp": 9
+      },
+      {
+        "b3_f1": 0.5,
+        "b3_precision": 0.3333333333333333,
+        "b3_recall": 1.0,
+        "fn": 0,
+        "fp": 27,
+        "largest_impure_component": 9,
+        "loss": 27.0,
+        "n_components": 1,
+        "n_edges": 14,
+        "n_records": 9,
+        "normalized_loss": 0.75,
+        "pair_f1": 0.4,
+        "precision": 0.25,
+        "recall": 1.0,
+        "spent": 1,
+        "tp": 9
+      },
+      {
+        "b3_f1": 0.5,
+        "b3_precision": 0.3333333333333333,
+        "b3_recall": 1.0,
+        "fn": 0,
+        "fp": 27,
+        "largest_impure_component": 9,
+        "loss": 27.0,
+        "n_components": 1,
+        "n_edges": 13,
+        "n_records": 9,
+        "normalized_loss": 0.75,
+        "pair_f1": 0.4,
+        "precision": 0.25,
+        "recall": 1.0,
+        "spent": 2,
+        "tp": 9
+      }
+    ]
+  },
+  "status": "completed",
+  "worker_exit_code": 0,
+  "worker_pid": 18688,
+  "worker_timing": {
+    "cleanup_seconds": 0.2595394999952987,
+    "payload_receive_seconds": 0.00011879997327923775,
+    "process_start_seconds": 0.07732029992621392,
+    "result_wait_seconds": 1.686349599971436
+  },
+  "worker_wall_seconds": 2.0233450999949127
+}

@@ -1,0 +1,32 @@
+name: Finite public verification
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  finite-checks:
+    runs-on: ubuntu-latest
+    env:
+      PYTHONPATH: src
+      PYTHONHASHSEED: '0'
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-public.txt
+      - run: python -m pip install -r requirements-public.txt
+      - run: python -m pytest -q
+      - run: python -m scripts.review_v6.validate_evidence --evidence evidence
+      - name: Replay preserved V5 answers with the preserved engine
+        working-directory: historical/v5
+        run: |
+          python -m scripts.review_v5.public_replay check --bundle replay/synthetic
+          python -m scripts.review_v5.public_replay check --bundle replay/dblp_exposed
+          python -m scripts.review_v5.public_replay check --bundle replay/dblp_unused
+      - run: python scripts/make_figures_v6.py --out figures_ci
+      - run: python scripts/build_site_v6.py --out site_ci

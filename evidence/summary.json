@@ -1,0 +1,231 @@
+{
+  "candidate_identity_revalidation_possible": false,
+  "deduplicated_reference_summary": [
+    {
+      "phase": "natural",
+      "reference": "natural",
+      "unique_evaluated_states": 241,
+      "unique_positive_gap_states": 211
+    },
+    {
+      "phase": "synthetic",
+      "reference": "H0",
+      "unique_evaluated_states": 60,
+      "unique_positive_gap_states": 0
+    },
+    {
+      "phase": "synthetic",
+      "reference": "H9",
+      "unique_evaluated_states": 60,
+      "unique_positive_gap_states": 0
+    }
+  ],
+  "graph_wide_bonds_complete_states": 228,
+  "groups": [
+    {
+      "certified_positive_gap_states": 81,
+      "certified_positive_states": 84,
+      "dataset": "dblp_acm",
+      "evaluated_states": 84,
+      "fallback_states": 0,
+      "maximum_realized_gap": 2.0,
+      "planned_states": 84,
+      "positive_realized_gap_states": 81,
+      "reference": "natural",
+      "unknown_states": 0,
+      "zero_realized_gap_states": 3
+    },
+    {
+      "certified_positive_gap_states": 81,
+      "certified_positive_states": 84,
+      "dataset": "dblp_unused",
+      "evaluated_states": 84,
+      "fallback_states": 0,
+      "maximum_realized_gap": 1.0,
+      "planned_states": 84,
+      "positive_realized_gap_states": 81,
+      "reference": "natural",
+      "unknown_states": 0,
+      "zero_realized_gap_states": 3
+    },
+    {
+      "certified_positive_gap_states": 0,
+      "certified_positive_states": 12,
+      "dataset": "k1_ranked",
+      "evaluated_states": 13,
+      "fallback_states": 1,
+      "maximum_realized_gap": 0.0,
+      "planned_states": 13,
+      "positive_realized_gap_states": 0,
+      "reference": "H0",
+      "unknown_states": 0,
+      "zero_realized_gap_states": 13
+    },
+    {
+      "certified_positive_gap_states": 0,
+      "certified_positive_states": 12,
+      "dataset": "k1_ranked",
+      "evaluated_states": 13,
+      "fallback_states": 1,
+      "maximum_realized_gap": 0.0,
+      "planned_states": 13,
+      "positive_realized_gap_states": 0,
+      "reference": "H9",
+      "unknown_states": 0,
+      "zero_realized_gap_states": 13
+    },
+    {
+      "certified_positive_gap_states": 0,
+      "certified_positive_states": 12,
+      "dataset": "k1_uniform",
+      "evaluated_states": 13,
+      "fallback_states": 1,
+      "maximum_realized_gap": 0.0,
+      "planned_states": 13,
+      "positive_realized_gap_states": 0,
+      "reference": "H0",
+      "unknown_states": 0,
+      "zero_realized_gap_states": 13
+    },
+    {
+      "certified_positive_gap_states": 0,
+      "certified_positive_states": 12,
+      "dataset": "k1_uniform",
+      "evaluated_states": 13,
+      "fallback_states": 1,
+      "maximum_realized_gap": 0.0,
+      "planned_states": 13,
+      "positive_realized_gap_states": 0,
+      "reference": "H9",
+      "unknown_states": 0,
+      "zero_realized_gap_states": 13
+    },
+    {
+      "certified_positive_gap_states": 0,
+      "certified_positive_states": 7,
+      "dataset": "k2_ranked",
+      "evaluated_states": 9,
+      "fallback_states": 2,
+      "maximum_realized_gap": 0.0,
+      "planned_states": 9,
+      "positive_realized_gap_states": 0,
+      "reference": "H0",
+      "unknown_states": 0,
+      "zero_realized_gap_states": 9
+    },
+    {
+      "certified_positive_gap_states": 0,
+      "certified_positive_states": 7,
+      "dataset": "k2_ranked",
+      "evaluated_states": 9,
+      "fallback_states": 2,
+      "maximum_realized_gap": 0.0,
+      "planned_states": 9,
+      "positive_realized_gap_states": 0,
+      "reference": "H9",
+      "unknown_states": 0,
+      "zero_realized_gap_states": 9
+    },
+    {
+      "certified_positive_gap_states": 0,
+      "certified_positive_states": 7,
+      "dataset": "k2_uniform",
+      "evaluated_states": 9,
+      "fallback_states": 2,
+      "maximum_realized_gap": 0.0,
+      "planned_states": 9,
+      "positive_realized_gap_states": 0,
+      "reference": "H0",
+      "unknown_states": 0,
+      "zero_realized_gap_states": 9
+    },
+    {
+      "certified_positive_gap_states": 0,
+      "certified_positive_states": 7,
+      "dataset": "k2_uniform",
+      "evaluated_states": 9,
+      "fallback_states": 2,
+      "maximum_realized_gap": 0.0,
+      "planned_states": 9,
+      "positive_realized_gap_states": 0,
+      "reference": "H9",
+      "unknown_states": 0,
+      "zero_realized_gap_states": 9
+    },
+    {
+      "certified_positive_gap_states": 0,
+      "certified_positive_states": 4,
+      "dataset": "k3_ranked",
+      "evaluated_states": 8,
+      "fallback_states": 4,
+      "maximum_realized_gap": 0.0,
+      "planned_states": 8,
+      "positive_realized_gap_states": 0,
+      "reference": "H0",
+      "unknown_states": 0,
+      "zero_realized_gap_states": 8
+    },
+    {
+      "certified_positive_gap_states": 0,
+      "certified_positive_states": 4,
+      "dataset": "k3_ranked",
+      "evaluated_states": 8,
+      "fallback_states": 4,
+      "maximum_realized_gap": 0.0,
+      "planned_states": 8,
+      "positive_realized_gap_states": 0,
+      "reference": "H9",
+      "unknown_states": 0,
+      "zero_realized_gap_states": 8
+    },
+    {
+      "certified_positive_gap_states": 0,
+      "certified_positive_states": 4,
+      "dataset": "k3_uniform",
+      "evaluated_states": 8,
+      "fallback_states": 4,
+      "maximum_realized_gap": 0.0,
+      "planned_states": 8,
+      "positive_realized_gap_states": 0,
+      "reference": "H0",
+      "unknown_states": 0,
+      "zero_realized_gap_states": 8
+    },
+    {
+      "certified_positive_gap_states": 0,
+      "certified_positive_states": 4,
+      "dataset": "k3_uniform",
+      "evaluated_states": 8,
+      "fallback_states": 4,
+      "maximum_realized_gap": 0.0,
+      "planned_states": 8,
+      "positive_realized_gap_states": 0,
+      "reference": "H9",
+      "unknown_states": 0,
+      "zero_realized_gap_states": 8
+    },
+    {
+      "certified_positive_gap_states": 49,
+      "certified_positive_states": 73,
+      "dataset": "wdc",
+      "evaluated_states": 73,
+      "fallback_states": 0,
+      "maximum_realized_gap": 9801.0,
+      "planned_states": 73,
+      "positive_realized_gap_states": 49,
+      "reference": "natural",
+      "unknown_states": 0,
+      "zero_realized_gap_states": 24
+    }
+  ],
+  "new_acquisitions": 0,
+  "new_oracle_answers": 0,
+  "physical_states": 301,
+  "reference_slots": 361,
+  "schema": "cut-audit-v6-scalar-evidence-summary",
+  "scope": "Full-reached states; dependent budgets/references. Hindsight single-batch gaps, not expected regret.",
+  "unique_visible_states": 301,
+  "visible_status_counts": {
+    "passed": 301
+  }
+}

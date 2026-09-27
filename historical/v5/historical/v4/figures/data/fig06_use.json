@@ -1,0 +1,171 @@
+{
+  "figure": "fig06_use",
+  "scope": "V4 fixed study; see figure-specific public projection",
+  "sources": [
+    "evidence/manifest.json"
+  ],
+  "data": [
+    {
+      "dataset": "wdc",
+      "method": "cut_plan_fixed",
+      "budget": 12,
+      "capped_multi": 176,
+      "capped_total": 768,
+      "committed_multi": 0,
+      "committed_total": 12
+    },
+    {
+      "dataset": "wdc",
+      "method": "cut_plan_fixed_singleton",
+      "budget": 12,
+      "capped_multi": 176,
+      "capped_total": 768,
+      "committed_multi": 0,
+      "committed_total": 12
+    },
+    {
+      "dataset": "wdc",
+      "method": "cut_plan_fixed",
+      "budget": 24,
+      "capped_multi": 401,
+      "capped_total": 1408,
+      "committed_multi": 2,
+      "committed_total": 22
+    },
+    {
+      "dataset": "wdc",
+      "method": "cut_plan_fixed_singleton",
+      "budget": 24,
+      "capped_multi": 464,
+      "capped_total": 1536,
+      "committed_multi": 0,
+      "committed_total": 24
+    },
+    {
+      "dataset": "wdc",
+      "method": "cut_plan_fixed",
+      "budget": 48,
+      "capped_multi": 901,
+      "capped_total": 2488,
+      "committed_multi": 6,
+      "committed_total": 39
+    },
+    {
+      "dataset": "wdc",
+      "method": "cut_plan_fixed_singleton",
+      "budget": 48,
+      "capped_multi": 1319,
+      "capped_total": 3049,
+      "committed_multi": 0,
+      "committed_total": 48
+    },
+    {
+      "dataset": "dblp_acm",
+      "method": "cut_plan_fixed",
+      "budget": 12,
+      "capped_multi": 66,
+      "capped_total": 768,
+      "committed_multi": 0,
+      "committed_total": 12
+    },
+    {
+      "dataset": "dblp_acm",
+      "method": "cut_plan_fixed_singleton",
+      "budget": 12,
+      "capped_multi": 66,
+      "capped_total": 768,
+      "committed_multi": 0,
+      "committed_total": 12
+    },
+    {
+      "dataset": "dblp_acm",
+      "method": "cut_plan_fixed",
+      "budget": 24,
+      "capped_multi": 138,
+      "capped_total": 1536,
+      "committed_multi": 0,
+      "committed_total": 24
+    },
+    {
+      "dataset": "dblp_acm",
+      "method": "cut_plan_fixed_singleton",
+      "budget": 24,
+      "capped_multi": 138,
+      "capped_total": 1536,
+      "committed_multi": 0,
+      "committed_total": 24
+    },
+    {
+      "dataset": "dblp_acm",
+      "method": "cut_plan_fixed",
+      "budget": 48,
+      "capped_multi": 282,
+      "capped_total": 3072,
+      "committed_multi": 0,
+      "committed_total": 48
+    },
+    {
+      "dataset": "dblp_acm",
+      "method": "cut_plan_fixed_singleton",
+      "budget": 48,
+      "capped_multi": 282,
+      "capped_total": 3072,
+      "committed_multi": 0,
+      "committed_total": 48
+    },
+    {
+      "dataset": "dblp_unused",
+      "method": "cut_plan_fixed",
+      "budget": 12,
+      "capped_multi": 0,
+      "capped_total": 768,
+      "committed_multi": 0,
+      "committed_total": 12
+    },
+    {
+      "dataset": "dblp_unused",
+      "method": "cut_plan_fixed_singleton",
+      "budget": 12,
+      "capped_multi": 0,
+      "capped_total": 768,
+      "committed_multi": 0,
+      "committed_total": 12
+    },
+    {
+      "dataset": "dblp_unused",
+      "method": "cut_plan_fixed",
+      "budget": 24,
+      "capped_multi": 0,
+      "capped_total": 1536,
+      "committed_multi": 0,
+      "committed_total": 24
+    },
+    {
+      "dataset": "dblp_unused",
+      "method": "cut_plan_fixed_singleton",
+      "budget": 24,
+      "capped_multi": 0,
+      "capped_total": 1536,
+      "committed_multi": 0,
+      "committed_total": 24
+    },
+    {
+      "dataset": "dblp_unused",
+      "method": "cut_plan_fixed",
+      "budget": 48,
+      "capped_multi": 0,
+      "capped_total": 3072,
+      "committed_multi": 0,
+      "committed_total": 48
+    },
+    {
+      "dataset": "dblp_unused",
+      "method": "cut_plan_fixed_singleton",
+      "budget": 48,
+      "capped_multi": 0,
+      "capped_total": 3072,
+      "committed_multi": 0,
+      "committed_total": 48
+    }
+  ]
+}

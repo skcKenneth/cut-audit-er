@@ -1,0 +1,4 @@
+dataset,nodes,edges,components,exact_components,skipped_components,initial_fp,initial_fn,covered_fp,headroom,status
+wdc,806,2047,117,97,20,76006,898,13,286,partial_component_diagnosis
+dblp_acm,810,363,452,452,0,15,19,15,0,exact
+dblp_unused,910,413,515,515,0,25,30,25,0,exact

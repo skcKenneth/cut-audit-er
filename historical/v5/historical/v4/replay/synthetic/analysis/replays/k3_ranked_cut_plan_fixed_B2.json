@@ -1,0 +1,621 @@
+{
+  "acquisition_paid_answers": 2,
+  "acquisition_sha256": "0eb02cac1cb4c41a795905dbb261ee2e2d274bb2ca1e8175b773045ea03ad697",
+  "batches": [
+    {
+      "batch": 1,
+      "candidates": {
+        "bc_eligible_order": [
+          [
+            "r5",
+            "r8"
+          ],
+          [
+            "r2",
+            "r5"
+          ],
+          [
+            "r4",
+            "r7"
+          ],
+          [
+            "r1",
+            "r4"
+          ],
+          [
+            "r3",
+            "r6"
+          ],
+          [
+            "r0",
+            "r3"
+          ],
+          [
+            "r3",
+            "r4"
+          ],
+          [
+            "r3",
+            "r5"
+          ],
+          [
+            "r4",
+            "r5"
+          ],
+          [
+            "r6",
+            "r7"
+          ],
+          [
+            "r6",
+            "r8"
+          ],
+          [
+            "r7",
+            "r8"
+          ],
+          [
+            "r0",
+            "r1"
+          ],
+          [
+            "r0",
+            "r2"
+          ],
+          [
+            "r1",
+            "r2"
+          ]
+        ],
+        "capped_order": [],
+        "depth_cap": 2,
+        "diagnostic_score_accesses": 15,
+        "generated_lexicographic": [],
+        "pool_scope": "method_common_pool",
+        "prerank_order": [],
+        "scored_order": [],
+        "utility_rank_order": [],
+        "validated_order": []
+      },
+      "logical_accesses_cumulative": 15,
+      "new_oracle_answers": 0,
+      "offline_opportunities": {
+        "H0": [],
+        "H9": []
+      },
+      "remaining": 2,
+      "selected_action": [
+        [
+          "r5",
+          "r8"
+        ]
+      ],
+      "selection_info": {
+        "candidate_actions": 0,
+        "candidate_cap": 64,
+        "candidate_depth_counts": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "candidate_truncated": 0,
+        "capped_candidate_depth_counts": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "centrality_seconds": 0.00015949993394315243,
+        "depth_cap": 2,
+        "fallback": "error_weighted_edge_betweenness",
+        "fallback_trigger": "empty_validated_pool",
+        "flow_call_cap": 16,
+        "flow_calls": 0,
+        "flow_seconds": 3.00002284348011e-07,
+        "nonbond_candidates_rejected": 0,
+        "pending_remainder_retained": false,
+        "pending_transition": "no_previous_plan",
+        "plan_scoring_seconds": 1.00000761449337e-07,
+        "planned_depth": 1,
+        "planned_edges": [
+          [
+            "r5",
+            "r8"
+          ]
+        ],
+        "pool_prerank": "mean_error_weighted_edge_betweenness",
+        "previous_plan_invalidated_by_positive": false,
+        "previous_planned_depth": 0,
+        "raw_candidate_depth_counts": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "raw_candidate_plans": 0,
+        "raw_small_plans": 0,
+        "reason": "centrality_continuation_after_nonpositive_or_empty_pool",
+        "scored_candidate_actions": 0,
+        "scored_candidate_depth_counts": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "seeded_components": 1,
+        "selected_candidate_depth_counts": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "small_pool_seconds": 0.0014831000007689,
+        "topology_cache": {
+          "bridges_misses": 1,
+          "canonical_misses": 1,
+          "centrality_misses": 1,
+          "component_graph_misses": 1,
+          "component_partition_misses": 1,
+          "original_centrality_misses": 1,
+          "seed_bridges_misses": 15
+        },
+        "validation_and_cap_seconds": 2.800021320581436e-06
+      },
+      "spent_before": 0
+    },
+    {
+      "batch": 2,
+      "candidates": {
+        "bc_eligible_order": [
+          [
+            "r4",
+            "r7"
+          ],
+          [
+            "r1",
+            "r4"
+          ],
+          [
+            "r2",
+            "r5"
+          ],
+          [
+            "r3",
+            "r6"
+          ],
+          [
+            "r0",
+            "r3"
+          ],
+          [
+            "r3",
+            "r5"
+          ],
+          [
+            "r4",
+            "r5"
+          ],
+          [
+            "r6",
+            "r8"
+          ],
+          [
+            "r7",
+            "r8"
+          ],
+          [
+            "r3",
+            "r4"
+          ],
+          [
+            "r0",
+            "r2"
+          ],
+          [
+            "r1",
+            "r2"
+          ],
+          [
+            "r6",
+            "r7"
+          ],
+          [
+            "r0",
+            "r1"
+          ]
+        ],
+        "capped_order": [],
+        "depth_cap": 1,
+        "diagnostic_score_accesses": 14,
+        "generated_lexicographic": [],
+        "pool_scope": "method_common_pool",
+        "prerank_order": [],
+        "scored_order": [],
+        "utility_rank_order": [],
+        "validated_order": []
+      },
+      "logical_accesses_cumulative": 29,
+      "new_oracle_answers": 0,
+      "offline_opportunities": {
+        "H0": [],
+        "H9": []
+      },
+      "remaining": 1,
+      "selected_action": [
+        [
+          "r4",
+          "r7"
+        ]
+      ],
+      "selection_info": {
+        "candidate_actions": 0,
+        "candidate_cap": 64,
+        "candidate_depth_counts": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "candidate_truncated": 0,
+        "capped_candidate_depth_counts": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "centrality_seconds": 0.00014690007083117962,
+        "depth_cap": 1,
+        "fallback": "error_weighted_edge_betweenness",
+        "fallback_trigger": "empty_validated_pool",
+        "flow_call_cap": 16,
+        "flow_calls": 0,
+        "flow_seconds": 2.00001522898674e-07,
+        "nonbond_candidates_rejected": 0,
+        "pending_remainder_retained": false,
+        "pending_transition": "no_previous_plan",
+        "plan_scoring_seconds": 1.00000761449337e-07,
+        "planned_depth": 1,
+        "planned_edges": [
+          [
+            "r4",
+            "r7"
+          ]
+        ],
+        "pool_prerank": "mean_error_weighted_edge_betweenness",
+        "previous_plan_invalidated_by_positive": false,
+        "previous_planned_depth": 0,
+        "raw_candidate_depth_counts": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "raw_candidate_plans": 0,
+        "raw_small_plans": 0,
+        "reason": "centrality_continuation_after_nonpositive_or_empty_pool",
+        "scored_candidate_actions": 0,
+        "scored_candidate_depth_counts": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "seeded_components": 0,
+        "selected_candidate_depth_counts": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "small_pool_seconds": 9.42000187933445e-05,
+        "topology_cache": {
+          "bridges_misses": 1,
+          "canonical_misses": 1,
+          "centrality_misses": 1,
+          "component_graph_misses": 1,
+          "component_partition_misses": 1,
+          "original_centrality_misses": 1
+        },
+        "validation_and_cap_seconds": 1.7998972907662392e-06
+      },
+      "spent_before": 1
+    }
+  ],
+  "diagnostic_score_accesses": 29,
+  "events": [
+    {
+      "answer": false,
+      "batch": 1,
+      "category": "negative_no_split",
+      "partition_after_sha256": "7ee50ff90d18d88e02683fbd80f31bc35343a6c5172cfb125769fabf5ca9f2ce",
+      "partition_before_sha256": "7ee50ff90d18d88e02683fbd80f31bc35343a6c5172cfb125769fabf5ca9f2ce",
+      "spent": 1,
+      "u": "r5",
+      "v": "r8"
+    },
+    {
+      "answer": false,
+      "batch": 2,
+      "category": "negative_no_split",
+      "partition_after_sha256": "7ee50ff90d18d88e02683fbd80f31bc35343a6c5172cfb125769fabf5ca9f2ce",
+      "partition_before_sha256": "7ee50ff90d18d88e02683fbd80f31bc35343a6c5172cfb125769fabf5ca9f2ce",
+      "spent": 2,
+      "u": "r4",
+      "v": "r7"
+    }
+  ],
+  "k": 3,
+  "logical_score_accesses": 29,
+  "method": "cut_plan_fixed",
+  "new_oracle_answers": 0,
+  "requested_budget": 2,
+  "run_id": "k3_ranked_cut_plan_fixed_B2",
+  "schema": "cut-audit-review-v4-synthetic-replay-v1",
+  "score_profile": "ranked",
+  "states": [
+    {
+      "edges": [
+        [
+          "r0",
+          "r1"
+        ],
+        [
+          "r0",
+          "r2"
+        ],
+        [
+          "r0",
+          "r3"
+        ],
+        [
+          "r1",
+          "r2"
+        ],
+        [
+          "r1",
+          "r4"
+        ],
+        [
+          "r2",
+          "r5"
+        ],
+        [
+          "r3",
+          "r4"
+        ],
+        [
+          "r3",
+          "r5"
+        ],
+        [
+          "r3",
+          "r6"
+        ],
+        [
+          "r4",
+          "r5"
+        ],
+        [
+          "r4",
+          "r7"
+        ],
+        [
+          "r5",
+          "r8"
+        ],
+        [
+          "r6",
+          "r7"
+        ],
+        [
+          "r6",
+          "r8"
+        ],
+        [
+          "r7",
+          "r8"
+        ]
+      ],
+      "partition": [
+        [
+          "r0",
+          "r1",
+          "r2",
+          "r3",
+          "r4",
+          "r5",
+          "r6",
+          "r7",
+          "r8"
+        ]
+      ],
+      "partition_sha256": "7ee50ff90d18d88e02683fbd80f31bc35343a6c5172cfb125769fabf5ca9f2ce",
+      "references": {
+        "H0": {
+          "fn": 0,
+          "fp": 27,
+          "loss": 27
+        },
+        "H9": {
+          "fn": 0,
+          "fp": 18,
+          "loss": 18
+        }
+      },
+      "spent": 0
+    },
+    {
+      "edges": [
+        [
+          "r0",
+          "r1"
+        ],
+        [
+          "r0",
+          "r2"
+        ],
+        [
+          "r0",
+          "r3"
+        ],
+        [
+          "r1",
+          "r2"
+        ],
+        [
+          "r1",
+          "r4"
+        ],
+        [
+          "r2",
+          "r5"
+        ],
+        [
+          "r3",
+          "r4"
+        ],
+        [
+          "r3",
+          "r5"
+        ],
+        [
+          "r3",
+          "r6"
+        ],
+        [
+          "r4",
+          "r5"
+        ],
+        [
+          "r4",
+          "r7"
+        ],
+        [
+          "r6",
+          "r7"
+        ],
+        [
+          "r6",
+          "r8"
+        ],
+        [
+          "r7",
+          "r8"
+        ]
+      ],
+      "partition": [
+        [
+          "r0",
+          "r1",
+          "r2",
+          "r3",
+          "r4",
+          "r5",
+          "r6",
+          "r7",
+          "r8"
+        ]
+      ],
+      "partition_sha256": "7ee50ff90d18d88e02683fbd80f31bc35343a6c5172cfb125769fabf5ca9f2ce",
+      "references": {
+        "H0": {
+          "fn": 0,
+          "fp": 27,
+          "loss": 27
+        },
+        "H9": {
+          "fn": 0,
+          "fp": 18,
+          "loss": 18
+        }
+      },
+      "spent": 1
+    },
+    {
+      "edges": [
+        [
+          "r0",
+          "r1"
+        ],
+        [
+          "r0",
+          "r2"
+        ],
+        [
+          "r0",
+          "r3"
+        ],
+        [
+          "r1",
+          "r2"
+        ],
+        [
+          "r1",
+          "r4"
+        ],
+        [
+          "r2",
+          "r5"
+        ],
+        [
+          "r3",
+          "r4"
+        ],
+        [
+          "r3",
+          "r5"
+        ],
+        [
+          "r3",
+          "r6"
+        ],
+        [
+          "r4",
+          "r5"
+        ],
+        [
+          "r6",
+          "r7"
+        ],
+        [
+          "r6",
+          "r8"
+        ],
+        [
+          "r7",
+          "r8"
+        ]
+      ],
+      "partition": [
+        [
+          "r0",
+          "r1",
+          "r2",
+          "r3",
+          "r4",
+          "r5",
+          "r6",
+          "r7",
+          "r8"
+        ]
+      ],
+      "partition_sha256": "7ee50ff90d18d88e02683fbd80f31bc35343a6c5172cfb125769fabf5ca9f2ce",
+      "references": {
+        "H0": {
+          "fn": 0,
+          "fp": 27,
+          "loss": 27
+        },
+        "H9": {
+          "fn": 0,
+          "fp": 18,
+          "loss": 18
+        }
+      },
+      "spent": 2
+    }
+  ],
+  "stop_reason": "budget_exhausted",
+  "visible_sha256": "cb0daa159da9fa34e89bd77481b97a0804065d9ec0bcefd7f05a1f7d96dcfc73"
+}

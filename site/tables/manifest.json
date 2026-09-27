@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-09-27T08:17:18.673937+00:00",
+  "files_sha256": {
+    "candidate_value_histogram.csv": "035a4479dcaab234042042b6d49e755f34469651cfb27680eb80bf81af7e0eb3",
+    "evaluation_states.csv": "7e540b5255318e6e926a2c1264f2c899debc5cf9ac6ee2718523ce52ff42d6ce",
+    "external_endpoints.csv": "8136942b5b143f8071a6e00c1b9ee92e9d1c8777c47a8abe36fd895928a2a180",
+    "external_status.json": "e49c481319da3a206364895faffc13a0c5fdb34c127778df5d315e099a659fbe",
+    "summary.json": "156b33a7d6b95422aba83172b65bdfebcfe3db31fe0e87f6e5e77c3953ecce13",
+    "visible_states.csv": "985dc6adb5965556f0297a1109aec960f077d307aa79cc65860ae22fdb1a6eb3"
+  },
+  "histogram_scope": "Candidate outcome groups within a batch; count is multiplicity, not independent opportunity.",
+  "new_oracle_answers": 0,
+  "redaction": "No record/pair IDs, reference mapping, topology, partition hashes, pair scores, raw text or local absolute paths.",
+  "schema": "cut-audit-v6-public-scalar-evidence",
+  "source_evaluator_manifest_sha256": "97bea8eed55f71b384e2f7df47552c28b37bade04e96ef23aeb55bda127842f4",
+  "source_visible_manifest_sha256": "6f65d13e815bf140629325d9dcb9440a6e66ff1d67a1b0ba5b62a9ab665b248c"
+}

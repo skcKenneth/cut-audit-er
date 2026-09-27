@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cut-audit-er"
+version = "0.1.0"
+description = "Verification-only entity repair: research code, retained evidence, and finite reproducibility checks"
+requires-python = ">=3.12"
+dependencies = ["numpy>=2.0,<3", "pandas>=2.2,<3", "scipy>=1.13,<2", "scikit-learn>=1.5,<2", "networkx>=3.3,<4"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+plots = ["matplotlib>=3.8,<4"]
+
+[project.scripts]
+cut-audit = "cut_audit_er.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra"

@@ -1,0 +1,63 @@
+{
+  "cost_scope": "Synthetic two references reuse one acquisition; paid bounds count acquisitions once. Single timing observations, no summed unlike costs.",
+  "counts": {
+    "natural_batches": 745,
+    "natural_completed": 27,
+    "natural_events": 756,
+    "natural_slots": 27,
+    "synthetic_acquisitions": 90,
+    "synthetic_acquisitions_completed": 89,
+    "synthetic_paid_lower_bound": 287,
+    "synthetic_paid_upper_bound": 288,
+    "synthetic_reference_evaluations": 180,
+    "synthetic_reference_evaluations_completed": 178
+  },
+  "files_sha256": {
+    "cohort/bound_curve.csv": "d7932f65b67a5a1928f11b5dd92bcd9b64567c78d4deaf21ef9328fc1415e0ca",
+    "cohort/candidate_depths.csv": "b7efd585f8a0b5ca90d0256bb476c60938f76696f8bf8a97803af3db9c375ce5",
+    "cohort/contrasts.csv": "6b6b2dca8d95a5905a62311c96e9a32c79a90b602b57da0ea61f82d0a3ed240f",
+    "cohort/cost.csv": "82020a3bf143be7041c435f7853d91bee94155370ec43a7d60022afdb608c10d",
+    "coverage.csv": "aba41dc7023822a3017cf9aaee73970b4ac72aee526964874ed168d4030b3910",
+    "legacy_v3/batches.csv": "232be2dde0b80c46082d7084a796c7ba92ed1da7340a5dddd8616496d2a85731",
+    "legacy_v3/bound_curve.csv": "9a2171dd3d238ff2538e779e86aeb2680feca5fc11b283f0c222dceb19d75f9d",
+    "legacy_v3/cache_counts.csv": "e2f1bee98c4473aef8caad5e8676330b6a53c3ad945a64860255554acff03a8f",
+    "legacy_v3/candidate_depths.csv": "53f5c3c699dfc9741a48c9866db896c482d078d090b9743013ca510c82f8d592",
+    "legacy_v3/contrasts.csv": "64ef59e6faa18efe06036c99d318737cc2ce71a89a5e33fd2d273458058db526",
+    "legacy_v3/coverage.csv": "80eb70cfbdce8d3a7a69b8a55f3fb2c72facb71086e40e9e24c648a3b0fe727b",
+    "legacy_v3/endpoints.csv": "ce44db3d32c70d367ddd58958c3b1724d90edad78ae635418955388adbc7d16b",
+    "legacy_v3/events.csv": "722f070fa5c42a91d6da2f422817564b896b085d48ba90c4b97c1e137b123391",
+    "legacy_v3/historical_missing.csv": "bbb33cced0e4ad8d6169c28ca3108072524abab76de040b58fb3882e3b635df5",
+    "legacy_v3/manifest.json": "da8e61edaca2498653898336decce4c2d07d1921069be26f699c5c34c825586b",
+    "legacy_v3/states.csv": "783bff630f693afd54f5b8616c105e400bf54c9e6722d3ca8744b92af63be625",
+    "natural_batches.csv": "63c458d834b2ea42112d87ad3721023c569efb9d60dbbddc25858ec25ec8148d",
+    "natural_endpoints.csv": "16563a2a160a177a49092fc116a7f0ca08f4582c4a16f6e2b153949329907d90",
+    "natural_events.csv": "bcea7dca90034818edff0700de38da9484ff72e175a8345bb30e5806bd3d730a",
+    "synthetic/acquisitions.csv": "822d05cf75cd9c0a9059adfba5f3a3f7ae1211b502472cbd08dd3b731e7ead54",
+    "synthetic/batches.csv": "24d149a222e7ea42001e134e43a7d29d1cea3d3c4cb85e2169de9ad3558b78b6",
+    "synthetic/bounds.csv": "8dc6b01b2a08eda6f7b5c8220163ec9c55e9672d55e4bd9d2198e82a05339f4e",
+    "synthetic/contrasts.csv": "261b0ce9aa441bd8cf50104d17b6bf2f509a54a73d2740580cca27aee74da7fe",
+    "synthetic/events.csv": "a9a7905a7cdf53ddf9add1eecd597529341a8d7b2c3f3352e4afc95424234dfe",
+    "synthetic/missing.csv": "fb74394de11147b4a3796ccba83ef3d1a297929dd115a51ed67fc5513d524901",
+    "synthetic/opportunities.csv": "71ee791f7a3727eaf3f10d3a1c25e16632b12d2851dc3396e8dfa24925e6176c",
+    "synthetic/states.csv": "1e6e51356f26e53f4b4eca6bb3d8ed429ba5efccc2f8e29165aa438fe47a0957",
+    "synthetic_endpoints.csv": "ad8877eab94010df038414e5ef602744a771b7b1b439e83427eec6a827179c56"
+  },
+  "identity_scope": "Natural tables omit original record/pair IDs and partition hashes; pair-identity divergence is a private-audit scalar. Synthetic r0-r8 are constructed labels.",
+  "independent_experimental_units_claimed": false,
+  "preserved_public_v3_zip_sha256": "5c8d7c52a8d49bf6f279e7ca470fb3fbaf556c350a37034cfdc103c0c9941973",
+  "private_v2_archive_sha256": "b19bb2499f28a014b7a83404fff431d5592537577802133b13e192d7121643aa",
+  "reproduction_scope": "Aggregate arithmetic/figure checks; identity-level replay is a separately licensed artifact. Full historical recomputation still depends on external archived assets.",
+  "schema": "cut-audit-public-evidence-v4",
+  "source_exporter_sha256": "d31f5ea245d7a70f1126d795bcad4dc6061b5bbe5188a5f8f33b5163d12a386d",
+  "source_manifest_sha256": {
+    "cohort_analysis": "fbc7f40cb5db66d0e3d0330e20f4d7fa09f872ebefd0ccba64cfeb6464df4712",
+    "dblp_acm_structure": "914cf37e92a99b87e3ba307a8fa4e51805e7df5eb79dc19eb6220c090357b394",
+    "legacy_v3": "da8e61edaca2498653898336decce4c2d07d1921069be26f699c5c34c825586b",
+    "synthetic_analysis": "f6beca38fdd2c65ac53abe31b928cab9c2c887385341f7303656131844b6644b",
+    "wdc_structure": "ef53e01954d56ddf5da3401cc6e48b5be3bf4acba50e2ef0318f90f41992ab0a"
+  },
+  "study_status": {
+    "cohort": "completed",
+    "synthetic": "completed_with_missing"
+  }
+}

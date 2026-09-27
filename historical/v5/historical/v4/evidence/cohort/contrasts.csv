@@ -1,0 +1,7 @@
+dataset,budget,comparison,status,loss_difference,fp_difference,fn_difference,first_pair_answer_divergence,first_pair_answer_batch_divergence
+dblp_unused,12,raw_minus_singleton,complete,0,0,0,,
+dblp_unused,12,raw_minus_bc,complete,0,0,0,,
+dblp_unused,24,raw_minus_singleton,complete,0,0,0,,
+dblp_unused,24,raw_minus_bc,complete,0,0,0,,
+dblp_unused,48,raw_minus_singleton,complete,0,0,0,,
+dblp_unused,48,raw_minus_bc,complete,0,0,0,,

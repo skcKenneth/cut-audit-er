@@ -1,0 +1,11 @@
+# V5 reproduction scope
+
+The checked release contains first-party selector code, finite correctness tests, synthetic generators, scalar study tables, public figure code and lawful saved-answer replay. All three bundle manifests preserve every planned case, including missing cases. Replay consumes recorded answers only and checks the complete supported trace. The evaluator is a separate consumer after the selector trace is computed.
+
+The compact replay stores one case at a time and pins the full canonical semantic replay with SHA-256. Candidate order, actions, answers, batch boundaries, partitions, stop reason and logical accesses are checked. Host-dependent `_seconds` and `seconds` values, `topology_cache` counters and `batch_timings` are excluded from semantic equality; recorded costs remain in the evidence tables. A timing equality or physical-cache reproducibility guarantee is not claimed.
+
+The release cannot independently rebuild the original matcher, raw WDC graph, original cohort allocation or all historical experiments. Original records, licensed external archives, historical model-fitting environments and some frozen assets are intentionally absent. DBLP pseudonyms preserve lexical and iteration order; no reverse mapping is supplied. Public WDC aggregate positions do not certify pair identities. Exact offline coverage is restricted to the fixed visible size limit; large-component absence of a witness is unknown.
+
+The local full-workspace pytest, finite tests after clean extraction, saved-answer replay and local TeX compilation have different scopes and are reported separately in the private delivery receipts. A fresh extraction reuses installed dependencies; it is not a clean operating-system or cloud Overleaf validation. An included CI workflow is a runnable configuration, not evidence of a remote CI execution.
+
+No acquisition, training, benchmark download or public deployment occurs in the public checks or CI. No statistical independence, calibrated utility, FN guarantee, complete native GraphCR/TransClean reproduction or universal advantage is claimed. Synthetic findings remain synthetic; natural development results were already exposed in prior rounds.

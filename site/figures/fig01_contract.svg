@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="345.6pt" height="158.4pt" viewBox="0 0 345.6 158.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>CUT-AUDIT-ER deterministic public-table renderer</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 158.4 
+L 345.6 158.4 
+L 345.6 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 8.53632 53.387136 
+L 100.72512 53.387136 
+Q 103.406976 53.387136 103.406976 51.25824 
+L 103.406976 22.518144 
+Q 103.406976 20.389248 100.72512 20.389248 
+L 8.53632 20.389248 
+Q 5.854464 20.389248 5.854464 22.518144 
+L 5.854464 51.25824 
+Q 5.854464 53.387136 8.53632 53.387136 
+z
+" clip-path="url(#pbb93912369)" style="fill: #e8eef2; stroke: #64717d; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 124.19136 53.387136 
+L 218.05632 53.387136 
+Q 220.738176 53.387136 220.738176 51.25824 
+L 220.738176 22.518144 
+Q 220.738176 20.389248 218.05632 20.389248 
+L 124.19136 20.389248 
+Q 121.509504 20.389248 121.509504 22.518144 
+L 121.509504 51.25824 
+Q 121.509504 53.387136 124.19136 53.387136 
+z
+" clip-path="url(#pbb93912369)" style="fill: #e8eef2; stroke: #64717d; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 239.8464 53.387136 
+L 335.38752 53.387136 
+Q 338.069376 53.387136 338.069376 51.25824 
+L 338.069376 22.518144 
+Q 338.069376 20.389248 335.38752 20.389248 
+L 239.8464 20.389248 
+Q 237.164544 20.389248 237.164544 22.518144 
+L 237.164544 51.25824 
+Q 237.164544 53.387136 239.8464 53.387136 
+z
+" clip-path="url(#pbb93912369)" style="fill: #e8eef2; stroke: #64717d; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 106.750375 36.62208 
+Q 111.958112 36.62208 116.047815 36.62208 
+" clip-path="url(#pbb93912369)" style="fill: none; stroke: #555555; stroke-linecap: round"/>
+    <path d="M 112.447815 34.82208 
+L 116.047815 36.62208 
+L 112.447815 38.42208 
+z
+" clip-path="url(#pbb93912369)" style="fill: #555555; stroke: #555555; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 224.415989 36.62208 
+Q 228.617648 36.62208 231.701273 36.62208 
+" clip-path="url(#pbb93912369)" style="fill: none; stroke: #555555; stroke-linecap: round"/>
+    <path d="M 228.101273 34.82208 
+L 231.701273 36.62208 
+L 228.101273 38.42208 
+z
+" clip-path="url(#pbb93912369)" style="fill: #555555; stroke: #555555; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 13.5648 132.954624 
+L 164.4192 132.954624 
+Q 166.765824 132.954624 166.765824 131.09184 
+L 166.765824 91.707264 
+Q 166.765824 89.84448 164.4192 89.84448 
+L 13.5648 89.84448 
+Q 11.218176 89.84448 11.218176 91.707264 
+L 11.218176 131.09184 
+Q 11.218176 132.954624 13.5648 132.954624 
+z
+" clip-path="url(#pbb93912369)" style="fill: #ffffff; stroke: #0072b2; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 181.1808 132.954624 
+L 332.0352 132.954624 
+Q 334.381824 132.954624 334.381824 131.09184 
+L 334.381824 91.707264 
+Q 334.381824 89.84448 332.0352 89.84448 
+L 181.1808 89.84448 
+Q 178.834176 89.84448 178.834176 91.707264 
+L 178.834176 131.09184 
+Q 178.834176 132.954624 181.1808 132.954624 
+z
+" clip-path="url(#pbb93912369)" style="fill: #ffffff; stroke: #d55e00; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(9.857595 34.165536)">Visible graph + scores</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(23.56447 43.767723)">+ paid answers</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(139.995715 34.165536)">Fixed legal pool</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(133.888215 43.767723)">+ computed proxy</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(254.42196 34.165536)">Strict separation</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(242.728835 43.767723)">from unscored bounds</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle" x="172.8" y="74.409984" transform="rotate(-0 172.8 74.409984)">Certifies the same-pool proxy winner; not expected repair value.</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0072b2" x="88.992" y="100.755072" transform="rotate(-0 88.992 100.755072)">Reference-only natural audit</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(41.9045 116.128032)">Realized one-batch gap</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(24.32075 125.730219)">Expected decision gap unknown</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #d55e00" x="256.608" y="100.755072" transform="rotate(-0 256.608 100.755072)">Known-law constructed controls</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(203.251125 116.128032)">Enumerate legal partitions</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(182.871125 125.730219)">Separate information / decision gaps</text>
+   </g>
+  </g>
+  <g id="text_9">
+   <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle" x="172.8" y="154.44" transform="rotate(-0 172.8 154.44)">Every committed pair is paid; only verified negative edges are deleted.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pbb93912369">
+   <rect x="5.184" y="12.672" width="335.232" height="133.056"/>
+  </clipPath>
+ </defs>
+</svg>

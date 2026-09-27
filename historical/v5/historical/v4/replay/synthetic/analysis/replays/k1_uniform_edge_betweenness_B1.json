@@ -1,0 +1,360 @@
+{
+  "acquisition_paid_answers": 1,
+  "acquisition_sha256": "76cfd1b87705e6c3b2880f0b5c050c559147f3fae1eac3a1d28c2a7d584dec00",
+  "batches": [
+    {
+      "batch": 1,
+      "candidates": {
+        "bc_eligible_order": [
+          [
+            "r0",
+            "r3"
+          ],
+          [
+            "r3",
+            "r6"
+          ],
+          [
+            "r0",
+            "r1"
+          ],
+          [
+            "r0",
+            "r2"
+          ],
+          [
+            "r3",
+            "r4"
+          ],
+          [
+            "r3",
+            "r5"
+          ],
+          [
+            "r6",
+            "r7"
+          ],
+          [
+            "r6",
+            "r8"
+          ],
+          [
+            "r1",
+            "r2"
+          ],
+          [
+            "r4",
+            "r5"
+          ],
+          [
+            "r7",
+            "r8"
+          ]
+        ],
+        "capped_order": [
+          [
+            [
+              "r0",
+              "r3"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r6"
+            ]
+          ]
+        ],
+        "depth_cap": 1,
+        "diagnostic_score_accesses": 11,
+        "generated_lexicographic": [
+          [
+            [
+              "r0",
+              "r3"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r6"
+            ]
+          ]
+        ],
+        "pool_scope": "counterfactual_not_used_by_BC",
+        "prerank_order": [
+          [
+            [
+              "r0",
+              "r3"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r6"
+            ]
+          ]
+        ],
+        "scored_order": [],
+        "utility_rank_order": [],
+        "validated_order": [
+          [
+            [
+              "r0",
+              "r3"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r6"
+            ]
+          ]
+        ]
+      },
+      "logical_accesses_cumulative": 11,
+      "new_oracle_answers": 0,
+      "offline_opportunities": {
+        "H0": [
+          {
+            "depth": 1,
+            "edges": [
+              [
+                "r0",
+                "r3"
+              ]
+            ],
+            "fn_added": 0,
+            "fp_removed": 18,
+            "loss_gain": 18
+          },
+          {
+            "depth": 1,
+            "edges": [
+              [
+                "r3",
+                "r6"
+              ]
+            ],
+            "fn_added": 0,
+            "fp_removed": 18,
+            "loss_gain": 18
+          }
+        ],
+        "H9": [
+          {
+            "depth": 1,
+            "edges": [
+              [
+                "r0",
+                "r3"
+              ]
+            ],
+            "fn_added": 9,
+            "fp_removed": 9,
+            "loss_gain": 0
+          },
+          {
+            "depth": 1,
+            "edges": [
+              [
+                "r3",
+                "r6"
+              ]
+            ],
+            "fn_added": 9,
+            "fp_removed": 9,
+            "loss_gain": 0
+          }
+        ]
+      },
+      "remaining": 1,
+      "selected_action": [
+        [
+          "r0",
+          "r3"
+        ]
+      ],
+      "selection_info": {
+        "topology_cache": {
+          "original_centrality_misses": 1
+        }
+      },
+      "spent_before": 0
+    }
+  ],
+  "diagnostic_score_accesses": 11,
+  "events": [
+    {
+      "answer": false,
+      "batch": 1,
+      "category": "negative_split",
+      "partition_after_sha256": "c7e0332f9671a04fefcd7e9c1b95f022bf2cd3a90dc975cf980d48265d077151",
+      "partition_before_sha256": "7ee50ff90d18d88e02683fbd80f31bc35343a6c5172cfb125769fabf5ca9f2ce",
+      "spent": 1,
+      "u": "r0",
+      "v": "r3"
+    }
+  ],
+  "k": 1,
+  "logical_score_accesses": 11,
+  "method": "edge_betweenness",
+  "new_oracle_answers": 0,
+  "requested_budget": 1,
+  "run_id": "k1_uniform_edge_betweenness_B1",
+  "schema": "cut-audit-review-v4-synthetic-replay-v1",
+  "score_profile": "uniform",
+  "states": [
+    {
+      "edges": [
+        [
+          "r0",
+          "r1"
+        ],
+        [
+          "r0",
+          "r2"
+        ],
+        [
+          "r0",
+          "r3"
+        ],
+        [
+          "r1",
+          "r2"
+        ],
+        [
+          "r3",
+          "r4"
+        ],
+        [
+          "r3",
+          "r5"
+        ],
+        [
+          "r3",
+          "r6"
+        ],
+        [
+          "r4",
+          "r5"
+        ],
+        [
+          "r6",
+          "r7"
+        ],
+        [
+          "r6",
+          "r8"
+        ],
+        [
+          "r7",
+          "r8"
+        ]
+      ],
+      "partition": [
+        [
+          "r0",
+          "r1",
+          "r2",
+          "r3",
+          "r4",
+          "r5",
+          "r6",
+          "r7",
+          "r8"
+        ]
+      ],
+      "partition_sha256": "7ee50ff90d18d88e02683fbd80f31bc35343a6c5172cfb125769fabf5ca9f2ce",
+      "references": {
+        "H0": {
+          "fn": 0,
+          "fp": 27,
+          "loss": 27
+        },
+        "H9": {
+          "fn": 0,
+          "fp": 18,
+          "loss": 18
+        }
+      },
+      "spent": 0
+    },
+    {
+      "edges": [
+        [
+          "r0",
+          "r1"
+        ],
+        [
+          "r0",
+          "r2"
+        ],
+        [
+          "r1",
+          "r2"
+        ],
+        [
+          "r3",
+          "r4"
+        ],
+        [
+          "r3",
+          "r5"
+        ],
+        [
+          "r3",
+          "r6"
+        ],
+        [
+          "r4",
+          "r5"
+        ],
+        [
+          "r6",
+          "r7"
+        ],
+        [
+          "r6",
+          "r8"
+        ],
+        [
+          "r7",
+          "r8"
+        ]
+      ],
+      "partition": [
+        [
+          "r0",
+          "r1",
+          "r2"
+        ],
+        [
+          "r3",
+          "r4",
+          "r5",
+          "r6",
+          "r7",
+          "r8"
+        ]
+      ],
+      "partition_sha256": "c7e0332f9671a04fefcd7e9c1b95f022bf2cd3a90dc975cf980d48265d077151",
+      "references": {
+        "H0": {
+          "fn": 0,
+          "fp": 9,
+          "loss": 9
+        },
+        "H9": {
+          "fn": 9,
+          "fp": 9,
+          "loss": 18
+        }
+      },
+      "spent": 1
+    }
+  ],
+  "stop_reason": "budget_exhausted",
+  "visible_sha256": "be9b1833aa832e28718a7d866d8c2f6c715df05a803d7637970a22a1984564cb"
+}

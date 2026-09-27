@@ -1,0 +1,87 @@
+{
+  "created_utc": "2026-09-27T07:53:35.573573+00:00",
+  "method_freeze_sha256": "5b1c44e5d208999a5eea80b3be7d85910a0b0db9ecd06e51317ad3ac50674cdc",
+  "old_public_files": 802,
+  "previous_public_manifest": {
+    "public_check": {
+      "allowlisted_files": 802,
+      "evidence": {
+        "counts": {
+          "acquisitions": 234,
+          "batches": 2094,
+          "events": 2244,
+          "external_completed": 0,
+          "external_slots": 21,
+          "natural_acquisitions": 63,
+          "natural_completed": 63,
+          "paid_lower_bound": 2244,
+          "paid_upper_bound": 2244,
+          "reference_completed": 300,
+          "reference_endpoints": 300,
+          "synthetic_acquisitions": 150,
+          "synthetic_completed": 150
+        },
+        "manifest_sha256": "4639ddb28ac894b06e3be11c73d00f6589a016bf8f811525f1fd2fc02ed4ea15",
+        "scope": "Aggregate hashes/arithmetic/grid; cannot reidentify removed pairs or prove large-component absence",
+        "status": "PASS"
+      },
+      "historical_files_unchanged": 434,
+      "scope": "Allowlist, hash and scalar arithmetic only. Full paid-answer replay is separately logged.",
+      "status": "PASS"
+    }
+  },
+  "public_test_adaptations": [
+    {
+      "adapted_sha256": "29f54d4306f818a9bb4bf71c12c57e05ceded36b9bdd6497abd913f266d1455f",
+      "original_sha256": "b1bc55b7a0957edf5830b3273e74ca9d242cf0e8ff6d02b0132b7f56b01c4b42",
+      "path": "tests/test_review_v5_planner.py",
+      "preserved_original": "historical/v5/tests/test_review_v5_planner.py",
+      "reason": "Add nested historical/v5/historical/v4/src fallback; test assertions and both engine sources unchanged."
+    }
+  ],
+  "refreshed_utc": "2026-09-27T08:22:39.390066+00:00",
+  "schema": "cut-audit-public-v6-provenance",
+  "scope": "No new research data are acquired or included by this operation. WDC stays aggregate-only.",
+  "selector_source_unchanged": true,
+  "source_files_sha256": {
+    "scripts/new_domain/cohort.py": "bfbc874cb1fb87773623917f217fb0def71ab516e09f747c70938dbb56b2e56e",
+    "scripts/new_domain/run.py": "251428a68b2366d3a9a770b1511da26d109f637cda2e9101a1c3b3240b152891",
+    "scripts/review_v6/__init__.py": "00055c64554c99e3f4cf983f6de66b37cd9860d7e7c723dcb229d44fc2739416",
+    "scripts/review_v6/audit.py": "89d3635f633bed716555ee816030ad3e3ec05027e09997f0788538d619a6f042",
+    "scripts/review_v6/audit_runner.py": "89412052a406d5e1984818ee6ed7f91879692cb489ff8f7e1314bd0cfd281b27",
+    "scripts/review_v6/export_evidence.py": "0ae8036d7eef2d9cf638be1dc9b907cbcc1feddc4bb21990a8806a2663ad4c17",
+    "scripts/review_v6/external.py": "6306a3a2e4e38843b82d2e4a8f7463fbe732e1b1a650c74755ba45d1919f7692",
+    "scripts/review_v6/freeze.py": "947efc32b5fc37b46590d81ddb0975afe4b12ee7318fcbe02a04f7c8b66b41c8",
+    "scripts/review_v6/validate_evidence.py": "f0a13bee11dac6dc352bba39327c01fd3f2d9721c94cdcedec057dac1d802824",
+    "src/cut_audit_er/__init__.py": "87f8bd1fa028c9e61e70afa8050d0e81b09ca639e2eb561a3aa6282e4367135c",
+    "src/cut_audit_er/__main__.py": "cf7390a2508a0fcad4777a4a629fc5212ab655cb45845975995f835676a834e3",
+    "src/cut_audit_er/adapters.py": "b787c14e4b6299a057963cc807527336afb5710a70425822dde264d86795a614",
+    "src/cut_audit_er/audit.py": "4fad0cd349cc0ecfd7eee3fdc8b2ed88ed2db67f47843d7cac6dc457466a976e",
+    "src/cut_audit_er/bounded_planner.py": "f359d225fea1d35cbd2da5705496deb4f61c09cf6c0d53364e04b1c95c628758",
+    "src/cut_audit_er/calibrated_planner.py": "390e9a46245e67de46537c1fe634fd846d5c9838e327874e00887355edc0fa1f",
+    "src/cut_audit_er/cli.py": "860f4195fb24f879c8f2561296c1cb6cc216f648b36cc9b9de74c504aca3bf16",
+    "src/cut_audit_er/completion_calibration.py": "3a24ef55340a29511b33ea1689c5f41d673a75960028b3bebd1d78fa45f67cae",
+    "src/cut_audit_er/cora_adapter.py": "b7426aca0f902307c903f13b7d61d7b3c873622822d7aad010d9138192c1eb9f",
+    "src/cut_audit_er/covered_planner.py": "287697ce3cedc71ba30290a37f54264228030fab3fd39161fd5ddcc507b6eaba",
+    "src/cut_audit_er/data.py": "4730c6d9592853ff5a6bf1af81fcce93b873dcda8d1899f647a2260342c52d12",
+    "src/cut_audit_er/experiment.py": "c62f96092bb6ef39985e04771c9c09fc160eaf0a73b3a0f5fe56f017b5d8cc23",
+    "src/cut_audit_er/graph.py": "ce36651b11280f97cc62233f51a6c01444a5dbe3e7917530f2e7e1704db7bafd",
+    "src/cut_audit_er/graphcr_adapter.py": "4bccaeb7c02b444085ae1f92401661e1ee05a68acbca2d6c49fad5dfa163b703",
+    "src/cut_audit_er/graphcr_native_cpu_reimplementation.py": "45acff03dca8231a61139e6258fb8b1140f02bfe96c8465d24fa9e68d71359da",
+    "src/cut_audit_er/guard.py": "0ff3cd8bcb3688a1bd69a25a58316d2d0f6175e0684e120a6063f9d007be64fc",
+    "src/cut_audit_er/matcher.py": "08f9b45d2bf198c6a5e5ec3b8660fb3801814f4d70280ced09e02226adb9e66c",
+    "src/cut_audit_er/metrics.py": "1d6a286d6e1a767cf13dcbdcb84959533d96ddee0c50e888989c1085a32ddb4a",
+    "src/cut_audit_er/natural.py": "86d43cf70379176359c30b3a82a6048a3e47b2dc842b0b0b3e1c35fda04f4dc6",
+    "src/cut_audit_er/offline_structure.py": "8b5601d88061776bce90ff0c8330f0af969835fb61ec1c78f3db1a116248090b",
+    "src/cut_audit_er/oracle.py": "a724bb7973322ad4c707b0f1f8a8eee375bbd815b5cc1a8e2a080ae9e29e7e4c",
+    "src/cut_audit_er/planner_workspace.py": "f9d2c91ee29c041396f7adf972bdffaf7a9a0d7df577265c1758a4fe69162387",
+    "src/cut_audit_er/policies.py": "d075db91426ff6f93d05a636769f4b676e58d7530a072946bf978b174223f4dc",
+    "src/cut_audit_er/policy_score_sensitivity.py": "e48843e7f10679493b599f90cd7135c60552defebdcabf45c1d7d4ff391f929a",
+    "src/cut_audit_er/published_adapters.py": "5e9dcf72cc1f04f9ade7f97a165844acd9d50cf66c9236ed6b445f1b4b879f2a",
+    "src/cut_audit_er/reconstruction.py": "2efa2e8e8c2830850db30e915fba3b9a844467807877561d42209f1920a9aecc",
+    "src/cut_audit_er/revision_policies.py": "7efbb3d9a90fae7c46f0e149c3c44ff1d3e3f0dc2134d5cdef69ec02fa5b3a38",
+    "src/cut_audit_er/scores.py": "8afc48c6387b6fdc6f2db37516453d95dbc36a1b5b921feea096225a192268b7",
+    "src/cut_audit_er/synthetic.py": "2926a8e9209901cb5901edff4037e8984e7463818e4970dbf6475afee835e58f",
+    "src/cut_audit_er/telemetry.py": "ef8c1be8c2fd3218baeda1d8045e0b149279b17654494a4dc6967aa6ae8c3080"
+  }
+}

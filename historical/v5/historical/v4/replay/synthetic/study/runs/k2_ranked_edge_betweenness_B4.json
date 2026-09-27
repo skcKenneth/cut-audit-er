@@ -1,0 +1,444 @@
+{
+  "checkpoint_telemetry": {
+    "completed_result_available": false,
+    "confirmed_paid_answers": 4,
+    "decisions": [
+      {
+        "batch": 1,
+        "observed_match": false,
+        "pair": [
+          "r1",
+          "r4"
+        ],
+        "selection_info": {
+          "topology_cache": {
+            "original_centrality_misses": 1
+          }
+        },
+        "selection_seconds": 0.00036170007660984993,
+        "spent": 1
+      },
+      {
+        "batch": 2,
+        "observed_match": false,
+        "pair": [
+          "r0",
+          "r3"
+        ],
+        "selection_info": {
+          "topology_cache": {
+            "original_centrality_misses": 1
+          }
+        },
+        "selection_seconds": 0.00015760003589093685,
+        "spent": 2
+      },
+      {
+        "batch": 3,
+        "observed_match": false,
+        "pair": [
+          "r4",
+          "r7"
+        ],
+        "selection_info": {
+          "topology_cache": {
+            "original_centrality_misses": 1
+          }
+        },
+        "selection_seconds": 0.0001026000827550888,
+        "spent": 3
+      },
+      {
+        "batch": 4,
+        "observed_match": false,
+        "pair": [
+          "r3",
+          "r6"
+        ],
+        "selection_info": {
+          "topology_cache": {
+            "original_centrality_misses": 1
+          }
+        },
+        "selection_seconds": 9.869993664324284e-05,
+        "spent": 4
+      }
+    ],
+    "journal_sha256": "b1748f998f9d9f7b4a1d60a29e7d3145d906446255669784844fc3983339fade",
+    "journal_status": "terminal_marker",
+    "last_evaluated_checkpoint": {
+      "b3_f1": 1.0,
+      "b3_precision": 1.0,
+      "b3_recall": 1.0,
+      "fn": 0,
+      "fp": 0,
+      "largest_impure_component": 0,
+      "loss": 0.0,
+      "n_components": 3,
+      "n_edges": 9,
+      "n_records": 9,
+      "normalized_loss": 0.0,
+      "pair_f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "spent": 4,
+      "tp": 9
+    },
+    "last_record_sha256": "7233e3c42ec12a8a166034d86e1b943f7cf8475c050d11681169ded500d1558d",
+    "paid_count_exact": true,
+    "paid_count_lower_bound": 4,
+    "paid_count_upper_bound": 4,
+    "scope": "Durable observed prefix only. At most one unlogged purchased answer under this sequential fail-fast callback contract; never fill forward partial performance.",
+    "terminal_marker": {
+      "complete": true,
+      "kind": "terminal",
+      "spent": 4,
+      "stop_reason": "budget_exhausted"
+    },
+    "trace": [
+      {
+        "b3_f1": 0.5,
+        "b3_precision": 0.3333333333333333,
+        "b3_recall": 1.0,
+        "fn": 0,
+        "fp": 27,
+        "largest_impure_component": 9,
+        "loss": 27.0,
+        "n_components": 1,
+        "n_edges": 13,
+        "n_records": 9,
+        "normalized_loss": 0.75,
+        "pair_f1": 0.4,
+        "precision": 0.25,
+        "recall": 1.0,
+        "spent": 0,
+        "tp": 9
+      },
+      {
+        "b3_f1": 0.5,
+        "b3_precision": 0.3333333333333333,
+        "b3_recall": 1.0,
+        "fn": 0,
+        "fp": 27,
+        "largest_impure_component": 9,
+        "loss": 27.0,
+        "n_components": 1,
+        "n_edges": 12,
+        "n_records": 9,
+        "normalized_loss": 0.75,
+        "pair_f1": 0.4,
+        "precision": 0.25,
+        "recall": 1.0,
+        "spent": 1,
+        "tp": 9
+      },
+      {
+        "b3_f1": 0.8,
+        "b3_precision": 0.6666666666666666,
+        "b3_recall": 1.0,
+        "fn": 0,
+        "fp": 9,
+        "largest_impure_component": 6,
+        "loss": 9.0,
+        "n_components": 2,
+        "n_edges": 11,
+        "n_records": 9,
+        "normalized_loss": 0.25,
+        "pair_f1": 0.6666666666666666,
+        "precision": 0.5,
+        "recall": 1.0,
+        "spent": 2,
+        "tp": 9
+      },
+      {
+        "b3_f1": 0.8,
+        "b3_precision": 0.6666666666666666,
+        "b3_recall": 1.0,
+        "fn": 0,
+        "fp": 9,
+        "largest_impure_component": 6,
+        "loss": 9.0,
+        "n_components": 2,
+        "n_edges": 10,
+        "n_records": 9,
+        "normalized_loss": 0.25,
+        "pair_f1": 0.6666666666666666,
+        "precision": 0.5,
+        "recall": 1.0,
+        "spent": 3,
+        "tp": 9
+      },
+      {
+        "b3_f1": 1.0,
+        "b3_precision": 1.0,
+        "b3_recall": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "largest_impure_component": 0,
+        "loss": 0.0,
+        "n_components": 3,
+        "n_edges": 9,
+        "n_records": 9,
+        "normalized_loss": 0.0,
+        "pair_f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "spent": 4,
+        "tp": 9
+      }
+    ],
+    "truncated_tail_bytes": 0,
+    "valid_records": 11
+  },
+  "cleanup_worker_still_alive": false,
+  "deadline_scope": "result wait after synchronous start; start/payload receive may block; cleanup joins bounded to one second each",
+  "identity": {
+    "data_kind": "constructed_synthetic",
+    "freeze_sha256": "b64c88426943ad58c5aa89abe7d22da5ab802cc6b4b0761a772dd299a1b20808",
+    "k": 2,
+    "method": "edge_betweenness",
+    "requested_budget": 4,
+    "run_id": "k2_ranked_edge_betweenness_B4",
+    "score_profile": "ranked",
+    "visible_sha256": "d01d65d2ff232d2c12ac4533b03ba0a4dc74b752662c725fcc3dbb001b239857"
+  },
+  "observed_wall_exceeded_requested_deadline": false,
+  "requested_result_deadline_seconds": 30.0,
+  "run": {
+    "batch_timings": [
+      {
+        "action_size": 1,
+        "batch": 1,
+        "seconds": 0.00036170007660984993
+      },
+      {
+        "action_size": 1,
+        "batch": 2,
+        "seconds": 0.00015760003589093685
+      },
+      {
+        "action_size": 1,
+        "batch": 3,
+        "seconds": 0.0001026000827550888
+      },
+      {
+        "action_size": 1,
+        "batch": 4,
+        "seconds": 9.869993664324284e-05
+      }
+    ],
+    "complete": true,
+    "decisions": [
+      {
+        "batch": 1,
+        "observed_match": false,
+        "pair": [
+          "r1",
+          "r4"
+        ],
+        "selection_info": {
+          "topology_cache": {
+            "original_centrality_misses": 1
+          }
+        },
+        "selection_seconds": 0.00036170007660984993,
+        "spent": 1
+      },
+      {
+        "batch": 2,
+        "observed_match": false,
+        "pair": [
+          "r0",
+          "r3"
+        ],
+        "selection_info": {
+          "topology_cache": {
+            "original_centrality_misses": 1
+          }
+        },
+        "selection_seconds": 0.00015760003589093685,
+        "spent": 2
+      },
+      {
+        "batch": 3,
+        "observed_match": false,
+        "pair": [
+          "r4",
+          "r7"
+        ],
+        "selection_info": {
+          "topology_cache": {
+            "original_centrality_misses": 1
+          }
+        },
+        "selection_seconds": 0.0001026000827550888,
+        "spent": 3
+      },
+      {
+        "batch": 4,
+        "observed_match": false,
+        "pair": [
+          "r3",
+          "r6"
+        ],
+        "selection_info": {
+          "topology_cache": {
+            "original_centrality_misses": 1
+          }
+        },
+        "selection_seconds": 9.869993664324284e-05,
+        "spent": 4
+      }
+    ],
+    "final": {
+      "b3_f1": 1.0,
+      "b3_precision": 1.0,
+      "b3_recall": 1.0,
+      "fn": 0,
+      "fp": 0,
+      "largest_impure_component": 0,
+      "loss": 0.0,
+      "n_components": 3,
+      "n_edges": 9,
+      "n_records": 9,
+      "normalized_loss": 0.0,
+      "pair_f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "spent": 4,
+      "tp": 9
+    },
+    "fn_weight": 1.0,
+    "initial": {
+      "b3_f1": 0.5,
+      "b3_precision": 0.3333333333333333,
+      "b3_recall": 1.0,
+      "fn": 0,
+      "fp": 27,
+      "largest_impure_component": 9,
+      "loss": 27.0,
+      "n_components": 1,
+      "n_edges": 13,
+      "n_records": 9,
+      "normalized_loss": 0.75,
+      "pair_f1": 0.4,
+      "precision": 0.25,
+      "recall": 1.0,
+      "spent": 0,
+      "tp": 9
+    },
+    "loss_reduction": 27.0,
+    "method": "edge_betweenness",
+    "noise": 0.0,
+    "requested_budget": 4,
+    "score_accesses": 46,
+    "seconds": 0.004444499965757132,
+    "seed": 7,
+    "selection_seconds": 0.0007206001318991184,
+    "spent": 4,
+    "stop_reason": "budget_exhausted",
+    "telemetry_seconds": 0.0031009999802336097,
+    "trace": [
+      {
+        "b3_f1": 0.5,
+        "b3_precision": 0.3333333333333333,
+        "b3_recall": 1.0,
+        "fn": 0,
+        "fp": 27,
+        "largest_impure_component": 9,
+        "loss": 27.0,
+        "n_components": 1,
+        "n_edges": 13,
+        "n_records": 9,
+        "normalized_loss": 0.75,
+        "pair_f1": 0.4,
+        "precision": 0.25,
+        "recall": 1.0,
+        "spent": 0,
+        "tp": 9
+      },
+      {
+        "b3_f1": 0.5,
+        "b3_precision": 0.3333333333333333,
+        "b3_recall": 1.0,
+        "fn": 0,
+        "fp": 27,
+        "largest_impure_component": 9,
+        "loss": 27.0,
+        "n_components": 1,
+        "n_edges": 12,
+        "n_records": 9,
+        "normalized_loss": 0.75,
+        "pair_f1": 0.4,
+        "precision": 0.25,
+        "recall": 1.0,
+        "spent": 1,
+        "tp": 9
+      },
+      {
+        "b3_f1": 0.8,
+        "b3_precision": 0.6666666666666666,
+        "b3_recall": 1.0,
+        "fn": 0,
+        "fp": 9,
+        "largest_impure_component": 6,
+        "loss": 9.0,
+        "n_components": 2,
+        "n_edges": 11,
+        "n_records": 9,
+        "normalized_loss": 0.25,
+        "pair_f1": 0.6666666666666666,
+        "precision": 0.5,
+        "recall": 1.0,
+        "spent": 2,
+        "tp": 9
+      },
+      {
+        "b3_f1": 0.8,
+        "b3_precision": 0.6666666666666666,
+        "b3_recall": 1.0,
+        "fn": 0,
+        "fp": 9,
+        "largest_impure_component": 6,
+        "loss": 9.0,
+        "n_components": 2,
+        "n_edges": 10,
+        "n_records": 9,
+        "normalized_loss": 0.25,
+        "pair_f1": 0.6666666666666666,
+        "precision": 0.5,
+        "recall": 1.0,
+        "spent": 3,
+        "tp": 9
+      },
+      {
+        "b3_f1": 1.0,
+        "b3_precision": 1.0,
+        "b3_recall": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "largest_impure_component": 0,
+        "loss": 0.0,
+        "n_components": 3,
+        "n_edges": 9,
+        "n_records": 9,
+        "normalized_loss": 0.0,
+        "pair_f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "spent": 4,
+        "tp": 9
+      }
+    ]
+  },
+  "status": "completed",
+  "worker_exit_code": 0,
+  "worker_pid": 9528,
+  "worker_timing": {
+    "cleanup_seconds": 0.26586579997092485,
+    "payload_receive_seconds": 0.00010720000136643648,
+    "process_start_seconds": 0.07099460007157177,
+    "result_wait_seconds": 1.5721844000509009
+  },
+  "worker_wall_seconds": 1.9091659999685362
+}

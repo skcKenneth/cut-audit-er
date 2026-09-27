@@ -1,0 +1,533 @@
+run_id,k,profile,method,budget,reference,batch,spent_before,edges_json,depth,fp_removed,fn_added,loss_gain,in_generated,in_capped,in_validated,in_scored,selected,pool_scope
+k1_uniform_edge_betweenness_B1,1,uniform,edge_betweenness,1,H0,1,0,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_uniform_edge_betweenness_B1,1,uniform,edge_betweenness,1,H0,1,0,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k1_uniform_edge_betweenness_B1,1,uniform,edge_betweenness,1,H9,1,0,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_uniform_edge_betweenness_B1,1,uniform,edge_betweenness,1,H9,1,0,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k1_uniform_cut_plan_fixed_B1,1,uniform,cut_plan_fixed,1,H0,1,0,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k1_uniform_cut_plan_fixed_B1,1,uniform,cut_plan_fixed,1,H0,1,0,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,True,False,method_common_pool
+k1_uniform_cut_plan_fixed_B1,1,uniform,cut_plan_fixed,1,H9,1,0,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k1_uniform_cut_plan_fixed_B1,1,uniform,cut_plan_fixed,1,H9,1,0,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,True,False,method_common_pool
+k1_uniform_cut_plan_fixed_singleton_B1,1,uniform,cut_plan_fixed_singleton,1,H0,1,0,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k1_uniform_cut_plan_fixed_singleton_B1,1,uniform,cut_plan_fixed_singleton,1,H0,1,0,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,True,False,method_common_pool
+k1_uniform_cut_plan_fixed_singleton_B1,1,uniform,cut_plan_fixed_singleton,1,H9,1,0,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k1_uniform_cut_plan_fixed_singleton_B1,1,uniform,cut_plan_fixed_singleton,1,H9,1,0,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,True,False,method_common_pool
+k1_ranked_edge_betweenness_B1,1,ranked,edge_betweenness,1,H0,1,0,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_ranked_edge_betweenness_B1,1,ranked,edge_betweenness,1,H0,1,0,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k1_ranked_edge_betweenness_B1,1,ranked,edge_betweenness,1,H9,1,0,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_ranked_edge_betweenness_B1,1,ranked,edge_betweenness,1,H9,1,0,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k1_ranked_cut_plan_fixed_B1,1,ranked,cut_plan_fixed,1,H0,1,0,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k1_ranked_cut_plan_fixed_B1,1,ranked,cut_plan_fixed,1,H0,1,0,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,True,False,method_common_pool
+k1_ranked_cut_plan_fixed_B1,1,ranked,cut_plan_fixed,1,H9,1,0,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k1_ranked_cut_plan_fixed_B1,1,ranked,cut_plan_fixed,1,H9,1,0,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,True,False,method_common_pool
+k1_ranked_cut_plan_fixed_singleton_B1,1,ranked,cut_plan_fixed_singleton,1,H0,1,0,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k1_ranked_cut_plan_fixed_singleton_B1,1,ranked,cut_plan_fixed_singleton,1,H0,1,0,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,True,False,method_common_pool
+k1_ranked_cut_plan_fixed_singleton_B1,1,ranked,cut_plan_fixed_singleton,1,H9,1,0,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k1_ranked_cut_plan_fixed_singleton_B1,1,ranked,cut_plan_fixed_singleton,1,H9,1,0,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,True,False,method_common_pool
+k1_uniform_edge_betweenness_B2,1,uniform,edge_betweenness,2,H0,1,0,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_uniform_edge_betweenness_B2,1,uniform,edge_betweenness,2,H0,1,0,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k1_uniform_edge_betweenness_B2,1,uniform,edge_betweenness,2,H9,1,0,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_uniform_edge_betweenness_B2,1,uniform,edge_betweenness,2,H9,1,0,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k1_uniform_edge_betweenness_B2,1,uniform,edge_betweenness,2,H0,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_uniform_edge_betweenness_B2,1,uniform,edge_betweenness,2,H9,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_uniform_cut_plan_fixed_B2,1,uniform,cut_plan_fixed,2,H0,1,0,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k1_uniform_cut_plan_fixed_B2,1,uniform,cut_plan_fixed,2,H0,1,0,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,True,False,method_common_pool
+k1_uniform_cut_plan_fixed_B2,1,uniform,cut_plan_fixed,2,H9,1,0,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k1_uniform_cut_plan_fixed_B2,1,uniform,cut_plan_fixed,2,H9,1,0,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,True,False,method_common_pool
+k1_uniform_cut_plan_fixed_B2,1,uniform,cut_plan_fixed,2,H0,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k1_uniform_cut_plan_fixed_B2,1,uniform,cut_plan_fixed,2,H9,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k1_uniform_cut_plan_fixed_singleton_B2,1,uniform,cut_plan_fixed_singleton,2,H0,1,0,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k1_uniform_cut_plan_fixed_singleton_B2,1,uniform,cut_plan_fixed_singleton,2,H0,1,0,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,True,False,method_common_pool
+k1_uniform_cut_plan_fixed_singleton_B2,1,uniform,cut_plan_fixed_singleton,2,H9,1,0,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k1_uniform_cut_plan_fixed_singleton_B2,1,uniform,cut_plan_fixed_singleton,2,H9,1,0,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,True,False,method_common_pool
+k1_uniform_cut_plan_fixed_singleton_B2,1,uniform,cut_plan_fixed_singleton,2,H0,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k1_uniform_cut_plan_fixed_singleton_B2,1,uniform,cut_plan_fixed_singleton,2,H9,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k1_ranked_edge_betweenness_B2,1,ranked,edge_betweenness,2,H0,1,0,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_ranked_edge_betweenness_B2,1,ranked,edge_betweenness,2,H0,1,0,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k1_ranked_edge_betweenness_B2,1,ranked,edge_betweenness,2,H9,1,0,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_ranked_edge_betweenness_B2,1,ranked,edge_betweenness,2,H9,1,0,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k1_ranked_edge_betweenness_B2,1,ranked,edge_betweenness,2,H0,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_ranked_edge_betweenness_B2,1,ranked,edge_betweenness,2,H9,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_ranked_cut_plan_fixed_B2,1,ranked,cut_plan_fixed,2,H0,1,0,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k1_ranked_cut_plan_fixed_B2,1,ranked,cut_plan_fixed,2,H0,1,0,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,True,False,method_common_pool
+k1_ranked_cut_plan_fixed_B2,1,ranked,cut_plan_fixed,2,H9,1,0,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k1_ranked_cut_plan_fixed_B2,1,ranked,cut_plan_fixed,2,H9,1,0,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,True,False,method_common_pool
+k1_ranked_cut_plan_fixed_B2,1,ranked,cut_plan_fixed,2,H0,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k1_ranked_cut_plan_fixed_B2,1,ranked,cut_plan_fixed,2,H9,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k1_ranked_cut_plan_fixed_singleton_B2,1,ranked,cut_plan_fixed_singleton,2,H0,1,0,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k1_ranked_cut_plan_fixed_singleton_B2,1,ranked,cut_plan_fixed_singleton,2,H0,1,0,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,True,False,method_common_pool
+k1_ranked_cut_plan_fixed_singleton_B2,1,ranked,cut_plan_fixed_singleton,2,H9,1,0,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k1_ranked_cut_plan_fixed_singleton_B2,1,ranked,cut_plan_fixed_singleton,2,H9,1,0,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,True,False,method_common_pool
+k1_ranked_cut_plan_fixed_singleton_B2,1,ranked,cut_plan_fixed_singleton,2,H0,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k1_ranked_cut_plan_fixed_singleton_B2,1,ranked,cut_plan_fixed_singleton,2,H9,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k2_uniform_edge_betweenness_B2,2,uniform,edge_betweenness,2,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B2,2,uniform,edge_betweenness,2,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B2,2,uniform,edge_betweenness,2,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B2,2,uniform,edge_betweenness,2,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B2,2,uniform,edge_betweenness,2,H0,2,1,"[[""r1"", ""r4""]]",1,18,0,18,True,True,True,False,True,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B2,2,uniform,edge_betweenness,2,H9,2,1,"[[""r1"", ""r4""]]",1,9,9,0,True,True,True,False,True,counterfactual_not_used_by_BC
+k2_uniform_cut_plan_fixed_B2,2,uniform,cut_plan_fixed,2,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,18,0,18,True,True,True,True,True,method_common_pool
+k2_uniform_cut_plan_fixed_B2,2,uniform,cut_plan_fixed,2,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,True,False,method_common_pool
+k2_uniform_cut_plan_fixed_B2,2,uniform,cut_plan_fixed,2,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,9,9,0,True,True,True,True,True,method_common_pool
+k2_uniform_cut_plan_fixed_B2,2,uniform,cut_plan_fixed,2,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,True,False,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B2,2,uniform,cut_plan_fixed_singleton,2,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,18,0,18,True,True,True,False,False,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B2,2,uniform,cut_plan_fixed_singleton,2,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B2,2,uniform,cut_plan_fixed_singleton,2,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,9,9,0,True,True,True,False,False,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B2,2,uniform,cut_plan_fixed_singleton,2,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B2,2,uniform,cut_plan_fixed_singleton,2,H0,2,1,"[[""r1"", ""r4""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B2,2,uniform,cut_plan_fixed_singleton,2,H9,2,1,"[[""r1"", ""r4""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k2_ranked_edge_betweenness_B2,2,ranked,edge_betweenness,2,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B2,2,ranked,edge_betweenness,2,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B2,2,ranked,edge_betweenness,2,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B2,2,ranked,edge_betweenness,2,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B2,2,ranked,edge_betweenness,2,H0,2,1,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,False,True,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B2,2,ranked,edge_betweenness,2,H9,2,1,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,False,True,counterfactual_not_used_by_BC
+k2_ranked_cut_plan_fixed_B2,2,ranked,cut_plan_fixed,2,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,18,0,18,True,True,True,True,True,method_common_pool
+k2_ranked_cut_plan_fixed_B2,2,ranked,cut_plan_fixed,2,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,True,False,method_common_pool
+k2_ranked_cut_plan_fixed_B2,2,ranked,cut_plan_fixed,2,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,9,9,0,True,True,True,True,True,method_common_pool
+k2_ranked_cut_plan_fixed_B2,2,ranked,cut_plan_fixed,2,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,True,False,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B2,2,ranked,cut_plan_fixed_singleton,2,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,18,0,18,True,True,True,False,False,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B2,2,ranked,cut_plan_fixed_singleton,2,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B2,2,ranked,cut_plan_fixed_singleton,2,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,9,9,0,True,True,True,False,False,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B2,2,ranked,cut_plan_fixed_singleton,2,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B2,2,ranked,cut_plan_fixed_singleton,2,H0,2,1,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B2,2,ranked,cut_plan_fixed_singleton,2,H9,2,1,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k1_uniform_edge_betweenness_B3,1,uniform,edge_betweenness,3,H0,1,0,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_uniform_edge_betweenness_B3,1,uniform,edge_betweenness,3,H0,1,0,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k1_uniform_edge_betweenness_B3,1,uniform,edge_betweenness,3,H9,1,0,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_uniform_edge_betweenness_B3,1,uniform,edge_betweenness,3,H9,1,0,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k1_uniform_edge_betweenness_B3,1,uniform,edge_betweenness,3,H0,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_uniform_edge_betweenness_B3,1,uniform,edge_betweenness,3,H9,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_uniform_cut_plan_fixed_B3,1,uniform,cut_plan_fixed,3,H0,1,0,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k1_uniform_cut_plan_fixed_B3,1,uniform,cut_plan_fixed,3,H0,1,0,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,True,False,method_common_pool
+k1_uniform_cut_plan_fixed_B3,1,uniform,cut_plan_fixed,3,H9,1,0,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k1_uniform_cut_plan_fixed_B3,1,uniform,cut_plan_fixed,3,H9,1,0,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,True,False,method_common_pool
+k1_uniform_cut_plan_fixed_B3,1,uniform,cut_plan_fixed,3,H0,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k1_uniform_cut_plan_fixed_B3,1,uniform,cut_plan_fixed,3,H9,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k1_uniform_cut_plan_fixed_singleton_B3,1,uniform,cut_plan_fixed_singleton,3,H0,1,0,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k1_uniform_cut_plan_fixed_singleton_B3,1,uniform,cut_plan_fixed_singleton,3,H0,1,0,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,True,False,method_common_pool
+k1_uniform_cut_plan_fixed_singleton_B3,1,uniform,cut_plan_fixed_singleton,3,H9,1,0,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k1_uniform_cut_plan_fixed_singleton_B3,1,uniform,cut_plan_fixed_singleton,3,H9,1,0,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,True,False,method_common_pool
+k1_uniform_cut_plan_fixed_singleton_B3,1,uniform,cut_plan_fixed_singleton,3,H0,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k1_uniform_cut_plan_fixed_singleton_B3,1,uniform,cut_plan_fixed_singleton,3,H9,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k1_ranked_edge_betweenness_B3,1,ranked,edge_betweenness,3,H0,1,0,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_ranked_edge_betweenness_B3,1,ranked,edge_betweenness,3,H0,1,0,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k1_ranked_edge_betweenness_B3,1,ranked,edge_betweenness,3,H9,1,0,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_ranked_edge_betweenness_B3,1,ranked,edge_betweenness,3,H9,1,0,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k1_ranked_edge_betweenness_B3,1,ranked,edge_betweenness,3,H0,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_ranked_edge_betweenness_B3,1,ranked,edge_betweenness,3,H9,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_ranked_cut_plan_fixed_B3,1,ranked,cut_plan_fixed,3,H0,1,0,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k1_ranked_cut_plan_fixed_B3,1,ranked,cut_plan_fixed,3,H0,1,0,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,True,False,method_common_pool
+k1_ranked_cut_plan_fixed_B3,1,ranked,cut_plan_fixed,3,H9,1,0,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k1_ranked_cut_plan_fixed_B3,1,ranked,cut_plan_fixed,3,H9,1,0,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,True,False,method_common_pool
+k1_ranked_cut_plan_fixed_B3,1,ranked,cut_plan_fixed,3,H0,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k1_ranked_cut_plan_fixed_B3,1,ranked,cut_plan_fixed,3,H9,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k1_ranked_cut_plan_fixed_singleton_B3,1,ranked,cut_plan_fixed_singleton,3,H0,1,0,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k1_ranked_cut_plan_fixed_singleton_B3,1,ranked,cut_plan_fixed_singleton,3,H0,1,0,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,True,False,method_common_pool
+k1_ranked_cut_plan_fixed_singleton_B3,1,ranked,cut_plan_fixed_singleton,3,H9,1,0,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k1_ranked_cut_plan_fixed_singleton_B3,1,ranked,cut_plan_fixed_singleton,3,H9,1,0,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,True,False,method_common_pool
+k1_ranked_cut_plan_fixed_singleton_B3,1,ranked,cut_plan_fixed_singleton,3,H0,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k1_ranked_cut_plan_fixed_singleton_B3,1,ranked,cut_plan_fixed_singleton,3,H9,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k2_uniform_edge_betweenness_B3,2,uniform,edge_betweenness,3,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B3,2,uniform,edge_betweenness,3,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B3,2,uniform,edge_betweenness,3,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B3,2,uniform,edge_betweenness,3,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B3,2,uniform,edge_betweenness,3,H0,2,1,"[[""r1"", ""r4""]]",1,18,0,18,True,True,True,False,True,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B3,2,uniform,edge_betweenness,3,H0,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B3,2,uniform,edge_betweenness,3,H9,2,1,"[[""r1"", ""r4""]]",1,9,9,0,True,True,True,False,True,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B3,2,uniform,edge_betweenness,3,H9,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_uniform_cut_plan_fixed_B3,2,uniform,cut_plan_fixed,3,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,18,0,18,True,True,True,True,True,method_common_pool
+k2_uniform_cut_plan_fixed_B3,2,uniform,cut_plan_fixed,3,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,True,False,method_common_pool
+k2_uniform_cut_plan_fixed_B3,2,uniform,cut_plan_fixed,3,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,9,9,0,True,True,True,True,True,method_common_pool
+k2_uniform_cut_plan_fixed_B3,2,uniform,cut_plan_fixed,3,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,True,False,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B3,2,uniform,cut_plan_fixed_singleton,3,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,18,0,18,True,True,True,False,False,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B3,2,uniform,cut_plan_fixed_singleton,3,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B3,2,uniform,cut_plan_fixed_singleton,3,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,9,9,0,True,True,True,False,False,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B3,2,uniform,cut_plan_fixed_singleton,3,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B3,2,uniform,cut_plan_fixed_singleton,3,H0,2,1,"[[""r1"", ""r4""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B3,2,uniform,cut_plan_fixed_singleton,3,H0,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B3,2,uniform,cut_plan_fixed_singleton,3,H9,2,1,"[[""r1"", ""r4""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B3,2,uniform,cut_plan_fixed_singleton,3,H9,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,method_common_pool
+k2_ranked_edge_betweenness_B3,2,ranked,edge_betweenness,3,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B3,2,ranked,edge_betweenness,3,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B3,2,ranked,edge_betweenness,3,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B3,2,ranked,edge_betweenness,3,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B3,2,ranked,edge_betweenness,3,H0,2,1,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,False,True,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B3,2,ranked,edge_betweenness,3,H0,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B3,2,ranked,edge_betweenness,3,H9,2,1,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,False,True,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B3,2,ranked,edge_betweenness,3,H9,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_ranked_cut_plan_fixed_B3,2,ranked,cut_plan_fixed,3,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,18,0,18,True,True,True,True,True,method_common_pool
+k2_ranked_cut_plan_fixed_B3,2,ranked,cut_plan_fixed,3,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,True,False,method_common_pool
+k2_ranked_cut_plan_fixed_B3,2,ranked,cut_plan_fixed,3,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,9,9,0,True,True,True,True,True,method_common_pool
+k2_ranked_cut_plan_fixed_B3,2,ranked,cut_plan_fixed,3,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,True,False,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B3,2,ranked,cut_plan_fixed_singleton,3,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,18,0,18,True,True,True,False,False,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B3,2,ranked,cut_plan_fixed_singleton,3,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B3,2,ranked,cut_plan_fixed_singleton,3,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,9,9,0,True,True,True,False,False,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B3,2,ranked,cut_plan_fixed_singleton,3,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B3,2,ranked,cut_plan_fixed_singleton,3,H0,2,1,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B3,2,ranked,cut_plan_fixed_singleton,3,H0,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B3,2,ranked,cut_plan_fixed_singleton,3,H9,2,1,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B3,2,ranked,cut_plan_fixed_singleton,3,H9,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,method_common_pool
+k3_uniform_edge_betweenness_B3,3,uniform,edge_betweenness,3,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_uniform_edge_betweenness_B3,3,uniform,edge_betweenness,3,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,18,0,18,False,False,False,False,False,counterfactual_not_used_by_BC
+k3_uniform_edge_betweenness_B3,3,uniform,edge_betweenness,3,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_uniform_edge_betweenness_B3,3,uniform,edge_betweenness,3,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,9,9,0,False,False,False,False,False,counterfactual_not_used_by_BC
+k3_uniform_edge_betweenness_B3,3,uniform,edge_betweenness,3,H0,2,1,"[[""r4"", ""r7""], [""r5"", ""r8""]]",2,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_uniform_edge_betweenness_B3,3,uniform,edge_betweenness,3,H9,2,1,"[[""r4"", ""r7""], [""r5"", ""r8""]]",2,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_uniform_edge_betweenness_B3,3,uniform,edge_betweenness,3,H0,3,2,"[[""r4"", ""r7""]]",1,18,0,18,True,True,True,False,True,counterfactual_not_used_by_BC
+k3_uniform_edge_betweenness_B3,3,uniform,edge_betweenness,3,H9,3,2,"[[""r4"", ""r7""]]",1,9,9,0,True,True,True,False,True,counterfactual_not_used_by_BC
+k3_uniform_cut_plan_fixed_B3,3,uniform,cut_plan_fixed,3,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,18,0,18,True,True,True,True,True,method_common_pool
+k3_uniform_cut_plan_fixed_B3,3,uniform,cut_plan_fixed,3,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,18,0,18,False,False,False,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_B3,3,uniform,cut_plan_fixed,3,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,9,0,True,True,True,True,True,method_common_pool
+k3_uniform_cut_plan_fixed_B3,3,uniform,cut_plan_fixed,3,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,9,9,0,False,False,False,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B3,3,uniform,cut_plan_fixed_singleton,3,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,18,0,18,True,True,True,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B3,3,uniform,cut_plan_fixed_singleton,3,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,18,0,18,False,False,False,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B3,3,uniform,cut_plan_fixed_singleton,3,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,9,0,True,True,True,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B3,3,uniform,cut_plan_fixed_singleton,3,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,9,9,0,False,False,False,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B3,3,uniform,cut_plan_fixed_singleton,3,H0,2,1,"[[""r4"", ""r7""], [""r5"", ""r8""]]",2,18,0,18,True,True,True,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B3,3,uniform,cut_plan_fixed_singleton,3,H9,2,1,"[[""r4"", ""r7""], [""r5"", ""r8""]]",2,9,9,0,True,True,True,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B3,3,uniform,cut_plan_fixed_singleton,3,H0,3,2,"[[""r4"", ""r7""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B3,3,uniform,cut_plan_fixed_singleton,3,H9,3,2,"[[""r4"", ""r7""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k3_ranked_edge_betweenness_B3,3,ranked,edge_betweenness,3,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_ranked_edge_betweenness_B3,3,ranked,edge_betweenness,3,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,18,0,18,False,False,False,False,False,counterfactual_not_used_by_BC
+k3_ranked_edge_betweenness_B3,3,ranked,edge_betweenness,3,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_ranked_edge_betweenness_B3,3,ranked,edge_betweenness,3,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,9,9,0,False,False,False,False,False,counterfactual_not_used_by_BC
+k3_ranked_edge_betweenness_B3,3,ranked,edge_betweenness,3,H0,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_ranked_edge_betweenness_B3,3,ranked,edge_betweenness,3,H9,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_ranked_edge_betweenness_B3,3,ranked,edge_betweenness,3,H0,3,2,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,False,True,counterfactual_not_used_by_BC
+k3_ranked_edge_betweenness_B3,3,ranked,edge_betweenness,3,H9,3,2,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,False,True,counterfactual_not_used_by_BC
+k3_ranked_cut_plan_fixed_B3,3,ranked,cut_plan_fixed,3,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,18,0,18,True,True,True,True,True,method_common_pool
+k3_ranked_cut_plan_fixed_B3,3,ranked,cut_plan_fixed,3,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,18,0,18,False,False,False,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_B3,3,ranked,cut_plan_fixed,3,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,9,0,True,True,True,True,True,method_common_pool
+k3_ranked_cut_plan_fixed_B3,3,ranked,cut_plan_fixed,3,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,9,9,0,False,False,False,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B3,3,ranked,cut_plan_fixed_singleton,3,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,18,0,18,True,True,True,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B3,3,ranked,cut_plan_fixed_singleton,3,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,18,0,18,False,False,False,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B3,3,ranked,cut_plan_fixed_singleton,3,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,9,0,True,True,True,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B3,3,ranked,cut_plan_fixed_singleton,3,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,9,9,0,False,False,False,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B3,3,ranked,cut_plan_fixed_singleton,3,H0,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B3,3,ranked,cut_plan_fixed_singleton,3,H9,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B3,3,ranked,cut_plan_fixed_singleton,3,H0,3,2,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B3,3,ranked,cut_plan_fixed_singleton,3,H9,3,2,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k1_uniform_edge_betweenness_B4,1,uniform,edge_betweenness,4,H0,1,0,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_uniform_edge_betweenness_B4,1,uniform,edge_betweenness,4,H0,1,0,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k1_uniform_edge_betweenness_B4,1,uniform,edge_betweenness,4,H9,1,0,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_uniform_edge_betweenness_B4,1,uniform,edge_betweenness,4,H9,1,0,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k1_uniform_edge_betweenness_B4,1,uniform,edge_betweenness,4,H0,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_uniform_edge_betweenness_B4,1,uniform,edge_betweenness,4,H9,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_uniform_cut_plan_fixed_B4,1,uniform,cut_plan_fixed,4,H0,1,0,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k1_uniform_cut_plan_fixed_B4,1,uniform,cut_plan_fixed,4,H0,1,0,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,True,False,method_common_pool
+k1_uniform_cut_plan_fixed_B4,1,uniform,cut_plan_fixed,4,H9,1,0,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k1_uniform_cut_plan_fixed_B4,1,uniform,cut_plan_fixed,4,H9,1,0,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,True,False,method_common_pool
+k1_uniform_cut_plan_fixed_B4,1,uniform,cut_plan_fixed,4,H0,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k1_uniform_cut_plan_fixed_B4,1,uniform,cut_plan_fixed,4,H9,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k1_uniform_cut_plan_fixed_singleton_B4,1,uniform,cut_plan_fixed_singleton,4,H0,1,0,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k1_uniform_cut_plan_fixed_singleton_B4,1,uniform,cut_plan_fixed_singleton,4,H0,1,0,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,True,False,method_common_pool
+k1_uniform_cut_plan_fixed_singleton_B4,1,uniform,cut_plan_fixed_singleton,4,H9,1,0,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k1_uniform_cut_plan_fixed_singleton_B4,1,uniform,cut_plan_fixed_singleton,4,H9,1,0,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,True,False,method_common_pool
+k1_uniform_cut_plan_fixed_singleton_B4,1,uniform,cut_plan_fixed_singleton,4,H0,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k1_uniform_cut_plan_fixed_singleton_B4,1,uniform,cut_plan_fixed_singleton,4,H9,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k1_ranked_edge_betweenness_B4,1,ranked,edge_betweenness,4,H0,1,0,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_ranked_edge_betweenness_B4,1,ranked,edge_betweenness,4,H0,1,0,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k1_ranked_edge_betweenness_B4,1,ranked,edge_betweenness,4,H9,1,0,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_ranked_edge_betweenness_B4,1,ranked,edge_betweenness,4,H9,1,0,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k1_ranked_edge_betweenness_B4,1,ranked,edge_betweenness,4,H0,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_ranked_edge_betweenness_B4,1,ranked,edge_betweenness,4,H9,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_ranked_cut_plan_fixed_B4,1,ranked,cut_plan_fixed,4,H0,1,0,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k1_ranked_cut_plan_fixed_B4,1,ranked,cut_plan_fixed,4,H0,1,0,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,True,False,method_common_pool
+k1_ranked_cut_plan_fixed_B4,1,ranked,cut_plan_fixed,4,H9,1,0,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k1_ranked_cut_plan_fixed_B4,1,ranked,cut_plan_fixed,4,H9,1,0,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,True,False,method_common_pool
+k1_ranked_cut_plan_fixed_B4,1,ranked,cut_plan_fixed,4,H0,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k1_ranked_cut_plan_fixed_B4,1,ranked,cut_plan_fixed,4,H9,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k1_ranked_cut_plan_fixed_singleton_B4,1,ranked,cut_plan_fixed_singleton,4,H0,1,0,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k1_ranked_cut_plan_fixed_singleton_B4,1,ranked,cut_plan_fixed_singleton,4,H0,1,0,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,True,False,method_common_pool
+k1_ranked_cut_plan_fixed_singleton_B4,1,ranked,cut_plan_fixed_singleton,4,H9,1,0,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k1_ranked_cut_plan_fixed_singleton_B4,1,ranked,cut_plan_fixed_singleton,4,H9,1,0,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,True,False,method_common_pool
+k1_ranked_cut_plan_fixed_singleton_B4,1,ranked,cut_plan_fixed_singleton,4,H0,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k1_ranked_cut_plan_fixed_singleton_B4,1,ranked,cut_plan_fixed_singleton,4,H9,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k2_uniform_edge_betweenness_B4,2,uniform,edge_betweenness,4,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B4,2,uniform,edge_betweenness,4,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B4,2,uniform,edge_betweenness,4,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B4,2,uniform,edge_betweenness,4,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B4,2,uniform,edge_betweenness,4,H0,2,1,"[[""r1"", ""r4""]]",1,18,0,18,True,True,True,False,True,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B4,2,uniform,edge_betweenness,4,H0,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B4,2,uniform,edge_betweenness,4,H9,2,1,"[[""r1"", ""r4""]]",1,9,9,0,True,True,True,False,True,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B4,2,uniform,edge_betweenness,4,H9,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B4,2,uniform,edge_betweenness,4,H0,3,2,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,0,9,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B4,2,uniform,edge_betweenness,4,H9,3,2,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,0,9,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B4,2,uniform,edge_betweenness,4,H0,4,3,"[[""r4"", ""r7""]]",1,9,0,9,True,True,True,False,True,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B4,2,uniform,edge_betweenness,4,H9,4,3,"[[""r4"", ""r7""]]",1,9,0,9,True,True,True,False,True,counterfactual_not_used_by_BC
+k2_uniform_cut_plan_fixed_B4,2,uniform,cut_plan_fixed,4,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,18,0,18,True,True,True,True,True,method_common_pool
+k2_uniform_cut_plan_fixed_B4,2,uniform,cut_plan_fixed,4,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,True,False,method_common_pool
+k2_uniform_cut_plan_fixed_B4,2,uniform,cut_plan_fixed,4,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,9,9,0,True,True,True,True,True,method_common_pool
+k2_uniform_cut_plan_fixed_B4,2,uniform,cut_plan_fixed,4,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,True,False,method_common_pool
+k2_uniform_cut_plan_fixed_B4,2,uniform,cut_plan_fixed,4,H0,2,2,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,0,9,True,True,True,True,True,method_common_pool
+k2_uniform_cut_plan_fixed_B4,2,uniform,cut_plan_fixed,4,H9,2,2,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,0,9,True,True,True,True,True,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B4,2,uniform,cut_plan_fixed_singleton,4,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,18,0,18,True,True,True,False,False,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B4,2,uniform,cut_plan_fixed_singleton,4,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B4,2,uniform,cut_plan_fixed_singleton,4,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,9,9,0,True,True,True,False,False,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B4,2,uniform,cut_plan_fixed_singleton,4,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B4,2,uniform,cut_plan_fixed_singleton,4,H0,2,1,"[[""r1"", ""r4""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B4,2,uniform,cut_plan_fixed_singleton,4,H0,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B4,2,uniform,cut_plan_fixed_singleton,4,H9,2,1,"[[""r1"", ""r4""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B4,2,uniform,cut_plan_fixed_singleton,4,H9,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B4,2,uniform,cut_plan_fixed_singleton,4,H0,3,2,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,0,9,True,True,True,False,False,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B4,2,uniform,cut_plan_fixed_singleton,4,H9,3,2,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,0,9,True,True,True,False,False,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B4,2,uniform,cut_plan_fixed_singleton,4,H0,4,3,"[[""r4"", ""r7""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B4,2,uniform,cut_plan_fixed_singleton,4,H9,4,3,"[[""r4"", ""r7""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k2_ranked_edge_betweenness_B4,2,ranked,edge_betweenness,4,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B4,2,ranked,edge_betweenness,4,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B4,2,ranked,edge_betweenness,4,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B4,2,ranked,edge_betweenness,4,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B4,2,ranked,edge_betweenness,4,H0,2,1,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,False,True,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B4,2,ranked,edge_betweenness,4,H0,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B4,2,ranked,edge_betweenness,4,H9,2,1,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,False,True,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B4,2,ranked,edge_betweenness,4,H9,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B4,2,ranked,edge_betweenness,4,H0,3,2,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,0,9,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B4,2,ranked,edge_betweenness,4,H9,3,2,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,0,9,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B4,2,ranked,edge_betweenness,4,H0,4,3,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,False,True,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B4,2,ranked,edge_betweenness,4,H9,4,3,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,False,True,counterfactual_not_used_by_BC
+k2_ranked_cut_plan_fixed_B4,2,ranked,cut_plan_fixed,4,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,18,0,18,True,True,True,True,True,method_common_pool
+k2_ranked_cut_plan_fixed_B4,2,ranked,cut_plan_fixed,4,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,True,False,method_common_pool
+k2_ranked_cut_plan_fixed_B4,2,ranked,cut_plan_fixed,4,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,9,9,0,True,True,True,True,True,method_common_pool
+k2_ranked_cut_plan_fixed_B4,2,ranked,cut_plan_fixed,4,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,True,False,method_common_pool
+k2_ranked_cut_plan_fixed_B4,2,ranked,cut_plan_fixed,4,H0,2,2,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,0,9,True,True,True,True,True,method_common_pool
+k2_ranked_cut_plan_fixed_B4,2,ranked,cut_plan_fixed,4,H9,2,2,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,0,9,True,True,True,True,True,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B4,2,ranked,cut_plan_fixed_singleton,4,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,18,0,18,True,True,True,False,False,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B4,2,ranked,cut_plan_fixed_singleton,4,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B4,2,ranked,cut_plan_fixed_singleton,4,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,9,9,0,True,True,True,False,False,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B4,2,ranked,cut_plan_fixed_singleton,4,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B4,2,ranked,cut_plan_fixed_singleton,4,H0,2,1,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B4,2,ranked,cut_plan_fixed_singleton,4,H0,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B4,2,ranked,cut_plan_fixed_singleton,4,H9,2,1,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B4,2,ranked,cut_plan_fixed_singleton,4,H9,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B4,2,ranked,cut_plan_fixed_singleton,4,H0,3,2,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,0,9,True,True,True,False,False,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B4,2,ranked,cut_plan_fixed_singleton,4,H9,3,2,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,0,9,True,True,True,False,False,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B4,2,ranked,cut_plan_fixed_singleton,4,H0,4,3,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B4,2,ranked,cut_plan_fixed_singleton,4,H9,4,3,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k3_uniform_edge_betweenness_B4,3,uniform,edge_betweenness,4,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_uniform_edge_betweenness_B4,3,uniform,edge_betweenness,4,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,18,0,18,False,False,False,False,False,counterfactual_not_used_by_BC
+k3_uniform_edge_betweenness_B4,3,uniform,edge_betweenness,4,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_uniform_edge_betweenness_B4,3,uniform,edge_betweenness,4,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,9,9,0,False,False,False,False,False,counterfactual_not_used_by_BC
+k3_uniform_edge_betweenness_B4,3,uniform,edge_betweenness,4,H0,2,1,"[[""r4"", ""r7""], [""r5"", ""r8""]]",2,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_uniform_edge_betweenness_B4,3,uniform,edge_betweenness,4,H0,2,1,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_uniform_edge_betweenness_B4,3,uniform,edge_betweenness,4,H9,2,1,"[[""r4"", ""r7""], [""r5"", ""r8""]]",2,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_uniform_edge_betweenness_B4,3,uniform,edge_betweenness,4,H9,2,1,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_uniform_edge_betweenness_B4,3,uniform,edge_betweenness,4,H0,3,2,"[[""r4"", ""r7""]]",1,18,0,18,True,True,True,False,True,counterfactual_not_used_by_BC
+k3_uniform_edge_betweenness_B4,3,uniform,edge_betweenness,4,H9,3,2,"[[""r4"", ""r7""]]",1,9,9,0,True,True,True,False,True,counterfactual_not_used_by_BC
+k3_uniform_cut_plan_fixed_B4,3,uniform,cut_plan_fixed,4,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,18,0,18,True,True,True,True,True,method_common_pool
+k3_uniform_cut_plan_fixed_B4,3,uniform,cut_plan_fixed,4,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,18,0,18,False,False,False,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_B4,3,uniform,cut_plan_fixed,4,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,9,0,True,True,True,True,True,method_common_pool
+k3_uniform_cut_plan_fixed_B4,3,uniform,cut_plan_fixed,4,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,9,9,0,False,False,False,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B4,3,uniform,cut_plan_fixed_singleton,4,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,18,0,18,True,True,True,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B4,3,uniform,cut_plan_fixed_singleton,4,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,18,0,18,False,False,False,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B4,3,uniform,cut_plan_fixed_singleton,4,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,9,0,True,True,True,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B4,3,uniform,cut_plan_fixed_singleton,4,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,9,9,0,False,False,False,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B4,3,uniform,cut_plan_fixed_singleton,4,H0,2,1,"[[""r4"", ""r7""], [""r5"", ""r8""]]",2,18,0,18,True,True,True,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B4,3,uniform,cut_plan_fixed_singleton,4,H0,2,1,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,18,0,18,True,True,True,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B4,3,uniform,cut_plan_fixed_singleton,4,H9,2,1,"[[""r4"", ""r7""], [""r5"", ""r8""]]",2,9,9,0,True,True,True,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B4,3,uniform,cut_plan_fixed_singleton,4,H9,2,1,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,9,0,True,True,True,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B4,3,uniform,cut_plan_fixed_singleton,4,H0,3,2,"[[""r4"", ""r7""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B4,3,uniform,cut_plan_fixed_singleton,4,H9,3,2,"[[""r4"", ""r7""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k3_ranked_edge_betweenness_B4,3,ranked,edge_betweenness,4,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_ranked_edge_betweenness_B4,3,ranked,edge_betweenness,4,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,18,0,18,False,False,False,False,False,counterfactual_not_used_by_BC
+k3_ranked_edge_betweenness_B4,3,ranked,edge_betweenness,4,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_ranked_edge_betweenness_B4,3,ranked,edge_betweenness,4,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,9,9,0,False,False,False,False,False,counterfactual_not_used_by_BC
+k3_ranked_edge_betweenness_B4,3,ranked,edge_betweenness,4,H0,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_ranked_edge_betweenness_B4,3,ranked,edge_betweenness,4,H0,2,1,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_ranked_edge_betweenness_B4,3,ranked,edge_betweenness,4,H9,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_ranked_edge_betweenness_B4,3,ranked,edge_betweenness,4,H9,2,1,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_ranked_edge_betweenness_B4,3,ranked,edge_betweenness,4,H0,3,2,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,False,True,counterfactual_not_used_by_BC
+k3_ranked_edge_betweenness_B4,3,ranked,edge_betweenness,4,H9,3,2,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,False,True,counterfactual_not_used_by_BC
+k3_ranked_cut_plan_fixed_B4,3,ranked,cut_plan_fixed,4,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,18,0,18,True,True,True,True,True,method_common_pool
+k3_ranked_cut_plan_fixed_B4,3,ranked,cut_plan_fixed,4,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,18,0,18,False,False,False,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_B4,3,ranked,cut_plan_fixed,4,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,9,0,True,True,True,True,True,method_common_pool
+k3_ranked_cut_plan_fixed_B4,3,ranked,cut_plan_fixed,4,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,9,9,0,False,False,False,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B4,3,ranked,cut_plan_fixed_singleton,4,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,18,0,18,True,True,True,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B4,3,ranked,cut_plan_fixed_singleton,4,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,18,0,18,False,False,False,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B4,3,ranked,cut_plan_fixed_singleton,4,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,9,0,True,True,True,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B4,3,ranked,cut_plan_fixed_singleton,4,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,9,9,0,False,False,False,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B4,3,ranked,cut_plan_fixed_singleton,4,H0,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B4,3,ranked,cut_plan_fixed_singleton,4,H0,2,1,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,18,0,18,True,True,True,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B4,3,ranked,cut_plan_fixed_singleton,4,H9,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B4,3,ranked,cut_plan_fixed_singleton,4,H9,2,1,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,9,0,True,True,True,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B4,3,ranked,cut_plan_fixed_singleton,4,H0,3,2,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B4,3,ranked,cut_plan_fixed_singleton,4,H9,3,2,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k1_uniform_edge_betweenness_B6,1,uniform,edge_betweenness,6,H0,1,0,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_uniform_edge_betweenness_B6,1,uniform,edge_betweenness,6,H0,1,0,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k1_uniform_edge_betweenness_B6,1,uniform,edge_betweenness,6,H9,1,0,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_uniform_edge_betweenness_B6,1,uniform,edge_betweenness,6,H9,1,0,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k1_uniform_edge_betweenness_B6,1,uniform,edge_betweenness,6,H0,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_uniform_edge_betweenness_B6,1,uniform,edge_betweenness,6,H9,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_uniform_cut_plan_fixed_B6,1,uniform,cut_plan_fixed,6,H0,1,0,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k1_uniform_cut_plan_fixed_B6,1,uniform,cut_plan_fixed,6,H0,1,0,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,True,False,method_common_pool
+k1_uniform_cut_plan_fixed_B6,1,uniform,cut_plan_fixed,6,H9,1,0,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k1_uniform_cut_plan_fixed_B6,1,uniform,cut_plan_fixed,6,H9,1,0,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,True,False,method_common_pool
+k1_uniform_cut_plan_fixed_B6,1,uniform,cut_plan_fixed,6,H0,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k1_uniform_cut_plan_fixed_B6,1,uniform,cut_plan_fixed,6,H9,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k1_uniform_cut_plan_fixed_singleton_B6,1,uniform,cut_plan_fixed_singleton,6,H0,1,0,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k1_uniform_cut_plan_fixed_singleton_B6,1,uniform,cut_plan_fixed_singleton,6,H0,1,0,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,True,False,method_common_pool
+k1_uniform_cut_plan_fixed_singleton_B6,1,uniform,cut_plan_fixed_singleton,6,H9,1,0,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k1_uniform_cut_plan_fixed_singleton_B6,1,uniform,cut_plan_fixed_singleton,6,H9,1,0,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,True,False,method_common_pool
+k1_uniform_cut_plan_fixed_singleton_B6,1,uniform,cut_plan_fixed_singleton,6,H0,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k1_uniform_cut_plan_fixed_singleton_B6,1,uniform,cut_plan_fixed_singleton,6,H9,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k1_ranked_edge_betweenness_B6,1,ranked,edge_betweenness,6,H0,1,0,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_ranked_edge_betweenness_B6,1,ranked,edge_betweenness,6,H0,1,0,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k1_ranked_edge_betweenness_B6,1,ranked,edge_betweenness,6,H9,1,0,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_ranked_edge_betweenness_B6,1,ranked,edge_betweenness,6,H9,1,0,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k1_ranked_edge_betweenness_B6,1,ranked,edge_betweenness,6,H0,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_ranked_edge_betweenness_B6,1,ranked,edge_betweenness,6,H9,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,False,True,counterfactual_not_used_by_BC
+k1_ranked_cut_plan_fixed_B6,1,ranked,cut_plan_fixed,6,H0,1,0,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k1_ranked_cut_plan_fixed_B6,1,ranked,cut_plan_fixed,6,H0,1,0,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,True,False,method_common_pool
+k1_ranked_cut_plan_fixed_B6,1,ranked,cut_plan_fixed,6,H9,1,0,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k1_ranked_cut_plan_fixed_B6,1,ranked,cut_plan_fixed,6,H9,1,0,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,True,False,method_common_pool
+k1_ranked_cut_plan_fixed_B6,1,ranked,cut_plan_fixed,6,H0,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k1_ranked_cut_plan_fixed_B6,1,ranked,cut_plan_fixed,6,H9,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k1_ranked_cut_plan_fixed_singleton_B6,1,ranked,cut_plan_fixed_singleton,6,H0,1,0,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k1_ranked_cut_plan_fixed_singleton_B6,1,ranked,cut_plan_fixed_singleton,6,H0,1,0,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,True,False,method_common_pool
+k1_ranked_cut_plan_fixed_singleton_B6,1,ranked,cut_plan_fixed_singleton,6,H9,1,0,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k1_ranked_cut_plan_fixed_singleton_B6,1,ranked,cut_plan_fixed_singleton,6,H9,1,0,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,True,False,method_common_pool
+k1_ranked_cut_plan_fixed_singleton_B6,1,ranked,cut_plan_fixed_singleton,6,H0,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k1_ranked_cut_plan_fixed_singleton_B6,1,ranked,cut_plan_fixed_singleton,6,H9,2,1,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k2_uniform_edge_betweenness_B6,2,uniform,edge_betweenness,6,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B6,2,uniform,edge_betweenness,6,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B6,2,uniform,edge_betweenness,6,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B6,2,uniform,edge_betweenness,6,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B6,2,uniform,edge_betweenness,6,H0,2,1,"[[""r1"", ""r4""]]",1,18,0,18,True,True,True,False,True,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B6,2,uniform,edge_betweenness,6,H0,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B6,2,uniform,edge_betweenness,6,H9,2,1,"[[""r1"", ""r4""]]",1,9,9,0,True,True,True,False,True,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B6,2,uniform,edge_betweenness,6,H9,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B6,2,uniform,edge_betweenness,6,H0,3,2,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,0,9,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B6,2,uniform,edge_betweenness,6,H9,3,2,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,0,9,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B6,2,uniform,edge_betweenness,6,H0,4,3,"[[""r4"", ""r7""]]",1,9,0,9,True,True,True,False,True,counterfactual_not_used_by_BC
+k2_uniform_edge_betweenness_B6,2,uniform,edge_betweenness,6,H9,4,3,"[[""r4"", ""r7""]]",1,9,0,9,True,True,True,False,True,counterfactual_not_used_by_BC
+k2_uniform_cut_plan_fixed_B6,2,uniform,cut_plan_fixed,6,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,18,0,18,True,True,True,True,True,method_common_pool
+k2_uniform_cut_plan_fixed_B6,2,uniform,cut_plan_fixed,6,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,True,False,method_common_pool
+k2_uniform_cut_plan_fixed_B6,2,uniform,cut_plan_fixed,6,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,9,9,0,True,True,True,True,True,method_common_pool
+k2_uniform_cut_plan_fixed_B6,2,uniform,cut_plan_fixed,6,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,True,False,method_common_pool
+k2_uniform_cut_plan_fixed_B6,2,uniform,cut_plan_fixed,6,H0,2,2,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,0,9,True,True,True,True,True,method_common_pool
+k2_uniform_cut_plan_fixed_B6,2,uniform,cut_plan_fixed,6,H9,2,2,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,0,9,True,True,True,True,True,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B6,2,uniform,cut_plan_fixed_singleton,6,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,18,0,18,True,True,True,False,False,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B6,2,uniform,cut_plan_fixed_singleton,6,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B6,2,uniform,cut_plan_fixed_singleton,6,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,9,9,0,True,True,True,False,False,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B6,2,uniform,cut_plan_fixed_singleton,6,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B6,2,uniform,cut_plan_fixed_singleton,6,H0,2,1,"[[""r1"", ""r4""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B6,2,uniform,cut_plan_fixed_singleton,6,H0,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B6,2,uniform,cut_plan_fixed_singleton,6,H9,2,1,"[[""r1"", ""r4""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B6,2,uniform,cut_plan_fixed_singleton,6,H9,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B6,2,uniform,cut_plan_fixed_singleton,6,H0,3,2,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,0,9,True,True,True,False,False,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B6,2,uniform,cut_plan_fixed_singleton,6,H9,3,2,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,0,9,True,True,True,False,False,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B6,2,uniform,cut_plan_fixed_singleton,6,H0,4,3,"[[""r4"", ""r7""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k2_uniform_cut_plan_fixed_singleton_B6,2,uniform,cut_plan_fixed_singleton,6,H9,4,3,"[[""r4"", ""r7""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k2_ranked_edge_betweenness_B6,2,ranked,edge_betweenness,6,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B6,2,ranked,edge_betweenness,6,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B6,2,ranked,edge_betweenness,6,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B6,2,ranked,edge_betweenness,6,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B6,2,ranked,edge_betweenness,6,H0,2,1,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,False,True,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B6,2,ranked,edge_betweenness,6,H0,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B6,2,ranked,edge_betweenness,6,H9,2,1,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,False,True,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B6,2,ranked,edge_betweenness,6,H9,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B6,2,ranked,edge_betweenness,6,H0,3,2,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,0,9,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B6,2,ranked,edge_betweenness,6,H9,3,2,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,0,9,True,True,True,False,False,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B6,2,ranked,edge_betweenness,6,H0,4,3,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,False,True,counterfactual_not_used_by_BC
+k2_ranked_edge_betweenness_B6,2,ranked,edge_betweenness,6,H9,4,3,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,False,True,counterfactual_not_used_by_BC
+k2_ranked_cut_plan_fixed_B6,2,ranked,cut_plan_fixed,6,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,18,0,18,True,True,True,True,True,method_common_pool
+k2_ranked_cut_plan_fixed_B6,2,ranked,cut_plan_fixed,6,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,True,False,method_common_pool
+k2_ranked_cut_plan_fixed_B6,2,ranked,cut_plan_fixed,6,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,9,9,0,True,True,True,True,True,method_common_pool
+k2_ranked_cut_plan_fixed_B6,2,ranked,cut_plan_fixed,6,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,True,False,method_common_pool
+k2_ranked_cut_plan_fixed_B6,2,ranked,cut_plan_fixed,6,H0,2,2,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,0,9,True,True,True,True,True,method_common_pool
+k2_ranked_cut_plan_fixed_B6,2,ranked,cut_plan_fixed,6,H9,2,2,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,0,9,True,True,True,True,True,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B6,2,ranked,cut_plan_fixed_singleton,6,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,18,0,18,True,True,True,False,False,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B6,2,ranked,cut_plan_fixed_singleton,6,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B6,2,ranked,cut_plan_fixed_singleton,6,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,9,9,0,True,True,True,False,False,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B6,2,ranked,cut_plan_fixed_singleton,6,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B6,2,ranked,cut_plan_fixed_singleton,6,H0,2,1,"[[""r0"", ""r3""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B6,2,ranked,cut_plan_fixed_singleton,6,H0,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B6,2,ranked,cut_plan_fixed_singleton,6,H9,2,1,"[[""r0"", ""r3""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B6,2,ranked,cut_plan_fixed_singleton,6,H9,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B6,2,ranked,cut_plan_fixed_singleton,6,H0,3,2,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,0,9,True,True,True,False,False,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B6,2,ranked,cut_plan_fixed_singleton,6,H9,3,2,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,0,9,True,True,True,False,False,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B6,2,ranked,cut_plan_fixed_singleton,6,H0,4,3,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k2_ranked_cut_plan_fixed_singleton_B6,2,ranked,cut_plan_fixed_singleton,6,H9,4,3,"[[""r3"", ""r6""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k3_uniform_edge_betweenness_B6,3,uniform,edge_betweenness,6,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_uniform_edge_betweenness_B6,3,uniform,edge_betweenness,6,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,18,0,18,False,False,False,False,False,counterfactual_not_used_by_BC
+k3_uniform_edge_betweenness_B6,3,uniform,edge_betweenness,6,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_uniform_edge_betweenness_B6,3,uniform,edge_betweenness,6,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,9,9,0,False,False,False,False,False,counterfactual_not_used_by_BC
+k3_uniform_edge_betweenness_B6,3,uniform,edge_betweenness,6,H0,2,1,"[[""r4"", ""r7""], [""r5"", ""r8""]]",2,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_uniform_edge_betweenness_B6,3,uniform,edge_betweenness,6,H0,2,1,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_uniform_edge_betweenness_B6,3,uniform,edge_betweenness,6,H9,2,1,"[[""r4"", ""r7""], [""r5"", ""r8""]]",2,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_uniform_edge_betweenness_B6,3,uniform,edge_betweenness,6,H9,2,1,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_uniform_edge_betweenness_B6,3,uniform,edge_betweenness,6,H0,3,2,"[[""r4"", ""r7""]]",1,18,0,18,True,True,True,False,True,counterfactual_not_used_by_BC
+k3_uniform_edge_betweenness_B6,3,uniform,edge_betweenness,6,H0,3,2,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,18,0,18,False,False,False,False,False,counterfactual_not_used_by_BC
+k3_uniform_edge_betweenness_B6,3,uniform,edge_betweenness,6,H9,3,2,"[[""r4"", ""r7""]]",1,9,9,0,True,True,True,False,True,counterfactual_not_used_by_BC
+k3_uniform_edge_betweenness_B6,3,uniform,edge_betweenness,6,H9,3,2,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,9,0,False,False,False,False,False,counterfactual_not_used_by_BC
+k3_uniform_edge_betweenness_B6,3,uniform,edge_betweenness,6,H0,4,3,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,0,9,False,False,False,False,False,counterfactual_not_used_by_BC
+k3_uniform_edge_betweenness_B6,3,uniform,edge_betweenness,6,H9,4,3,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,0,9,False,False,False,False,False,counterfactual_not_used_by_BC
+k3_uniform_edge_betweenness_B6,3,uniform,edge_betweenness,6,H0,5,4,"[[""r1"", ""r4""], [""r2"", ""r5""]]",2,9,0,9,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_uniform_edge_betweenness_B6,3,uniform,edge_betweenness,6,H9,5,4,"[[""r1"", ""r4""], [""r2"", ""r5""]]",2,9,0,9,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_uniform_edge_betweenness_B6,3,uniform,edge_betweenness,6,H0,6,5,"[[""r2"", ""r5""]]",1,9,0,9,True,True,True,False,True,counterfactual_not_used_by_BC
+k3_uniform_edge_betweenness_B6,3,uniform,edge_betweenness,6,H9,6,5,"[[""r2"", ""r5""]]",1,9,0,9,True,True,True,False,True,counterfactual_not_used_by_BC
+k3_uniform_cut_plan_fixed_B6,3,uniform,cut_plan_fixed,6,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,18,0,18,True,True,True,True,True,method_common_pool
+k3_uniform_cut_plan_fixed_B6,3,uniform,cut_plan_fixed,6,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,18,0,18,False,False,False,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_B6,3,uniform,cut_plan_fixed,6,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,9,0,True,True,True,True,True,method_common_pool
+k3_uniform_cut_plan_fixed_B6,3,uniform,cut_plan_fixed,6,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,9,9,0,False,False,False,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_B6,3,uniform,cut_plan_fixed,6,H0,2,3,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,9,0,9,False,False,False,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_B6,3,uniform,cut_plan_fixed,6,H9,2,3,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,9,0,9,False,False,False,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B6,3,uniform,cut_plan_fixed_singleton,6,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,18,0,18,True,True,True,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B6,3,uniform,cut_plan_fixed_singleton,6,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,18,0,18,False,False,False,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B6,3,uniform,cut_plan_fixed_singleton,6,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,9,0,True,True,True,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B6,3,uniform,cut_plan_fixed_singleton,6,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,9,9,0,False,False,False,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B6,3,uniform,cut_plan_fixed_singleton,6,H0,2,1,"[[""r4"", ""r7""], [""r5"", ""r8""]]",2,18,0,18,True,True,True,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B6,3,uniform,cut_plan_fixed_singleton,6,H0,2,1,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,18,0,18,True,True,True,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B6,3,uniform,cut_plan_fixed_singleton,6,H9,2,1,"[[""r4"", ""r7""], [""r5"", ""r8""]]",2,9,9,0,True,True,True,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B6,3,uniform,cut_plan_fixed_singleton,6,H9,2,1,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,9,0,True,True,True,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B6,3,uniform,cut_plan_fixed_singleton,6,H0,3,2,"[[""r4"", ""r7""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B6,3,uniform,cut_plan_fixed_singleton,6,H0,3,2,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,18,0,18,False,False,False,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B6,3,uniform,cut_plan_fixed_singleton,6,H9,3,2,"[[""r4"", ""r7""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B6,3,uniform,cut_plan_fixed_singleton,6,H9,3,2,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,9,0,False,False,False,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B6,3,uniform,cut_plan_fixed_singleton,6,H0,4,3,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,0,9,False,False,False,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B6,3,uniform,cut_plan_fixed_singleton,6,H9,4,3,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,0,9,False,False,False,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B6,3,uniform,cut_plan_fixed_singleton,6,H0,5,4,"[[""r1"", ""r4""], [""r2"", ""r5""]]",2,9,0,9,True,True,True,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B6,3,uniform,cut_plan_fixed_singleton,6,H9,5,4,"[[""r1"", ""r4""], [""r2"", ""r5""]]",2,9,0,9,True,True,True,False,False,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B6,3,uniform,cut_plan_fixed_singleton,6,H0,6,5,"[[""r2"", ""r5""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k3_uniform_cut_plan_fixed_singleton_B6,3,uniform,cut_plan_fixed_singleton,6,H9,6,5,"[[""r2"", ""r5""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k3_ranked_edge_betweenness_B6,3,ranked,edge_betweenness,6,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_ranked_edge_betweenness_B6,3,ranked,edge_betweenness,6,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,18,0,18,False,False,False,False,False,counterfactual_not_used_by_BC
+k3_ranked_edge_betweenness_B6,3,ranked,edge_betweenness,6,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_ranked_edge_betweenness_B6,3,ranked,edge_betweenness,6,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,9,9,0,False,False,False,False,False,counterfactual_not_used_by_BC
+k3_ranked_edge_betweenness_B6,3,ranked,edge_betweenness,6,H0,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_ranked_edge_betweenness_B6,3,ranked,edge_betweenness,6,H0,2,1,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,18,0,18,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_ranked_edge_betweenness_B6,3,ranked,edge_betweenness,6,H9,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_ranked_edge_betweenness_B6,3,ranked,edge_betweenness,6,H9,2,1,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,9,0,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_ranked_edge_betweenness_B6,3,ranked,edge_betweenness,6,H0,3,2,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,False,True,counterfactual_not_used_by_BC
+k3_ranked_edge_betweenness_B6,3,ranked,edge_betweenness,6,H0,3,2,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,18,0,18,False,False,False,False,False,counterfactual_not_used_by_BC
+k3_ranked_edge_betweenness_B6,3,ranked,edge_betweenness,6,H9,3,2,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,False,True,counterfactual_not_used_by_BC
+k3_ranked_edge_betweenness_B6,3,ranked,edge_betweenness,6,H9,3,2,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,9,0,False,False,False,False,False,counterfactual_not_used_by_BC
+k3_ranked_edge_betweenness_B6,3,ranked,edge_betweenness,6,H0,4,3,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,0,9,False,False,False,False,False,counterfactual_not_used_by_BC
+k3_ranked_edge_betweenness_B6,3,ranked,edge_betweenness,6,H9,4,3,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,0,9,False,False,False,False,False,counterfactual_not_used_by_BC
+k3_ranked_edge_betweenness_B6,3,ranked,edge_betweenness,6,H0,5,4,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,9,0,9,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_ranked_edge_betweenness_B6,3,ranked,edge_betweenness,6,H9,5,4,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,9,0,9,True,True,True,False,False,counterfactual_not_used_by_BC
+k3_ranked_edge_betweenness_B6,3,ranked,edge_betweenness,6,H0,6,5,"[[""r0"", ""r3""]]",1,9,0,9,True,True,True,False,True,counterfactual_not_used_by_BC
+k3_ranked_edge_betweenness_B6,3,ranked,edge_betweenness,6,H9,6,5,"[[""r0"", ""r3""]]",1,9,0,9,True,True,True,False,True,counterfactual_not_used_by_BC
+k3_ranked_cut_plan_fixed_B6,3,ranked,cut_plan_fixed,6,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,18,0,18,True,True,True,True,True,method_common_pool
+k3_ranked_cut_plan_fixed_B6,3,ranked,cut_plan_fixed,6,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,18,0,18,False,False,False,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_B6,3,ranked,cut_plan_fixed,6,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,9,0,True,True,True,True,True,method_common_pool
+k3_ranked_cut_plan_fixed_B6,3,ranked,cut_plan_fixed,6,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,9,9,0,False,False,False,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_B6,3,ranked,cut_plan_fixed,6,H0,2,3,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,9,0,9,False,False,False,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_B6,3,ranked,cut_plan_fixed,6,H9,2,3,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,9,0,9,False,False,False,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B6,3,ranked,cut_plan_fixed_singleton,6,H0,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,18,0,18,True,True,True,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B6,3,ranked,cut_plan_fixed_singleton,6,H0,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,18,0,18,False,False,False,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B6,3,ranked,cut_plan_fixed_singleton,6,H9,1,0,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,9,0,True,True,True,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B6,3,ranked,cut_plan_fixed_singleton,6,H9,1,0,"[[""r3"", ""r6""], [""r4"", ""r7""], [""r5"", ""r8""]]",3,9,9,0,False,False,False,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B6,3,ranked,cut_plan_fixed_singleton,6,H0,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,18,0,18,True,True,True,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B6,3,ranked,cut_plan_fixed_singleton,6,H0,2,1,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,18,0,18,True,True,True,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B6,3,ranked,cut_plan_fixed_singleton,6,H9,2,1,"[[""r3"", ""r6""], [""r4"", ""r7""]]",2,9,9,0,True,True,True,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B6,3,ranked,cut_plan_fixed_singleton,6,H9,2,1,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,9,0,True,True,True,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B6,3,ranked,cut_plan_fixed_singleton,6,H0,3,2,"[[""r3"", ""r6""]]",1,18,0,18,True,True,True,True,True,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B6,3,ranked,cut_plan_fixed_singleton,6,H0,3,2,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,18,0,18,False,False,False,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B6,3,ranked,cut_plan_fixed_singleton,6,H9,3,2,"[[""r3"", ""r6""]]",1,9,9,0,True,True,True,True,True,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B6,3,ranked,cut_plan_fixed_singleton,6,H9,3,2,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,9,0,False,False,False,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B6,3,ranked,cut_plan_fixed_singleton,6,H0,4,3,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,0,9,False,False,False,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B6,3,ranked,cut_plan_fixed_singleton,6,H9,4,3,"[[""r0"", ""r3""], [""r1"", ""r4""], [""r2"", ""r5""]]",3,9,0,9,False,False,False,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B6,3,ranked,cut_plan_fixed_singleton,6,H0,5,4,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,9,0,9,True,True,True,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B6,3,ranked,cut_plan_fixed_singleton,6,H9,5,4,"[[""r0"", ""r3""], [""r1"", ""r4""]]",2,9,0,9,True,True,True,False,False,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B6,3,ranked,cut_plan_fixed_singleton,6,H0,6,5,"[[""r0"", ""r3""]]",1,9,0,9,True,True,True,True,True,method_common_pool
+k3_ranked_cut_plan_fixed_singleton_B6,3,ranked,cut_plan_fixed_singleton,6,H9,6,5,"[[""r0"", ""r3""]]",1,9,0,9,True,True,True,True,True,method_common_pool

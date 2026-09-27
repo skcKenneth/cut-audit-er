@@ -1,0 +1,48 @@
+{
+  "figure": "fig02_structure",
+  "scope": "V4 fixed study; see figure-specific public projection",
+  "sources": [
+    "evidence/manifest.json"
+  ],
+  "data": [
+    {
+      "dataset": "wdc",
+      "nodes": 806,
+      "edges": 2047,
+      "components": 117,
+      "exact_components": 97,
+      "skipped_components": "20",
+      "initial_fp": 76006,
+      "initial_fn": 898,
+      "covered_fp": 13,
+      "headroom": 286,
+      "status": "partial_component_diagnosis"
+    },
+    {
+      "dataset": "dblp_acm",
+      "nodes": 810,
+      "edges": 363,
+      "components": 452,
+      "exact_components": 452,
+      "skipped_components": "0",
+      "initial_fp": 15,
+      "initial_fn": 19,
+      "covered_fp": 15,
+      "headroom": 0,
+      "status": "exact"
+    },
+    {
+      "dataset": "dblp_unused",
+      "nodes": 910,
+      "edges": 413,
+      "components": 515,
+      "exact_components": 515,
+      "skipped_components": "0",
+      "initial_fp": 25,
+      "initial_fn": 30,
+      "covered_fp": 25,
+      "headroom": 0,
+      "status": "exact"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+run_id,k,score_profile,method,budget,status,reason
+k2_uniform_cut_plan_fixed_singleton_B1,2,uniform,cut_plan_fixed_singleton,1,interrupted,Host continuation lost original worker; endpoint unavailable; never retried

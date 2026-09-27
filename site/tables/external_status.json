@@ -1,0 +1,17 @@
+{
+  "acquisitions_completed": 0,
+  "acquisitions_started": 0,
+  "alternative_benchmark_used": false,
+  "archive_downloads": 0,
+  "new_model_fits": 0,
+  "paid_queries": 0,
+  "planned_slots": 21,
+  "provider_issue_url": "https://github.com/merialdo/research.alaska/issues/2",
+  "provider_receipt_sha256": "e34c1eed41b31c15d80b2808a166ea45bcb3cd4e9d557a21b1af9d8e32764f87",
+  "provider_url": "https://github.com/merialdo/research.alaska",
+  "scope": "V6 external branch not executed. V5 gate exclusions remain historical.",
+  "sealed_test_access": false,
+  "source_final_manifest_sha256": "e25e17e7d946ff2faa89e049ecca1326531ed17711459ea221e3fe599ce38fb6",
+  "status": "blocked_download",
+  "v5_progression_gate_changed": false
+}

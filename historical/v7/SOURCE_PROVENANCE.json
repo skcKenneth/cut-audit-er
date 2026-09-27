@@ -1,0 +1,30 @@
+{
+  "base_zip_sha256": "400e2c0c7d2f42ff5fae95f89d9ad3ea95bb8f60383174781790e32f28631d73",
+  "new_acquisition": false,
+  "previous_public_files": 953,
+  "schema": "cut-audit-public-v7-provenance",
+  "scope": "Fixed known-law controls and aggregate same-pool accounting; no new natural outcomes.",
+  "sealed_test_access": false,
+  "selector_changed": false,
+  "v7_exported_files": {
+    "configs/review_v7_controls.json": "2b471ea162513778663f8fa1ef7ca5185d6307f5139280be347baf6991f1fb87",
+    "research/review_v7/CLAIM_EVIDENCE_LIMITS.md": "05170d908c47a536d98757fdc2db27b6e8e0b653467b956079127371207d740e",
+    "research/review_v7/LITERATURE_MATRIX.md": "3e7a61cef24b255f423f8b7a5e475b649ffbdf438474b22fbc704bf90cf7ac81",
+    "research/review_v7/PROTOCOL.md": "244a6f87e6e31bc7e5c9857e6ee79b77b22a88916e21eb154eac769fe19f4677",
+    "research/review_v7/THEORY.md": "d8ec5fb73e135d501a3b6021b0c02886523ab1f7de2dcfecd37ade31c62d6f55",
+    "research/review_v7/V6_TO_V7.md": "e6b646e7a9aad9b9141029da3672775a70a876730f70212cb41c1c41f08107d4",
+    "scripts/review_v7/__init__.py": "548b79db84f931664671875ab42241724a50e813c6c63c7ecee2af6bf208571f",
+    "scripts/review_v7/common.py": "05ad221f40ea2e8628642de30b953d9778a49718e28ee2be9b8c8e6739406373",
+    "scripts/review_v7/controls.py": "022cea99e7afb70d737dea9e950244dbe4bd0a92b7d395fe1d2dfa9281512929",
+    "scripts/review_v7/evaluate.py": "b211a03379d18ed475ad1803a8ab2fbec8d3e293583c8e6109b1391780fc055a",
+    "scripts/review_v7/freeze.py": "41de6f8f676caece92e45c29f3425b3aaa9985ae213e17210d0c33a46d97ffdc",
+    "scripts/review_v7/run.py": "e3d40fbfa06f475f0b9e742d707e135bf7a1f13e2dfdba515d6fd1c6740aec31",
+    "scripts/review_v7/same_pool.py": "6dbc27ad46b006f30b3c928b02126e36788d9de93b3be3779140f63a01d3600a",
+    "scripts/review_v7/validate_evidence.py": "f43c5e79128a35e16b294b8d41645515edcf624768dbf31c6f40fb3494aaacb6",
+    "tests/test_review_v7_controls.py": "bb5750087aabfb76d350934dcc7fff546efe79daf992410642df8406f20a14b5",
+    "tests/test_review_v7_freeze.py": "ecc19ebc1f728cec7ad2dfcb1edaebcd39b36e43cf2247bdfc289578dad9dc59",
+    "tests/test_review_v7_public_evidence.py": "299eeaa08fb2259c985d1f1830b56a58a7587654af1e18a8ead966c888d7b2fd",
+    "tests/test_review_v7_same_pool.py": "e4f93ef4ba67be30580c2dca401ed5b9d6c8f36a0744593ca2c5ca5dbc2e6115"
+  },
+  "v7_method_freeze_sha256": "e0d83130e47cc0a311e652c4fa11de4d3acf2b0d9646cb1ca68c8ff9239e4855"
+}

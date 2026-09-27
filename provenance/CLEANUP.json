@@ -1,0 +1,1001 @@
+{
+  "schema": "cut-audit-public-release-cleanup-v1",
+  "base_archive": "CUT_AUDIT_ER_GITHUB_REPOSITORY_V7_1.zip",
+  "base_archive_sha256": "0eaccfad637c54981be9b6290ab54ea6619f0460918fca9b059f9e7e06bb0169",
+  "removed_generated_presentation": {
+    "historical/v5/figures/fig01_contract.pdf": {
+      "bytes": 26018,
+      "sha256": "19c60eae7d452fdfa4f10ed416ae3584693e8bf1205a3532cc71290f16956580",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/figures/fig01_contract.png": {
+      "bytes": 102432,
+      "sha256": "8408235e7abea9ab71dea2331cfc78d7d67c3edac7ca474e3ce3f008846f310a",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/figures/fig01_contract.svg": {
+      "bytes": 14593,
+      "sha256": "f19abe5c55e111bde4136e789a98708ddc41127b38148a28efb8b6f71378a1fc",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/figures/fig02_structure.pdf": {
+      "bytes": 18895,
+      "sha256": "cbd2a977112ef12573386f255de7a31c7deb1fab205b70f9a20fb4592ec4c7b1",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/figures/fig02_structure.png": {
+      "bytes": 75988,
+      "sha256": "77ab555b6540aac657ba9c02b24110c4dbe773e4b9baa3aad9ceb663e558cbaa",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/figures/fig02_structure.svg": {
+      "bytes": 13366,
+      "sha256": "695635096398aa2ab3dbf90806511d05d5cd239fe165f15571209991db64d5a0",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/figures/fig03_natural.pdf": {
+      "bytes": 19882,
+      "sha256": "f22b5f04d564ad4cb198ae29eca3e3ea9a479fe47c0dbee17106561e2db22f15",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/figures/fig03_natural.png": {
+      "bytes": 211755,
+      "sha256": "9b5b6cd4f4f3843f60b0a335c5143ddc8181568973db12a8f11bde0e5d6849cd",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/figures/fig03_natural.svg": {
+      "bytes": 48471,
+      "sha256": "8411e9dd1912efb853bb0ab51147ebc78cab31fba99169fcbba8ab7f43ff58c1",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/figures/fig04_synthetic.pdf": {
+      "bytes": 18350,
+      "sha256": "1ae90c8a765f1ccc5d0d833010dc1379fc800bc8960fab31b04c5de66e3b80ae",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/figures/fig04_synthetic.png": {
+      "bytes": 77900,
+      "sha256": "68777072656ccb3b762b5c77014ae228f2e5b5d43c7ec9b31dc8f7a078778c61",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/figures/fig04_synthetic.svg": {
+      "bytes": 50767,
+      "sha256": "254bc315faecf403f7434a0cbde04e844027ac2f49b7f54c0337ca6f85e62d99",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/figures/fig05_mechanism.pdf": {
+      "bytes": 48704,
+      "sha256": "b2023cf563e6cb31c4a056d280c14412c7783baa8ebff1588bfd74938b262a7a",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/figures/fig05_mechanism.png": {
+      "bytes": 156128,
+      "sha256": "ffbb7ae05587da1aaeb01f910cf8d89e3752c3c4c0ff244ab7d38ab1b65051c5",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/figures/fig05_mechanism.svg": {
+      "bytes": 124040,
+      "sha256": "802b7e043ad5a7dedbdade7bcde772ff29b606e2a2cb7945256eb7f0b23b396e",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/figures/fig06_cost.pdf": {
+      "bytes": 27304,
+      "sha256": "cfe0ef511ae3a664e15987e03fa7ab486f564c7f7f3f896d86bc7f57fc40d960",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/figures/fig06_cost.png": {
+      "bytes": 109364,
+      "sha256": "88d7e6b2d60d6f7953047ea4b61a90a5dc62a461757fb3e6652d53a971b36d95",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/figures/fig06_cost.svg": {
+      "bytes": 92559,
+      "sha256": "a27de3ea0f5c28642f40fad7ba8776a51d413ecb14f17efa4d4a60c6428a35c4",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/figures/figure_provenance.json": {
+      "bytes": 6963,
+      "sha256": "88e8d457fec988f1138a1b4c7c39e0fc8a27953fe69b604d72e565ab7812dc75",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/.nojekyll": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/app.js": {
+      "bytes": 241,
+      "sha256": "bd8968523fa18a1e27c9af156b893fc4fcb84a87088244ac92978edd0c3fb6b5",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/index.html": {
+      "bytes": 8558,
+      "sha256": "f1a19897db54d78cdc993f9bd54895fc8d71cc62612e26e409212daef01175b5",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/README.md": {
+      "bytes": 3356,
+      "sha256": "47ebe4e4a955cb039f03895bed3e7f7cc2650f4aa2ba6f73178f761f28543eed",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/README.zh-Hant.md": {
+      "bytes": 2138,
+      "sha256": "f0f3b6d95d52340be6e85594549552a017f805a5dbd5770dc8bf46f25d3dcafe",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/REPRODUCTION_SCOPE.md": {
+      "bytes": 2214,
+      "sha256": "7e7fd9f596ebf280e7aa1ca92ebe016be4d59058470eb1967748ae90487cc5d6",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/style.css": {
+      "bytes": 1470,
+      "sha256": "fcf1b5c9ac467cb6212435206dae1806eb761d8bbfef5ca82201f0328e6d039c",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/THIRD_PARTY_NOTICES.md": {
+      "bytes": 3054,
+      "sha256": "53e5c25185cb79414da3044481f2b1992874d0617e4fd699846bf9bfff794408",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/figures/data/fig01_contract.json": {
+      "bytes": 790,
+      "sha256": "53e59e8605d90ec3f0e1fc6e415bf549a7c1efd6ee7b0bb281c77a7b6c0c9200",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/figures/data/fig02_structure.json": {
+      "bytes": 1174,
+      "sha256": "582a1b4b5d4c1ea2c7496380bf6420341777f916606354442df1870e27bd2c66",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/figures/data/fig03_natural.json": {
+      "bytes": 138619,
+      "sha256": "315e74f9d3a161fce0d2d6869ac2e317b1b0d800aadbd4b305b2e60f5d54ebd1",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/figures/data/fig04_synthetic.json": {
+      "bytes": 144397,
+      "sha256": "3bf99d45a06192a149d82cc128e5f2d67bafb83732bf8bd55ce7b676cf3e47ea",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/figures/data/fig05_mechanism.json": {
+      "bytes": 5881,
+      "sha256": "a697a75189051ccd63745661afc1a0293f16d2600a30da64504a8e898ca2cd53",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/figures/data/fig06_cost.json": {
+      "bytes": 87339,
+      "sha256": "cecfa371d505368b0ba9064c31714c79c3702c292128dd3141db224b1538d31f",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/evidence/acquisitions.csv": {
+      "bytes": 65931,
+      "sha256": "35806a97adc0a84aee380a7fc2709b0f48256be6511890bc5ea27db9a7f821af",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/evidence/batches.csv": {
+      "bytes": 637162,
+      "sha256": "762a6a5e1c0250e832cbbce8d144acb2cd284f84a79d8071eefca396fa259d23",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/evidence/cache_counts.csv": {
+      "bytes": 1517493,
+      "sha256": "5af1af45052bc9b79fcb5adfc164b982c0f9f6af69431a89cd1585b5bf8fabef",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/evidence/candidate_depths.csv": {
+      "bytes": 4885551,
+      "sha256": "61c9faa7eef67745c1b99487527e384087d2ce769dd9b932def12e671db0ee64",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/evidence/contrasts.csv": {
+      "bytes": 113396,
+      "sha256": "0cf385a2c5d798e3343b209657d0b3338ed6acf6520dea0b2976d83f435767cd",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/evidence/coverage.csv": {
+      "bytes": 1482,
+      "sha256": "09b878828a2ef13276500752b5491a341e87ecc0fb638814399f658d04670531",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/evidence/events.csv": {
+      "bytes": 259794,
+      "sha256": "3bb39ba6df99e596fb7fb1077309c2747b4ad8cbdd88cd5803493651ee34663e",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/evidence/failures.csv": {
+      "bytes": 2891,
+      "sha256": "263e0f7cc96930ec1fbe1e56e5711a1d041b8111786734269c52277b9a1502e2",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/evidence/manifest.json": {
+      "bytes": 65555,
+      "sha256": "4639ddb28ac894b06e3be11c73d00f6589a016bf8f811525f1fd2fc02ed4ea15",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/evidence/opportunity_batches.csv": {
+      "bytes": 449332,
+      "sha256": "1cdc3fd1307bc7971b0cd964b678347a71ac7597614ddd15264ec0b08c368ccd",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/evidence/opportunity_exclusions.csv": {
+      "bytes": 1186000,
+      "sha256": "b141a41e0c585a9a68b0706ab9f2bf653ab03556220e116a3544dd0140b2f658",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/evidence/reference_endpoints.csv": {
+      "bytes": 38218,
+      "sha256": "b83a6c49877ff5fa7da875f89c504ebf5e4a0c84f6b0db2a22b400bd1a3cc0a3",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/evidence/states.csv": {
+      "bytes": 225254,
+      "sha256": "df1cd64bd579be58071a78ff5b71635d192c7c8d74a7232bdeebca3f3fea1d60",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/figures/fig01_contract.pdf": {
+      "bytes": 26018,
+      "sha256": "19c60eae7d452fdfa4f10ed416ae3584693e8bf1205a3532cc71290f16956580",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/figures/fig01_contract.png": {
+      "bytes": 102432,
+      "sha256": "8408235e7abea9ab71dea2331cfc78d7d67c3edac7ca474e3ce3f008846f310a",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/figures/fig01_contract.svg": {
+      "bytes": 14593,
+      "sha256": "f19abe5c55e111bde4136e789a98708ddc41127b38148a28efb8b6f71378a1fc",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/figures/fig02_structure.pdf": {
+      "bytes": 18895,
+      "sha256": "cbd2a977112ef12573386f255de7a31c7deb1fab205b70f9a20fb4592ec4c7b1",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/figures/fig02_structure.png": {
+      "bytes": 75988,
+      "sha256": "77ab555b6540aac657ba9c02b24110c4dbe773e4b9baa3aad9ceb663e558cbaa",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/figures/fig02_structure.svg": {
+      "bytes": 13366,
+      "sha256": "695635096398aa2ab3dbf90806511d05d5cd239fe165f15571209991db64d5a0",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/figures/fig03_natural.pdf": {
+      "bytes": 19882,
+      "sha256": "f22b5f04d564ad4cb198ae29eca3e3ea9a479fe47c0dbee17106561e2db22f15",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/figures/fig03_natural.png": {
+      "bytes": 211755,
+      "sha256": "9b5b6cd4f4f3843f60b0a335c5143ddc8181568973db12a8f11bde0e5d6849cd",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/figures/fig03_natural.svg": {
+      "bytes": 48471,
+      "sha256": "8411e9dd1912efb853bb0ab51147ebc78cab31fba99169fcbba8ab7f43ff58c1",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/figures/fig04_synthetic.pdf": {
+      "bytes": 18350,
+      "sha256": "1ae90c8a765f1ccc5d0d833010dc1379fc800bc8960fab31b04c5de66e3b80ae",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/figures/fig04_synthetic.png": {
+      "bytes": 77900,
+      "sha256": "68777072656ccb3b762b5c77014ae228f2e5b5d43c7ec9b31dc8f7a078778c61",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/figures/fig04_synthetic.svg": {
+      "bytes": 50767,
+      "sha256": "254bc315faecf403f7434a0cbde04e844027ac2f49b7f54c0337ca6f85e62d99",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/figures/fig05_mechanism.pdf": {
+      "bytes": 48704,
+      "sha256": "b2023cf563e6cb31c4a056d280c14412c7783baa8ebff1588bfd74938b262a7a",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/figures/fig05_mechanism.png": {
+      "bytes": 156128,
+      "sha256": "ffbb7ae05587da1aaeb01f910cf8d89e3752c3c4c0ff244ab7d38ab1b65051c5",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/figures/fig05_mechanism.svg": {
+      "bytes": 124040,
+      "sha256": "802b7e043ad5a7dedbdade7bcde772ff29b606e2a2cb7945256eb7f0b23b396e",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/figures/fig06_cost.pdf": {
+      "bytes": 27304,
+      "sha256": "cfe0ef511ae3a664e15987e03fa7ab486f564c7f7f3f896d86bc7f57fc40d960",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/figures/fig06_cost.png": {
+      "bytes": 109364,
+      "sha256": "88d7e6b2d60d6f7953047ea4b61a90a5dc62a461757fb3e6652d53a971b36d95",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/figures/fig06_cost.svg": {
+      "bytes": 92559,
+      "sha256": "a27de3ea0f5c28642f40fad7ba8776a51d413ecb14f17efa4d4a60c6428a35c4",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/figures/figure_provenance.json": {
+      "bytes": 6963,
+      "sha256": "88e8d457fec988f1138a1b4c7c39e0fc8a27953fe69b604d72e565ab7812dc75",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/figures/data/fig01_contract.json": {
+      "bytes": 790,
+      "sha256": "53e59e8605d90ec3f0e1fc6e415bf549a7c1efd6ee7b0bb281c77a7b6c0c9200",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/figures/data/fig02_structure.json": {
+      "bytes": 1174,
+      "sha256": "582a1b4b5d4c1ea2c7496380bf6420341777f916606354442df1870e27bd2c66",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/figures/data/fig03_natural.json": {
+      "bytes": 138619,
+      "sha256": "315e74f9d3a161fce0d2d6869ac2e317b1b0d800aadbd4b305b2e60f5d54ebd1",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/figures/data/fig04_synthetic.json": {
+      "bytes": 144397,
+      "sha256": "3bf99d45a06192a149d82cc128e5f2d67bafb83732bf8bd55ce7b676cf3e47ea",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/figures/data/fig05_mechanism.json": {
+      "bytes": 5881,
+      "sha256": "a697a75189051ccd63745661afc1a0293f16d2600a30da64504a8e898ca2cd53",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v5/site/figures/data/fig06_cost.json": {
+      "bytes": 87339,
+      "sha256": "cecfa371d505368b0ba9064c31714c79c3702c292128dd3141db224b1538d31f",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/figures/fig01_contract.pdf": {
+      "bytes": 26029,
+      "sha256": "28a359b3cd042d6748c97f0636bbfab351cfe098f16b9461f6e1df4bf16061e3",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/figures/fig01_contract.png": {
+      "bytes": 103087,
+      "sha256": "ce845cbb864db1ce82a9b1b9bed915e5f0d8e6b86044e22d84ff15f2c8776b9c",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/figures/fig01_contract.svg": {
+      "bytes": 14605,
+      "sha256": "e9b171460418662981dcb9bee244b6029c52dac2a5738abee2ccbcd38ae33006",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/figures/fig02_structure.pdf": {
+      "bytes": 20222,
+      "sha256": "37dc0527f1d8086a1294154288841c4d33846e981f2e1eba0ab6a024c486d505",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/figures/fig02_structure.png": {
+      "bytes": 72862,
+      "sha256": "3e4bb092cbc77c02a9f25e546a74925747a90bff7b4342a1ef9de3c639904a54",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/figures/fig02_structure.svg": {
+      "bytes": 13390,
+      "sha256": "8a6c408409293c34188253039fc987cc5de1bd0f04e719f5941f6f76a5d34a9f",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/figures/fig03_natural.pdf": {
+      "bytes": 23626,
+      "sha256": "6140de931859e7630eb5660325d21e1a3e4f5fa93e59e304d1ada913face62f6",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/figures/fig03_natural.png": {
+      "bytes": 195739,
+      "sha256": "f881c47277c7394762df95fff8c9d8db219321920f5d0149e5ac42df0ec35896",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/figures/fig03_natural.svg": {
+      "bytes": 43646,
+      "sha256": "86e85dcef700f15168f57ac3121b65ec586a757f8f75e4f2d7a5832b411ce983",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/figures/fig04_realized_gap.pdf": {
+      "bytes": 24886,
+      "sha256": "d313b1b29e1a422a243586497205d122790965803987e15fa8b70776348656f1",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/figures/fig04_realized_gap.png": {
+      "bytes": 168465,
+      "sha256": "6c74ebfe7576fd8b6883b97dfb3af249799fe95b47d4b6835cd56c9f728ba838",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/figures/fig04_realized_gap.svg": {
+      "bytes": 93411,
+      "sha256": "a27d01fe7922aad8eb39795464fbdf6a988a0ab4e7c279b085209990aff8733b",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/figures/fig05_synthetic.pdf": {
+      "bytes": 18350,
+      "sha256": "1ae90c8a765f1ccc5d0d833010dc1379fc800bc8960fab31b04c5de66e3b80ae",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/figures/fig05_synthetic.png": {
+      "bytes": 77900,
+      "sha256": "68777072656ccb3b762b5c77014ae228f2e5b5d43c7ec9b31dc8f7a078778c61",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/figures/fig05_synthetic.svg": {
+      "bytes": 50767,
+      "sha256": "9cb37cf4fd03c1b82daf7d5a28d8143698b57b62b9c06dc3bfadaa4cc2be11b2",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/figures/fig06_cost.pdf": {
+      "bytes": 28958,
+      "sha256": "d552307843e1eb5a0b6685261f13fcf34bd9b7d4455957ef2889dc692e5fa640",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/figures/fig06_cost.png": {
+      "bytes": 106487,
+      "sha256": "b7849e07c054ad6371a0282e4dad041ecadd2df3cbcbf2e255fef211f9098f84",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/figures/fig06_cost.svg": {
+      "bytes": 95624,
+      "sha256": "dcfd8e0dd0801642350f3b6971ce71f2db398589a1c1e65c8c4c9abf1e1037dd",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/figures/figure_provenance.json": {
+      "bytes": 6520,
+      "sha256": "5ffd5893b9dff2bd3b3341dbe11e5d814eac389e3f9e74b4f9adb6027ced5c11",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/app.js": {
+      "bytes": 748,
+      "sha256": "907b7b5bfef5accffd7c666cb4994001a1bd254824024b55fc2b13a0f8c8b2fd",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/index.html": {
+      "bytes": 14955,
+      "sha256": "638e08bcf5d194fde359f457785dc697d202bf45ceed52dc0c5a4ad94913b95b",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/site_manifest.json": {
+      "bytes": 4040,
+      "sha256": "3236afb3e68f1f3999cf5de098848ade302c3912234b0f4318561ff7758085a1",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/style.css": {
+      "bytes": 3632,
+      "sha256": "683724502439278b4d4fe0e9b2f16f1cebd3d27f3789666b6f273b092a8a3c22",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/figures/data/fig01_contract.json": {
+      "bytes": 790,
+      "sha256": "53e59e8605d90ec3f0e1fc6e415bf549a7c1efd6ee7b0bb281c77a7b6c0c9200",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/figures/data/fig02_structure.json": {
+      "bytes": 1174,
+      "sha256": "582a1b4b5d4c1ea2c7496380bf6420341777f916606354442df1870e27bd2c66",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/figures/data/fig03_natural.json": {
+      "bytes": 68473,
+      "sha256": "d6cedd18908f3d196ac0cc4fb3a27b577cd09ddc244838786e273196d1364b27",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/figures/data/fig04_realized_gap.json": {
+      "bytes": 363849,
+      "sha256": "22086bd0df18ece00d7c2ac2c0f51b29684de1185268b027947531b724c0f0c3",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/figures/data/fig05_synthetic.json": {
+      "bytes": 144397,
+      "sha256": "3bf99d45a06192a149d82cc128e5f2d67bafb83732bf8bd55ce7b676cf3e47ea",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/figures/data/fig06_cost.json": {
+      "bytes": 39568,
+      "sha256": "b2dbc55e0b80c456b64c6165603e6841df676f116ddb971f92c2e41f39169d03",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/figures/fig01_contract.pdf": {
+      "bytes": 26029,
+      "sha256": "28a359b3cd042d6748c97f0636bbfab351cfe098f16b9461f6e1df4bf16061e3",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/figures/fig01_contract.png": {
+      "bytes": 103087,
+      "sha256": "ce845cbb864db1ce82a9b1b9bed915e5f0d8e6b86044e22d84ff15f2c8776b9c",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/figures/fig01_contract.svg": {
+      "bytes": 14605,
+      "sha256": "e9b171460418662981dcb9bee244b6029c52dac2a5738abee2ccbcd38ae33006",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/figures/fig02_structure.pdf": {
+      "bytes": 20222,
+      "sha256": "37dc0527f1d8086a1294154288841c4d33846e981f2e1eba0ab6a024c486d505",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/figures/fig02_structure.png": {
+      "bytes": 72862,
+      "sha256": "3e4bb092cbc77c02a9f25e546a74925747a90bff7b4342a1ef9de3c639904a54",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/figures/fig02_structure.svg": {
+      "bytes": 13390,
+      "sha256": "8a6c408409293c34188253039fc987cc5de1bd0f04e719f5941f6f76a5d34a9f",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/figures/fig03_natural.pdf": {
+      "bytes": 23626,
+      "sha256": "6140de931859e7630eb5660325d21e1a3e4f5fa93e59e304d1ada913face62f6",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/figures/fig03_natural.png": {
+      "bytes": 195739,
+      "sha256": "f881c47277c7394762df95fff8c9d8db219321920f5d0149e5ac42df0ec35896",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/figures/fig03_natural.svg": {
+      "bytes": 43646,
+      "sha256": "86e85dcef700f15168f57ac3121b65ec586a757f8f75e4f2d7a5832b411ce983",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/figures/fig04_realized_gap.pdf": {
+      "bytes": 24886,
+      "sha256": "d313b1b29e1a422a243586497205d122790965803987e15fa8b70776348656f1",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/figures/fig04_realized_gap.png": {
+      "bytes": 168465,
+      "sha256": "6c74ebfe7576fd8b6883b97dfb3af249799fe95b47d4b6835cd56c9f728ba838",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/figures/fig04_realized_gap.svg": {
+      "bytes": 93411,
+      "sha256": "a27d01fe7922aad8eb39795464fbdf6a988a0ab4e7c279b085209990aff8733b",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/figures/fig05_synthetic.pdf": {
+      "bytes": 18350,
+      "sha256": "1ae90c8a765f1ccc5d0d833010dc1379fc800bc8960fab31b04c5de66e3b80ae",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/figures/fig05_synthetic.png": {
+      "bytes": 77900,
+      "sha256": "68777072656ccb3b762b5c77014ae228f2e5b5d43c7ec9b31dc8f7a078778c61",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/figures/fig05_synthetic.svg": {
+      "bytes": 50767,
+      "sha256": "9cb37cf4fd03c1b82daf7d5a28d8143698b57b62b9c06dc3bfadaa4cc2be11b2",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/figures/fig06_cost.pdf": {
+      "bytes": 28958,
+      "sha256": "d552307843e1eb5a0b6685261f13fcf34bd9b7d4455957ef2889dc692e5fa640",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/figures/fig06_cost.png": {
+      "bytes": 106487,
+      "sha256": "b7849e07c054ad6371a0282e4dad041ecadd2df3cbcbf2e255fef211f9098f84",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/figures/fig06_cost.svg": {
+      "bytes": 95624,
+      "sha256": "dcfd8e0dd0801642350f3b6971ce71f2db398589a1c1e65c8c4c9abf1e1037dd",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/figures/figure_provenance.json": {
+      "bytes": 6520,
+      "sha256": "5ffd5893b9dff2bd3b3341dbe11e5d814eac389e3f9e74b4f9adb6027ced5c11",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/tables/candidate_value_histogram.csv": {
+      "bytes": 260558,
+      "sha256": "035a4479dcaab234042042b6d49e755f34469651cfb27680eb80bf81af7e0eb3",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/tables/evaluation_states.csv": {
+      "bytes": 92487,
+      "sha256": "7e540b5255318e6e926a2c1264f2c899debc5cf9ac6ee2718523ce52ff42d6ce",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/tables/external_endpoints.csv": {
+      "bytes": 3873,
+      "sha256": "8136942b5b143f8071a6e00c1b9ee92e9d1c8777c47a8abe36fd895928a2a180",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/tables/external_status.json": {
+      "bytes": 727,
+      "sha256": "e49c481319da3a206364895faffc13a0c5fdb34c127778df5d315e099a659fbe",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/tables/manifest.json": {
+      "bytes": 1195,
+      "sha256": "ba95b5ef40de2616a9c7e3a16c2feb805a89d658956c37a8bfbd64b30128e9c8",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/tables/summary.json": {
+      "bytes": 6559,
+      "sha256": "156b33a7d6b95422aba83172b65bdfebcfe3db31fe0e87f6e5e77c3953ecce13",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/tables/v5_acquisitions.csv": {
+      "bytes": 65931,
+      "sha256": "35806a97adc0a84aee380a7fc2709b0f48256be6511890bc5ea27db9a7f821af",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/tables/v5_batches.csv": {
+      "bytes": 637162,
+      "sha256": "762a6a5e1c0250e832cbbce8d144acb2cd284f84a79d8071eefca396fa259d23",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/tables/v5_coverage.csv": {
+      "bytes": 1482,
+      "sha256": "09b878828a2ef13276500752b5491a341e87ecc0fb638814399f658d04670531",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/tables/v5_failures.csv": {
+      "bytes": 2891,
+      "sha256": "263e0f7cc96930ec1fbe1e56e5711a1d041b8111786734269c52277b9a1502e2",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/tables/v5_reference_endpoints.csv": {
+      "bytes": 38218,
+      "sha256": "b83a6c49877ff5fa7da875f89c504ebf5e4a0c84f6b0db2a22b400bd1a3cc0a3",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v6/site/tables/visible_states.csv": {
+      "bytes": 83205,
+      "sha256": "985dc6adb5965556f0297a1109aec960f077d307aa79cc65860ae22fdb1a6eb3",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/figures/fig01_contract.pdf": {
+      "bytes": 29665,
+      "sha256": "fa967fe6b142fe392631fe02aede8fb0e9b3391875e43f424385a6187c645933",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/figures/fig01_contract.png": {
+      "bytes": 74649,
+      "sha256": "8922ff0461dd0fc4b639b3485b9a73d1f05f2ace83f6e0ce22467e8facb3e776",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/figures/fig01_contract.svg": {
+      "bytes": 6799,
+      "sha256": "81832d03e8664af9b340b30bae159f06ba2f7223dbf7284dca2154c957cb255f",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/figures/fig02_structure.pdf": {
+      "bytes": 20222,
+      "sha256": "37dc0527f1d8086a1294154288841c4d33846e981f2e1eba0ab6a024c486d505",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/figures/fig02_structure.png": {
+      "bytes": 72862,
+      "sha256": "3e4bb092cbc77c02a9f25e546a74925747a90bff7b4342a1ef9de3c639904a54",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/figures/fig02_structure.svg": {
+      "bytes": 13390,
+      "sha256": "53bd961e09520753103dc46512569c3e0f598a73c7b0e4a1c7cfef417e033fe7",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/figures/fig03_natural.pdf": {
+      "bytes": 16004,
+      "sha256": "076d784264ec78a74f354da277f80c0ab5f56d3c19193853773d1a679b60b550",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/figures/fig03_natural.png": {
+      "bytes": 51276,
+      "sha256": "2af6d18ae05ab96c650826d32e612883fac46c2bdeae38787d8e29f382a7e56f",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/figures/fig03_natural.svg": {
+      "bytes": 17249,
+      "sha256": "a09b4f3fad4a6bd0ee60730366268d295fe8b6160871946e66a054efc1297465",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/figures/fig04_realized_gap.pdf": {
+      "bytes": 21513,
+      "sha256": "21d757364c53a7d5ec3fe735bf9a317b971e6e36d39d451c3c064506f93506a2",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/figures/fig04_realized_gap.png": {
+      "bytes": 81900,
+      "sha256": "f592de989711e7b1074920caa7b8b46693c38b71c447ba4897729fe3626863b6",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/figures/fig04_realized_gap.svg": {
+      "bytes": 53794,
+      "sha256": "406bc3873a35f96a05978e6c8bf7dfc1f543a1f6da5c1157d46fedb08ba74843",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/figures/fig05_known_law.pdf": {
+      "bytes": 16494,
+      "sha256": "6ffa0bf9c4ddac9b9e921f2039147d08689875592fc34337e295f0468ac2ca2b",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/figures/fig05_known_law.png": {
+      "bytes": 90498,
+      "sha256": "2f7012a10ca688a330c4f015b046e9b08bcfa1a053b60dd565303f1e702ed145",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/figures/fig05_known_law.svg": {
+      "bytes": 16278,
+      "sha256": "7c90307add35a45f7af2e093451de3379450f25d7fb046062cad236ef7af54fe",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/figures/fig06_cost.pdf": {
+      "bytes": 16433,
+      "sha256": "3ebd316fc698d9840852bf0ca24b47de6bef8d2761c1067b790853b1e6550730",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/figures/fig06_cost.png": {
+      "bytes": 71854,
+      "sha256": "9d6eeb8cdb16de7d8d0900c8fde2c59b13b9d0b19d98a6c4bd4166733050be3c",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/figures/fig06_cost.svg": {
+      "bytes": 22890,
+      "sha256": "b3108dc5eb1b5662847c6cb418e80e4e197d4e58f9cbe5772bbaf80d9048af77",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/figures/figure_provenance.json": {
+      "bytes": 6637,
+      "sha256": "cb95ce42747e997ebc23201569c95897577fd0ef21b567089f9a79edb82e8cc5",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/app.js": {
+      "bytes": 748,
+      "sha256": "907b7b5bfef5accffd7c666cb4994001a1bd254824024b55fc2b13a0f8c8b2fd",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/index.html": {
+      "bytes": 15705,
+      "sha256": "2a9a4ca5d91bad174ac06a41cff80a6bda8b991920e7535fe7de113211ec754e",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/site_manifest.json": {
+      "bytes": 4584,
+      "sha256": "7324098ba1d73220e3c643015474d372d6be0ca9ba31de9c89fced4de02abbbc",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/style.css": {
+      "bytes": 3632,
+      "sha256": "683724502439278b4d4fe0e9b2f16f1cebd3d27f3789666b6f273b092a8a3c22",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/figures/data/fig01_contract.json": {
+      "bytes": 242,
+      "sha256": "903cf948302c19816fefae10c82c84cedd84216082c1539405872f658f94b2c2",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/figures/data/fig02_structure.json": {
+      "bytes": 1174,
+      "sha256": "582a1b4b5d4c1ea2c7496380bf6420341777f916606354442df1870e27bd2c66",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/figures/data/fig03_natural.json": {
+      "bytes": 68406,
+      "sha256": "e9c241b36d112f7e41e8e7c80c4d4bdc4c2742ebcda37d55f8ab676db8bff48f",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/figures/data/fig04_realized_gap.json": {
+      "bytes": 242023,
+      "sha256": "fedd20a2ea3b51f8ce20590ded16b7024dcf2d25ca6a1514d1ca900ff9a83054",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/figures/data/fig05_known_law.json": {
+      "bytes": 158798,
+      "sha256": "dbd188b59e1ecb2ee7539fd7a8b98efef35a2f7a768a39317d3e4c63a8b3fbbe",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/figures/data/fig06_cost.json": {
+      "bytes": 2472,
+      "sha256": "b5a5375e43fb12cbfed0c8bfc8b051eb6b82a51ed907bd5581287a32bdec2728",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/figures/fig01_contract.pdf": {
+      "bytes": 29665,
+      "sha256": "fa967fe6b142fe392631fe02aede8fb0e9b3391875e43f424385a6187c645933",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/figures/fig01_contract.png": {
+      "bytes": 74649,
+      "sha256": "8922ff0461dd0fc4b639b3485b9a73d1f05f2ace83f6e0ce22467e8facb3e776",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/figures/fig01_contract.svg": {
+      "bytes": 6799,
+      "sha256": "81832d03e8664af9b340b30bae159f06ba2f7223dbf7284dca2154c957cb255f",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/figures/fig02_structure.pdf": {
+      "bytes": 20222,
+      "sha256": "37dc0527f1d8086a1294154288841c4d33846e981f2e1eba0ab6a024c486d505",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/figures/fig02_structure.png": {
+      "bytes": 72862,
+      "sha256": "3e4bb092cbc77c02a9f25e546a74925747a90bff7b4342a1ef9de3c639904a54",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/figures/fig02_structure.svg": {
+      "bytes": 13390,
+      "sha256": "53bd961e09520753103dc46512569c3e0f598a73c7b0e4a1c7cfef417e033fe7",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/figures/fig03_natural.pdf": {
+      "bytes": 16004,
+      "sha256": "076d784264ec78a74f354da277f80c0ab5f56d3c19193853773d1a679b60b550",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/figures/fig03_natural.png": {
+      "bytes": 51276,
+      "sha256": "2af6d18ae05ab96c650826d32e612883fac46c2bdeae38787d8e29f382a7e56f",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/figures/fig03_natural.svg": {
+      "bytes": 17249,
+      "sha256": "a09b4f3fad4a6bd0ee60730366268d295fe8b6160871946e66a054efc1297465",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/figures/fig04_realized_gap.pdf": {
+      "bytes": 21513,
+      "sha256": "21d757364c53a7d5ec3fe735bf9a317b971e6e36d39d451c3c064506f93506a2",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/figures/fig04_realized_gap.png": {
+      "bytes": 81900,
+      "sha256": "f592de989711e7b1074920caa7b8b46693c38b71c447ba4897729fe3626863b6",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/figures/fig04_realized_gap.svg": {
+      "bytes": 53794,
+      "sha256": "406bc3873a35f96a05978e6c8bf7dfc1f543a1f6da5c1157d46fedb08ba74843",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/figures/fig05_known_law.pdf": {
+      "bytes": 16494,
+      "sha256": "6ffa0bf9c4ddac9b9e921f2039147d08689875592fc34337e295f0468ac2ca2b",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/figures/fig05_known_law.png": {
+      "bytes": 90498,
+      "sha256": "2f7012a10ca688a330c4f015b046e9b08bcfa1a053b60dd565303f1e702ed145",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/figures/fig05_known_law.svg": {
+      "bytes": 16278,
+      "sha256": "7c90307add35a45f7af2e093451de3379450f25d7fb046062cad236ef7af54fe",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/figures/fig06_cost.pdf": {
+      "bytes": 16433,
+      "sha256": "3ebd316fc698d9840852bf0ca24b47de6bef8d2761c1067b790853b1e6550730",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/figures/fig06_cost.png": {
+      "bytes": 71854,
+      "sha256": "9d6eeb8cdb16de7d8d0900c8fde2c59b13b9d0b19d98a6c4bd4166733050be3c",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/figures/fig06_cost.svg": {
+      "bytes": 22890,
+      "sha256": "b3108dc5eb1b5662847c6cb418e80e4e197d4e58f9cbe5772bbaf80d9048af77",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/figures/figure_provenance.json": {
+      "bytes": 6637,
+      "sha256": "cb95ce42747e997ebc23201569c95897577fd0ef21b567089f9a79edb82e8cc5",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/tables/candidate_value_histogram.csv": {
+      "bytes": 260558,
+      "sha256": "035a4479dcaab234042042b6d49e755f34469651cfb27680eb80bf81af7e0eb3",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/tables/controls_actions.csv": {
+      "bytes": 27474,
+      "sha256": "59b2c87310a5d3f494d1c3dc041d26b285a4b56f78b96411cc92d87e337e8e22",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/tables/controls_summary.json": {
+      "bytes": 5975,
+      "sha256": "0fc500f983fec91d8a5dd17982f6843808ea6c2e45ce9a16f1dde62d10106afe",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/tables/controls_visible.json": {
+      "bytes": 984126,
+      "sha256": "a0fedbf96d805c3b7dd045c83025d350b019d8b7a9d5f63567aaf8a0f775cd4f",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/tables/controls_worlds.csv": {
+      "bytes": 1993,
+      "sha256": "e63004d02c579acb7dd7be02bac3f072dae8fa1bd8289be5b8bc6f82e79fd675",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/tables/evaluation_states.csv": {
+      "bytes": 92487,
+      "sha256": "7e540b5255318e6e926a2c1264f2c899debc5cf9ac6ee2718523ce52ff42d6ce",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/tables/external_endpoints.csv": {
+      "bytes": 3873,
+      "sha256": "8136942b5b143f8071a6e00c1b9ee92e9d1c8777c47a8abe36fd895928a2a180",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/tables/external_status.json": {
+      "bytes": 727,
+      "sha256": "e49c481319da3a206364895faffc13a0c5fdb34c127778df5d315e099a659fbe",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/tables/manifest.json": {
+      "bytes": 1195,
+      "sha256": "ba95b5ef40de2616a9c7e3a16c2feb805a89d658956c37a8bfbd64b30128e9c8",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/tables/same_pool_states.csv": {
+      "bytes": 45171,
+      "sha256": "44a48f819421ba986879a0be8666abd9762aa39613f772c2cf6a42573fa72171",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/tables/same_pool_summary.json": {
+      "bytes": 1381,
+      "sha256": "aab786d4183dcc3f08ac031be28d7855bf6765ef9c3c81c2e1529e588a8398b5",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/tables/summary.json": {
+      "bytes": 6559,
+      "sha256": "156b33a7d6b95422aba83172b65bdfebcfe3db31fe0e87f6e5e77c3953ecce13",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/tables/v5_acquisitions.csv": {
+      "bytes": 65931,
+      "sha256": "35806a97adc0a84aee380a7fc2709b0f48256be6511890bc5ea27db9a7f821af",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/tables/v5_batches.csv": {
+      "bytes": 637162,
+      "sha256": "762a6a5e1c0250e832cbbce8d144acb2cd284f84a79d8071eefca396fa259d23",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/tables/v5_coverage.csv": {
+      "bytes": 1482,
+      "sha256": "09b878828a2ef13276500752b5491a341e87ecc0fb638814399f658d04670531",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/tables/v5_failures.csv": {
+      "bytes": 2891,
+      "sha256": "263e0f7cc96930ec1fbe1e56e5711a1d041b8111786734269c52277b9a1502e2",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/tables/v5_reference_endpoints.csv": {
+      "bytes": 38218,
+      "sha256": "b83a6c49877ff5fa7da875f89c504ebf5e4a0c84f6b0db2a22b400bd1a3cc0a3",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/tables/v7_manifest.json": {
+      "bytes": 1237,
+      "sha256": "4c5722c27183fcbfc56572826e6f06629f2fd95146f23de5aa9852dabad1ca10",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    },
+    "historical/v7/site/tables/visible_states.csv": {
+      "bytes": 83205,
+      "sha256": "985dc6adb5965556f0297a1109aec960f077d307aa79cc65860ae22fdb1a6eb3",
+      "reason": "Obsolete generated presentation; canonical scientific assets retained"
+    }
+  },
+  "removed_files": 198,
+  "removed_bytes": 21077753,
+  "research_changes": false,
+  "note": "Archive manifests describe original archives, not the cleaned current tree. Scientific files remain unchanged."
+}

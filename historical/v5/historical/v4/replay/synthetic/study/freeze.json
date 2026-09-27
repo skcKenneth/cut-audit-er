@@ -1,0 +1,783 @@
+{
+  "before_formal_synthetic_outcomes": true,
+  "config_path": "configs/review_v4_synthetic.json",
+  "created_utc": "2026-09-26T23:42:24.379009+00:00",
+  "files_sha256": {
+    "configs/review_v4_synthetic.json": "a6ddfa25689bc4a7e1b13bc52de89fef1f056579efe8b2f0c18df88a50672798",
+    "outputs/session_20260927_v4/integration_pre_study_final/command.json": "19cd6ade369f8e0b1b2529e65f30b7af7e7a8c0ba3e8b87ffff2c53974f3b7ac",
+    "outputs/session_20260927_v4/integration_pre_study_final/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "outputs/session_20260927_v4/integration_pre_study_final/stdout.txt": "8b71ef13b5d1c5fee164789f7fc294eeca5f3c91ecbad2f9c8ef50dd24feef22",
+    "research/review_v4/SYNTHETIC_PROTOCOL.md": "a32d2a22ee93053a844620b33e257832bf029df1c53a64981021567a905e1a76",
+    "scripts/conference_improvement/finite_budget.py": "9ce79f4013fca36b1f525edab571c566f33bd6f82f33839568fa2419956bd7d3",
+    "scripts/review_v4/synthetic.py": "bf72b38c0c028c077af530d0af5f806ed1d7fefe69b9c9fd8ce8914d4e68a52e",
+    "scripts/run_logged.py": "7a608c5b208f3d3c544f7c4b0afbbd5d628a8bf786c99f5c22e1cc58b25e1f9b",
+    "scripts/structural_study/assets.py": "e932a8430b5ffc5a7c377c9b5abb113be6eb0096ebee44ba7c227b166f900f5e",
+    "src/cut_audit_er/__init__.py": "87f8bd1fa028c9e61e70afa8050d0e81b09ca639e2eb561a3aa6282e4367135c",
+    "src/cut_audit_er/__main__.py": "cf7390a2508a0fcad4777a4a629fc5212ab655cb45845975995f835676a834e3",
+    "src/cut_audit_er/adapters.py": "b787c14e4b6299a057963cc807527336afb5710a70425822dde264d86795a614",
+    "src/cut_audit_er/audit.py": "4fad0cd349cc0ecfd7eee3fdc8b2ed88ed2db67f47843d7cac6dc457466a976e",
+    "src/cut_audit_er/bounded_planner.py": "f359d225fea1d35cbd2da5705496deb4f61c09cf6c0d53364e04b1c95c628758",
+    "src/cut_audit_er/calibrated_planner.py": "390e9a46245e67de46537c1fe634fd846d5c9838e327874e00887355edc0fa1f",
+    "src/cut_audit_er/cli.py": "860f4195fb24f879c8f2561296c1cb6cc216f648b36cc9b9de74c504aca3bf16",
+    "src/cut_audit_er/completion_calibration.py": "3a24ef55340a29511b33ea1689c5f41d673a75960028b3bebd1d78fa45f67cae",
+    "src/cut_audit_er/cora_adapter.py": "b7426aca0f902307c903f13b7d61d7b3c873622822d7aad010d9138192c1eb9f",
+    "src/cut_audit_er/data.py": "4730c6d9592853ff5a6bf1af81fcce93b873dcda8d1899f647a2260342c52d12",
+    "src/cut_audit_er/experiment.py": "c62f96092bb6ef39985e04771c9c09fc160eaf0a73b3a0f5fe56f017b5d8cc23",
+    "src/cut_audit_er/graph.py": "ce36651b11280f97cc62233f51a6c01444a5dbe3e7917530f2e7e1704db7bafd",
+    "src/cut_audit_er/graphcr_adapter.py": "4bccaeb7c02b444085ae1f92401661e1ee05a68acbca2d6c49fad5dfa163b703",
+    "src/cut_audit_er/graphcr_native_cpu_reimplementation.py": "45acff03dca8231a61139e6258fb8b1140f02bfe96c8465d24fa9e68d71359da",
+    "src/cut_audit_er/guard.py": "0ff3cd8bcb3688a1bd69a25a58316d2d0f6175e0684e120a6063f9d007be64fc",
+    "src/cut_audit_er/matcher.py": "08f9b45d2bf198c6a5e5ec3b8660fb3801814f4d70280ced09e02226adb9e66c",
+    "src/cut_audit_er/metrics.py": "1d6a286d6e1a767cf13dcbdcb84959533d96ddee0c50e888989c1085a32ddb4a",
+    "src/cut_audit_er/natural.py": "86d43cf70379176359c30b3a82a6048a3e47b2dc842b0b0b3e1c35fda04f4dc6",
+    "src/cut_audit_er/offline_structure.py": "8b5601d88061776bce90ff0c8330f0af969835fb61ec1c78f3db1a116248090b",
+    "src/cut_audit_er/oracle.py": "a724bb7973322ad4c707b0f1f8a8eee375bbd815b5cc1a8e2a080ae9e29e7e4c",
+    "src/cut_audit_er/planner_workspace.py": "f9d2c91ee29c041396f7adf972bdffaf7a9a0d7df577265c1758a4fe69162387",
+    "src/cut_audit_er/policies.py": "6418062cdd5cb2cf87584c3daed96b44a9ce2190de0e098d4c5984d0f16c9a2f",
+    "src/cut_audit_er/policy_score_sensitivity.py": "e48843e7f10679493b599f90cd7135c60552defebdcabf45c1d7d4ff391f929a",
+    "src/cut_audit_er/published_adapters.py": "5e9dcf72cc1f04f9ade7f97a165844acd9d50cf66c9236ed6b445f1b4b879f2a",
+    "src/cut_audit_er/reconstruction.py": "2efa2e8e8c2830850db30e915fba3b9a844467807877561d42209f1920a9aecc",
+    "src/cut_audit_er/revision_policies.py": "7efbb3d9a90fae7c46f0e149c3c44ff1d3e3f0dc2134d5cdef69ec02fa5b3a38",
+    "src/cut_audit_er/scores.py": "8afc48c6387b6fdc6f2db37516453d95dbc36a1b5b921feea096225a192268b7",
+    "src/cut_audit_er/synthetic.py": "2926a8e9209901cb5901edff4037e8984e7463818e4970dbf6475afee835e58f",
+    "src/cut_audit_er/telemetry.py": "ef8c1be8c2fd3218baeda1d8045e0b149279b17654494a4dc6967aa6ae8c3080",
+    "tests/test_review_v4_synthetic.py": "c2606a22c1409c894d8398e5537b6a3db88b9de7f07448893bbb12c79f583714"
+  },
+  "formal_test_access": false,
+  "human_approval_claimed": false,
+  "planned_slots": [
+    {
+      "budget": 1,
+      "id": "k1_uniform_edge_betweenness_B1",
+      "k": 1,
+      "method": "edge_betweenness",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 1,
+      "id": "k1_uniform_cut_plan_fixed_B1",
+      "k": 1,
+      "method": "cut_plan_fixed",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 1,
+      "id": "k1_uniform_cut_plan_fixed_singleton_B1",
+      "k": 1,
+      "method": "cut_plan_fixed_singleton",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 1,
+      "id": "k1_ranked_edge_betweenness_B1",
+      "k": 1,
+      "method": "edge_betweenness",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 1,
+      "id": "k1_ranked_cut_plan_fixed_B1",
+      "k": 1,
+      "method": "cut_plan_fixed",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 1,
+      "id": "k1_ranked_cut_plan_fixed_singleton_B1",
+      "k": 1,
+      "method": "cut_plan_fixed_singleton",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 1,
+      "id": "k2_uniform_edge_betweenness_B1",
+      "k": 2,
+      "method": "edge_betweenness",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 1,
+      "id": "k2_uniform_cut_plan_fixed_B1",
+      "k": 2,
+      "method": "cut_plan_fixed",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 1,
+      "id": "k2_uniform_cut_plan_fixed_singleton_B1",
+      "k": 2,
+      "method": "cut_plan_fixed_singleton",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 1,
+      "id": "k2_ranked_edge_betweenness_B1",
+      "k": 2,
+      "method": "edge_betweenness",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 1,
+      "id": "k2_ranked_cut_plan_fixed_B1",
+      "k": 2,
+      "method": "cut_plan_fixed",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 1,
+      "id": "k2_ranked_cut_plan_fixed_singleton_B1",
+      "k": 2,
+      "method": "cut_plan_fixed_singleton",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 1,
+      "id": "k3_uniform_edge_betweenness_B1",
+      "k": 3,
+      "method": "edge_betweenness",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 1,
+      "id": "k3_uniform_cut_plan_fixed_B1",
+      "k": 3,
+      "method": "cut_plan_fixed",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 1,
+      "id": "k3_uniform_cut_plan_fixed_singleton_B1",
+      "k": 3,
+      "method": "cut_plan_fixed_singleton",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 1,
+      "id": "k3_ranked_edge_betweenness_B1",
+      "k": 3,
+      "method": "edge_betweenness",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 1,
+      "id": "k3_ranked_cut_plan_fixed_B1",
+      "k": 3,
+      "method": "cut_plan_fixed",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 1,
+      "id": "k3_ranked_cut_plan_fixed_singleton_B1",
+      "k": 3,
+      "method": "cut_plan_fixed_singleton",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 2,
+      "id": "k1_uniform_edge_betweenness_B2",
+      "k": 1,
+      "method": "edge_betweenness",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 2,
+      "id": "k1_uniform_cut_plan_fixed_B2",
+      "k": 1,
+      "method": "cut_plan_fixed",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 2,
+      "id": "k1_uniform_cut_plan_fixed_singleton_B2",
+      "k": 1,
+      "method": "cut_plan_fixed_singleton",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 2,
+      "id": "k1_ranked_edge_betweenness_B2",
+      "k": 1,
+      "method": "edge_betweenness",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 2,
+      "id": "k1_ranked_cut_plan_fixed_B2",
+      "k": 1,
+      "method": "cut_plan_fixed",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 2,
+      "id": "k1_ranked_cut_plan_fixed_singleton_B2",
+      "k": 1,
+      "method": "cut_plan_fixed_singleton",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 2,
+      "id": "k2_uniform_edge_betweenness_B2",
+      "k": 2,
+      "method": "edge_betweenness",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 2,
+      "id": "k2_uniform_cut_plan_fixed_B2",
+      "k": 2,
+      "method": "cut_plan_fixed",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 2,
+      "id": "k2_uniform_cut_plan_fixed_singleton_B2",
+      "k": 2,
+      "method": "cut_plan_fixed_singleton",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 2,
+      "id": "k2_ranked_edge_betweenness_B2",
+      "k": 2,
+      "method": "edge_betweenness",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 2,
+      "id": "k2_ranked_cut_plan_fixed_B2",
+      "k": 2,
+      "method": "cut_plan_fixed",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 2,
+      "id": "k2_ranked_cut_plan_fixed_singleton_B2",
+      "k": 2,
+      "method": "cut_plan_fixed_singleton",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 2,
+      "id": "k3_uniform_edge_betweenness_B2",
+      "k": 3,
+      "method": "edge_betweenness",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 2,
+      "id": "k3_uniform_cut_plan_fixed_B2",
+      "k": 3,
+      "method": "cut_plan_fixed",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 2,
+      "id": "k3_uniform_cut_plan_fixed_singleton_B2",
+      "k": 3,
+      "method": "cut_plan_fixed_singleton",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 2,
+      "id": "k3_ranked_edge_betweenness_B2",
+      "k": 3,
+      "method": "edge_betweenness",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 2,
+      "id": "k3_ranked_cut_plan_fixed_B2",
+      "k": 3,
+      "method": "cut_plan_fixed",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 2,
+      "id": "k3_ranked_cut_plan_fixed_singleton_B2",
+      "k": 3,
+      "method": "cut_plan_fixed_singleton",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 3,
+      "id": "k1_uniform_edge_betweenness_B3",
+      "k": 1,
+      "method": "edge_betweenness",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 3,
+      "id": "k1_uniform_cut_plan_fixed_B3",
+      "k": 1,
+      "method": "cut_plan_fixed",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 3,
+      "id": "k1_uniform_cut_plan_fixed_singleton_B3",
+      "k": 1,
+      "method": "cut_plan_fixed_singleton",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 3,
+      "id": "k1_ranked_edge_betweenness_B3",
+      "k": 1,
+      "method": "edge_betweenness",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 3,
+      "id": "k1_ranked_cut_plan_fixed_B3",
+      "k": 1,
+      "method": "cut_plan_fixed",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 3,
+      "id": "k1_ranked_cut_plan_fixed_singleton_B3",
+      "k": 1,
+      "method": "cut_plan_fixed_singleton",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 3,
+      "id": "k2_uniform_edge_betweenness_B3",
+      "k": 2,
+      "method": "edge_betweenness",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 3,
+      "id": "k2_uniform_cut_plan_fixed_B3",
+      "k": 2,
+      "method": "cut_plan_fixed",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 3,
+      "id": "k2_uniform_cut_plan_fixed_singleton_B3",
+      "k": 2,
+      "method": "cut_plan_fixed_singleton",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 3,
+      "id": "k2_ranked_edge_betweenness_B3",
+      "k": 2,
+      "method": "edge_betweenness",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 3,
+      "id": "k2_ranked_cut_plan_fixed_B3",
+      "k": 2,
+      "method": "cut_plan_fixed",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 3,
+      "id": "k2_ranked_cut_plan_fixed_singleton_B3",
+      "k": 2,
+      "method": "cut_plan_fixed_singleton",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 3,
+      "id": "k3_uniform_edge_betweenness_B3",
+      "k": 3,
+      "method": "edge_betweenness",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 3,
+      "id": "k3_uniform_cut_plan_fixed_B3",
+      "k": 3,
+      "method": "cut_plan_fixed",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 3,
+      "id": "k3_uniform_cut_plan_fixed_singleton_B3",
+      "k": 3,
+      "method": "cut_plan_fixed_singleton",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 3,
+      "id": "k3_ranked_edge_betweenness_B3",
+      "k": 3,
+      "method": "edge_betweenness",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 3,
+      "id": "k3_ranked_cut_plan_fixed_B3",
+      "k": 3,
+      "method": "cut_plan_fixed",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 3,
+      "id": "k3_ranked_cut_plan_fixed_singleton_B3",
+      "k": 3,
+      "method": "cut_plan_fixed_singleton",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 4,
+      "id": "k1_uniform_edge_betweenness_B4",
+      "k": 1,
+      "method": "edge_betweenness",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 4,
+      "id": "k1_uniform_cut_plan_fixed_B4",
+      "k": 1,
+      "method": "cut_plan_fixed",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 4,
+      "id": "k1_uniform_cut_plan_fixed_singleton_B4",
+      "k": 1,
+      "method": "cut_plan_fixed_singleton",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 4,
+      "id": "k1_ranked_edge_betweenness_B4",
+      "k": 1,
+      "method": "edge_betweenness",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 4,
+      "id": "k1_ranked_cut_plan_fixed_B4",
+      "k": 1,
+      "method": "cut_plan_fixed",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 4,
+      "id": "k1_ranked_cut_plan_fixed_singleton_B4",
+      "k": 1,
+      "method": "cut_plan_fixed_singleton",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 4,
+      "id": "k2_uniform_edge_betweenness_B4",
+      "k": 2,
+      "method": "edge_betweenness",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 4,
+      "id": "k2_uniform_cut_plan_fixed_B4",
+      "k": 2,
+      "method": "cut_plan_fixed",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 4,
+      "id": "k2_uniform_cut_plan_fixed_singleton_B4",
+      "k": 2,
+      "method": "cut_plan_fixed_singleton",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 4,
+      "id": "k2_ranked_edge_betweenness_B4",
+      "k": 2,
+      "method": "edge_betweenness",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 4,
+      "id": "k2_ranked_cut_plan_fixed_B4",
+      "k": 2,
+      "method": "cut_plan_fixed",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 4,
+      "id": "k2_ranked_cut_plan_fixed_singleton_B4",
+      "k": 2,
+      "method": "cut_plan_fixed_singleton",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 4,
+      "id": "k3_uniform_edge_betweenness_B4",
+      "k": 3,
+      "method": "edge_betweenness",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 4,
+      "id": "k3_uniform_cut_plan_fixed_B4",
+      "k": 3,
+      "method": "cut_plan_fixed",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 4,
+      "id": "k3_uniform_cut_plan_fixed_singleton_B4",
+      "k": 3,
+      "method": "cut_plan_fixed_singleton",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 4,
+      "id": "k3_ranked_edge_betweenness_B4",
+      "k": 3,
+      "method": "edge_betweenness",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 4,
+      "id": "k3_ranked_cut_plan_fixed_B4",
+      "k": 3,
+      "method": "cut_plan_fixed",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 4,
+      "id": "k3_ranked_cut_plan_fixed_singleton_B4",
+      "k": 3,
+      "method": "cut_plan_fixed_singleton",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 6,
+      "id": "k1_uniform_edge_betweenness_B6",
+      "k": 1,
+      "method": "edge_betweenness",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 6,
+      "id": "k1_uniform_cut_plan_fixed_B6",
+      "k": 1,
+      "method": "cut_plan_fixed",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 6,
+      "id": "k1_uniform_cut_plan_fixed_singleton_B6",
+      "k": 1,
+      "method": "cut_plan_fixed_singleton",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 6,
+      "id": "k1_ranked_edge_betweenness_B6",
+      "k": 1,
+      "method": "edge_betweenness",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 6,
+      "id": "k1_ranked_cut_plan_fixed_B6",
+      "k": 1,
+      "method": "cut_plan_fixed",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 6,
+      "id": "k1_ranked_cut_plan_fixed_singleton_B6",
+      "k": 1,
+      "method": "cut_plan_fixed_singleton",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 6,
+      "id": "k2_uniform_edge_betweenness_B6",
+      "k": 2,
+      "method": "edge_betweenness",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 6,
+      "id": "k2_uniform_cut_plan_fixed_B6",
+      "k": 2,
+      "method": "cut_plan_fixed",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 6,
+      "id": "k2_uniform_cut_plan_fixed_singleton_B6",
+      "k": 2,
+      "method": "cut_plan_fixed_singleton",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 6,
+      "id": "k2_ranked_edge_betweenness_B6",
+      "k": 2,
+      "method": "edge_betweenness",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 6,
+      "id": "k2_ranked_cut_plan_fixed_B6",
+      "k": 2,
+      "method": "cut_plan_fixed",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 6,
+      "id": "k2_ranked_cut_plan_fixed_singleton_B6",
+      "k": 2,
+      "method": "cut_plan_fixed_singleton",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 6,
+      "id": "k3_uniform_edge_betweenness_B6",
+      "k": 3,
+      "method": "edge_betweenness",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 6,
+      "id": "k3_uniform_cut_plan_fixed_B6",
+      "k": 3,
+      "method": "cut_plan_fixed",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 6,
+      "id": "k3_uniform_cut_plan_fixed_singleton_B6",
+      "k": 3,
+      "method": "cut_plan_fixed_singleton",
+      "score_profile": "uniform",
+      "status": "not_started"
+    },
+    {
+      "budget": 6,
+      "id": "k3_ranked_edge_betweenness_B6",
+      "k": 3,
+      "method": "edge_betweenness",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 6,
+      "id": "k3_ranked_cut_plan_fixed_B6",
+      "k": 3,
+      "method": "cut_plan_fixed",
+      "score_profile": "ranked",
+      "status": "not_started"
+    },
+    {
+      "budget": 6,
+      "id": "k3_ranked_cut_plan_fixed_singleton_B6",
+      "k": 3,
+      "method": "cut_plan_fixed_singleton",
+      "score_profile": "ranked",
+      "status": "not_started"
+    }
+  ],
+  "schema": "cut-audit-review-v4-synthetic-freeze-v1",
+  "snapshot_inputs_sha256": {
+    "inputs/k1_ranked.json": "55e775c6dfc92b0b3d5c74e9bd387124857e043616332edfa96696b5822d292b",
+    "inputs/k1_uniform.json": "be9b1833aa832e28718a7d866d8c2f6c715df05a803d7637970a22a1984564cb",
+    "inputs/k2_ranked.json": "d01d65d2ff232d2c12ac4533b03ba0a4dc74b752662c725fcc3dbb001b239857",
+    "inputs/k2_uniform.json": "265e481614e6e23cba3cc098d32f501974ba60c7e8341d99bc610a68f29d1cc6",
+    "inputs/k3_ranked.json": "cb0daa159da9fa34e89bd77481b97a0804065d9ec0bcefd7f05a1f7d96dcfc73",
+    "inputs/k3_uniform.json": "620195e80ae1d40afd69a1aa15f4ee875378feebee761b7eb5a82f8156b05075",
+    "offline_references/H0.json": "e0661a279f0a9c3066f3422c736943ba5dd5ccb6de882a020d7b57f9b58ca7d2",
+    "offline_references/H9.json": "ba70d0d16b0605678106bd91a7b57ed5897867fcac7b7b08e76fcf770787ec41"
+  },
+  "source_snapshot": "outputs/session_20260927_v4/synthetic/source_snapshot",
+  "validation": "outputs/session_20260927_v4/integration_pre_study_final/command.json"
+}

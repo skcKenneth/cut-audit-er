@@ -1,0 +1,15 @@
+{
+  "reference": "H9",
+  "scope": "Offline reference; never a selector argument",
+  "truth": {
+    "r0": "A",
+    "r1": "A",
+    "r2": "A",
+    "r3": "B",
+    "r4": "B",
+    "r5": "B",
+    "r6": "A",
+    "r7": "A",
+    "r8": "A"
+  }
+}

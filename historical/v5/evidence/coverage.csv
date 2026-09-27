@@ -1,0 +1,17 @@
+phase,dataset,reference,nodes,edges,components,exact_components,skipped_components,initial_fp,initial_fn,covered_fp,headroom,status
+natural,wdc,natural,806,2047,117,97,20,76006,898,13,286,partial_component_diagnosis
+natural,dblp_acm,natural,810,363,452,452,0,15,19,15,0,exact
+natural,dblp_unused,natural,910,413,515,515,0,25,30,25,0,exact
+synthetic,k1_uniform,H0,9,11,1,1,0,27,0,27,0,exact_small_component_opportunity_coverage
+synthetic,k1_uniform,H9,9,11,1,1,0,18,0,18,9,exact_small_component_opportunity_coverage
+synthetic,k1_ranked,H0,9,11,1,1,0,27,0,27,0,exact_small_component_opportunity_coverage
+synthetic,k1_ranked,H9,9,11,1,1,0,18,0,18,9,exact_small_component_opportunity_coverage
+synthetic,k2_uniform,H0,9,13,1,1,0,27,0,27,0,exact_small_component_opportunity_coverage
+synthetic,k2_uniform,H9,9,13,1,1,0,18,0,18,9,exact_small_component_opportunity_coverage
+synthetic,k2_ranked,H0,9,13,1,1,0,27,0,27,0,exact_small_component_opportunity_coverage
+synthetic,k2_ranked,H9,9,13,1,1,0,18,0,18,9,exact_small_component_opportunity_coverage
+synthetic,k3_uniform,H0,9,15,1,1,0,27,0,27,0,exact_small_component_opportunity_coverage
+synthetic,k3_uniform,H9,9,15,1,1,0,18,0,18,9,exact_small_component_opportunity_coverage
+synthetic,k3_ranked,H0,9,15,1,1,0,27,0,27,0,exact_small_component_opportunity_coverage
+synthetic,k3_ranked,H9,9,15,1,1,0,18,0,18,9,exact_small_component_opportunity_coverage
+external,alaska_camera,natural,,,,,,,,,,not_available_qualification_or_gate

@@ -1,0 +1,568 @@
+{
+  "checkpoint_telemetry": {
+    "completed_result_available": false,
+    "confirmed_paid_answers": 2,
+    "decisions": [
+      {
+        "batch": 1,
+        "observed_match": false,
+        "pair": [
+          "r3",
+          "r6"
+        ],
+        "selection_info": {
+          "candidate_actions": 0,
+          "candidate_cap": 64,
+          "candidate_depth_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "candidate_truncated": 0,
+          "capped_candidate_depth_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "centrality_seconds": 0.00039080006536096334,
+          "depth_cap": 2,
+          "fallback": "error_weighted_edge_betweenness",
+          "fallback_trigger": "empty_validated_pool",
+          "flow_call_cap": 16,
+          "flow_calls": 0,
+          "flow_seconds": 6.00004568696022e-07,
+          "nonbond_candidates_rejected": 0,
+          "pending_remainder_retained": false,
+          "pending_transition": "no_previous_plan",
+          "plan_scoring_seconds": 2.00001522898674e-07,
+          "planned_depth": 1,
+          "planned_edges": [
+            [
+              "r3",
+              "r6"
+            ]
+          ],
+          "pool_prerank": "mean_error_weighted_edge_betweenness",
+          "previous_plan_invalidated_by_positive": false,
+          "previous_planned_depth": 0,
+          "raw_candidate_depth_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "raw_candidate_plans": 0,
+          "raw_small_plans": 0,
+          "reason": "centrality_continuation_after_nonpositive_or_empty_pool",
+          "scored_candidate_actions": 0,
+          "scored_candidate_depth_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "seeded_components": 1,
+          "selected_candidate_depth_counts": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "small_pool_seconds": 0.0033803998958319426,
+          "topology_cache": {
+            "bridges_misses": 1,
+            "canonical_misses": 1,
+            "centrality_misses": 1,
+            "component_graph_misses": 1,
+            "component_partition_misses": 1,
+            "original_centrality_misses": 1,
+            "seed_bridges_misses": 15
+          },
+          "validation_and_cap_seconds": 9.00006853044033e-06
+        },
+        "selection_seconds": 0.004015900078229606,
+        "spent": 1
+      },
+      {
+        "batch": 2,
+        "observed_match": false,
+        "pair": [
+          "r5",
+          "r8"
+        ],
+        "selection_info": {
+          "candidate_actions": 0,
+          "candidate_cap": 64,
+          "candidate_depth_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "candidate_truncated": 0,
+          "capped_candidate_depth_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "centrality_seconds": 0.00020530004985630512,
+          "depth_cap": 1,
+          "fallback": "error_weighted_edge_betweenness",
+          "fallback_trigger": "empty_validated_pool",
+          "flow_call_cap": 16,
+          "flow_calls": 0,
+          "flow_seconds": 3.00002284348011e-07,
+          "nonbond_candidates_rejected": 0,
+          "pending_remainder_retained": false,
+          "pending_transition": "no_previous_plan",
+          "plan_scoring_seconds": 2.00001522898674e-07,
+          "planned_depth": 1,
+          "planned_edges": [
+            [
+              "r5",
+              "r8"
+            ]
+          ],
+          "pool_prerank": "mean_error_weighted_edge_betweenness",
+          "previous_plan_invalidated_by_positive": false,
+          "previous_planned_depth": 0,
+          "raw_candidate_depth_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "raw_candidate_plans": 0,
+          "raw_small_plans": 0,
+          "reason": "centrality_continuation_after_nonpositive_or_empty_pool",
+          "scored_candidate_actions": 0,
+          "scored_candidate_depth_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "seeded_components": 0,
+          "selected_candidate_depth_counts": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "small_pool_seconds": 0.0001330999657511711,
+          "topology_cache": {
+            "bridges_misses": 1,
+            "canonical_misses": 1,
+            "centrality_misses": 1,
+            "component_graph_misses": 1,
+            "component_partition_misses": 1,
+            "original_centrality_misses": 1
+          },
+          "validation_and_cap_seconds": 4.300032742321491e-06
+        },
+        "selection_seconds": 0.0005224999040365219,
+        "spent": 2
+      }
+    ],
+    "journal_sha256": "db2d7c5ebdd86447fde4b072b0504356c17b8c9025d88e8530784cb858feb953",
+    "journal_status": "terminal_marker",
+    "last_evaluated_checkpoint": {
+      "b3_f1": 0.5,
+      "b3_precision": 0.3333333333333333,
+      "b3_recall": 1.0,
+      "fn": 0,
+      "fp": 27,
+      "largest_impure_component": 9,
+      "loss": 27.0,
+      "n_components": 1,
+      "n_edges": 13,
+      "n_records": 9,
+      "normalized_loss": 0.75,
+      "pair_f1": 0.4,
+      "precision": 0.25,
+      "recall": 1.0,
+      "spent": 2,
+      "tp": 9
+    },
+    "last_record_sha256": "b371b9a41e6ab82fabcc9726041d2923a80021dbe7ee0ec16c87b3473b3b422f",
+    "paid_count_exact": true,
+    "paid_count_lower_bound": 2,
+    "paid_count_upper_bound": 2,
+    "scope": "Durable observed prefix only. At most one unlogged purchased answer under this sequential fail-fast callback contract; never fill forward partial performance.",
+    "terminal_marker": {
+      "complete": true,
+      "kind": "terminal",
+      "spent": 2,
+      "stop_reason": "budget_exhausted"
+    },
+    "trace": [
+      {
+        "b3_f1": 0.5,
+        "b3_precision": 0.3333333333333333,
+        "b3_recall": 1.0,
+        "fn": 0,
+        "fp": 27,
+        "largest_impure_component": 9,
+        "loss": 27.0,
+        "n_components": 1,
+        "n_edges": 15,
+        "n_records": 9,
+        "normalized_loss": 0.75,
+        "pair_f1": 0.4,
+        "precision": 0.25,
+        "recall": 1.0,
+        "spent": 0,
+        "tp": 9
+      },
+      {
+        "b3_f1": 0.5,
+        "b3_precision": 0.3333333333333333,
+        "b3_recall": 1.0,
+        "fn": 0,
+        "fp": 27,
+        "largest_impure_component": 9,
+        "loss": 27.0,
+        "n_components": 1,
+        "n_edges": 14,
+        "n_records": 9,
+        "normalized_loss": 0.75,
+        "pair_f1": 0.4,
+        "precision": 0.25,
+        "recall": 1.0,
+        "spent": 1,
+        "tp": 9
+      },
+      {
+        "b3_f1": 0.5,
+        "b3_precision": 0.3333333333333333,
+        "b3_recall": 1.0,
+        "fn": 0,
+        "fp": 27,
+        "largest_impure_component": 9,
+        "loss": 27.0,
+        "n_components": 1,
+        "n_edges": 13,
+        "n_records": 9,
+        "normalized_loss": 0.75,
+        "pair_f1": 0.4,
+        "precision": 0.25,
+        "recall": 1.0,
+        "spent": 2,
+        "tp": 9
+      }
+    ],
+    "truncated_tail_bytes": 0,
+    "valid_records": 7
+  },
+  "cleanup_worker_still_alive": false,
+  "deadline_scope": "result wait after synchronous start; start/payload receive may block; cleanup joins bounded to one second each",
+  "identity": {
+    "data_kind": "constructed_synthetic",
+    "freeze_sha256": "b64c88426943ad58c5aa89abe7d22da5ab802cc6b4b0761a772dd299a1b20808",
+    "k": 3,
+    "method": "cut_plan_fixed",
+    "requested_budget": 2,
+    "run_id": "k3_uniform_cut_plan_fixed_B2",
+    "score_profile": "uniform",
+    "visible_sha256": "620195e80ae1d40afd69a1aa15f4ee875378feebee761b7eb5a82f8156b05075"
+  },
+  "observed_wall_exceeded_requested_deadline": false,
+  "requested_result_deadline_seconds": 30.0,
+  "run": {
+    "batch_timings": [
+      {
+        "action_size": 1,
+        "batch": 1,
+        "seconds": 0.004015900078229606
+      },
+      {
+        "action_size": 1,
+        "batch": 2,
+        "seconds": 0.0005224999040365219
+      }
+    ],
+    "complete": true,
+    "decisions": [
+      {
+        "batch": 1,
+        "observed_match": false,
+        "pair": [
+          "r3",
+          "r6"
+        ],
+        "selection_info": {
+          "candidate_actions": 0,
+          "candidate_cap": 64,
+          "candidate_depth_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "candidate_truncated": 0,
+          "capped_candidate_depth_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "centrality_seconds": 0.00039080006536096334,
+          "depth_cap": 2,
+          "fallback": "error_weighted_edge_betweenness",
+          "fallback_trigger": "empty_validated_pool",
+          "flow_call_cap": 16,
+          "flow_calls": 0,
+          "flow_seconds": 6.00004568696022e-07,
+          "nonbond_candidates_rejected": 0,
+          "pending_remainder_retained": false,
+          "pending_transition": "no_previous_plan",
+          "plan_scoring_seconds": 2.00001522898674e-07,
+          "planned_depth": 1,
+          "planned_edges": [
+            [
+              "r3",
+              "r6"
+            ]
+          ],
+          "pool_prerank": "mean_error_weighted_edge_betweenness",
+          "previous_plan_invalidated_by_positive": false,
+          "previous_planned_depth": 0,
+          "raw_candidate_depth_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "raw_candidate_plans": 0,
+          "raw_small_plans": 0,
+          "reason": "centrality_continuation_after_nonpositive_or_empty_pool",
+          "scored_candidate_actions": 0,
+          "scored_candidate_depth_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "seeded_components": 1,
+          "selected_candidate_depth_counts": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "small_pool_seconds": 0.0033803998958319426,
+          "topology_cache": {
+            "bridges_misses": 1,
+            "canonical_misses": 1,
+            "centrality_misses": 1,
+            "component_graph_misses": 1,
+            "component_partition_misses": 1,
+            "original_centrality_misses": 1,
+            "seed_bridges_misses": 15
+          },
+          "validation_and_cap_seconds": 9.00006853044033e-06
+        },
+        "selection_seconds": 0.004015900078229606,
+        "spent": 1
+      },
+      {
+        "batch": 2,
+        "observed_match": false,
+        "pair": [
+          "r5",
+          "r8"
+        ],
+        "selection_info": {
+          "candidate_actions": 0,
+          "candidate_cap": 64,
+          "candidate_depth_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "candidate_truncated": 0,
+          "capped_candidate_depth_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "centrality_seconds": 0.00020530004985630512,
+          "depth_cap": 1,
+          "fallback": "error_weighted_edge_betweenness",
+          "fallback_trigger": "empty_validated_pool",
+          "flow_call_cap": 16,
+          "flow_calls": 0,
+          "flow_seconds": 3.00002284348011e-07,
+          "nonbond_candidates_rejected": 0,
+          "pending_remainder_retained": false,
+          "pending_transition": "no_previous_plan",
+          "plan_scoring_seconds": 2.00001522898674e-07,
+          "planned_depth": 1,
+          "planned_edges": [
+            [
+              "r5",
+              "r8"
+            ]
+          ],
+          "pool_prerank": "mean_error_weighted_edge_betweenness",
+          "previous_plan_invalidated_by_positive": false,
+          "previous_planned_depth": 0,
+          "raw_candidate_depth_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "raw_candidate_plans": 0,
+          "raw_small_plans": 0,
+          "reason": "centrality_continuation_after_nonpositive_or_empty_pool",
+          "scored_candidate_actions": 0,
+          "scored_candidate_depth_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "seeded_components": 0,
+          "selected_candidate_depth_counts": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "small_pool_seconds": 0.0001330999657511711,
+          "topology_cache": {
+            "bridges_misses": 1,
+            "canonical_misses": 1,
+            "centrality_misses": 1,
+            "component_graph_misses": 1,
+            "component_partition_misses": 1,
+            "original_centrality_misses": 1
+          },
+          "validation_and_cap_seconds": 4.300032742321491e-06
+        },
+        "selection_seconds": 0.0005224999040365219,
+        "spent": 2
+      }
+    ],
+    "final": {
+      "b3_f1": 0.5,
+      "b3_precision": 0.3333333333333333,
+      "b3_recall": 1.0,
+      "fn": 0,
+      "fp": 27,
+      "largest_impure_component": 9,
+      "loss": 27.0,
+      "n_components": 1,
+      "n_edges": 13,
+      "n_records": 9,
+      "normalized_loss": 0.75,
+      "pair_f1": 0.4,
+      "precision": 0.25,
+      "recall": 1.0,
+      "spent": 2,
+      "tp": 9
+    },
+    "fn_weight": 1.0,
+    "initial": {
+      "b3_f1": 0.5,
+      "b3_precision": 0.3333333333333333,
+      "b3_recall": 1.0,
+      "fn": 0,
+      "fp": 27,
+      "largest_impure_component": 9,
+      "loss": 27.0,
+      "n_components": 1,
+      "n_edges": 15,
+      "n_records": 9,
+      "normalized_loss": 0.75,
+      "pair_f1": 0.4,
+      "precision": 0.25,
+      "recall": 1.0,
+      "spent": 0,
+      "tp": 9
+    },
+    "loss_reduction": 0.0,
+    "method": "cut_plan_fixed",
+    "noise": 0.0,
+    "requested_budget": 2,
+    "score_accesses": 29,
+    "seconds": 0.007615300011821091,
+    "seed": 7,
+    "selection_seconds": 0.004538399982266128,
+    "spent": 2,
+    "stop_reason": "budget_exhausted",
+    "telemetry_seconds": 0.0024806003784760833,
+    "trace": [
+      {
+        "b3_f1": 0.5,
+        "b3_precision": 0.3333333333333333,
+        "b3_recall": 1.0,
+        "fn": 0,
+        "fp": 27,
+        "largest_impure_component": 9,
+        "loss": 27.0,
+        "n_components": 1,
+        "n_edges": 15,
+        "n_records": 9,
+        "normalized_loss": 0.75,
+        "pair_f1": 0.4,
+        "precision": 0.25,
+        "recall": 1.0,
+        "spent": 0,
+        "tp": 9
+      },
+      {
+        "b3_f1": 0.5,
+        "b3_precision": 0.3333333333333333,
+        "b3_recall": 1.0,
+        "fn": 0,
+        "fp": 27,
+        "largest_impure_component": 9,
+        "loss": 27.0,
+        "n_components": 1,
+        "n_edges": 14,
+        "n_records": 9,
+        "normalized_loss": 0.75,
+        "pair_f1": 0.4,
+        "precision": 0.25,
+        "recall": 1.0,
+        "spent": 1,
+        "tp": 9
+      },
+      {
+        "b3_f1": 0.5,
+        "b3_precision": 0.3333333333333333,
+        "b3_recall": 1.0,
+        "fn": 0,
+        "fp": 27,
+        "largest_impure_component": 9,
+        "loss": 27.0,
+        "n_components": 1,
+        "n_edges": 13,
+        "n_records": 9,
+        "normalized_loss": 0.75,
+        "pair_f1": 0.4,
+        "precision": 0.25,
+        "recall": 1.0,
+        "spent": 2,
+        "tp": 9
+      }
+    ]
+  },
+  "status": "completed",
+  "worker_exit_code": 0,
+  "worker_pid": 17640,
+  "worker_timing": {
+    "cleanup_seconds": 0.25434470002073795,
+    "payload_receive_seconds": 0.0001273000380024314,
+    "process_start_seconds": 0.0708460999885574,
+    "result_wait_seconds": 1.5701110999798402
+  },
+  "worker_wall_seconds": 1.8954440000234172
+}

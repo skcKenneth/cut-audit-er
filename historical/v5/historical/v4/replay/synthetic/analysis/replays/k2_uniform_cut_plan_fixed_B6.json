@@ -1,0 +1,2881 @@
+{
+  "acquisition_paid_answers": 6,
+  "acquisition_sha256": "7fcb6be5a0bf76cdcab82503b1c590f571633a7ad96de350910317f889cfcb49",
+  "batches": [
+    {
+      "batch": 1,
+      "candidates": {
+        "bc_eligible_order": [
+          [
+            "r0",
+            "r3"
+          ],
+          [
+            "r1",
+            "r4"
+          ],
+          [
+            "r3",
+            "r6"
+          ],
+          [
+            "r4",
+            "r7"
+          ],
+          [
+            "r0",
+            "r2"
+          ],
+          [
+            "r1",
+            "r2"
+          ],
+          [
+            "r3",
+            "r5"
+          ],
+          [
+            "r4",
+            "r5"
+          ],
+          [
+            "r6",
+            "r8"
+          ],
+          [
+            "r7",
+            "r8"
+          ],
+          [
+            "r3",
+            "r4"
+          ],
+          [
+            "r6",
+            "r7"
+          ],
+          [
+            "r0",
+            "r1"
+          ]
+        ],
+        "capped_order": [
+          [
+            [
+              "r0",
+              "r3"
+            ],
+            [
+              "r1",
+              "r4"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r6"
+            ],
+            [
+              "r4",
+              "r7"
+            ]
+          ],
+          [
+            [
+              "r1",
+              "r4"
+            ],
+            [
+              "r3",
+              "r4"
+            ],
+            [
+              "r4",
+              "r5"
+            ],
+            [
+              "r4",
+              "r7"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r1"
+            ],
+            [
+              "r1",
+              "r2"
+            ],
+            [
+              "r1",
+              "r4"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r2"
+            ],
+            [
+              "r1",
+              "r2"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r5"
+            ],
+            [
+              "r4",
+              "r5"
+            ]
+          ],
+          [
+            [
+              "r6",
+              "r8"
+            ],
+            [
+              "r7",
+              "r8"
+            ]
+          ]
+        ],
+        "depth_cap": 4,
+        "diagnostic_score_accesses": 106,
+        "generated_lexicographic": [
+          [
+            [
+              "r0",
+              "r1"
+            ],
+            [
+              "r1",
+              "r2"
+            ],
+            [
+              "r1",
+              "r4"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r2"
+            ],
+            [
+              "r1",
+              "r2"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r3"
+            ],
+            [
+              "r1",
+              "r4"
+            ]
+          ],
+          [
+            [
+              "r1",
+              "r4"
+            ],
+            [
+              "r3",
+              "r4"
+            ],
+            [
+              "r4",
+              "r5"
+            ],
+            [
+              "r4",
+              "r7"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r5"
+            ],
+            [
+              "r4",
+              "r5"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r6"
+            ],
+            [
+              "r4",
+              "r7"
+            ]
+          ],
+          [
+            [
+              "r6",
+              "r8"
+            ],
+            [
+              "r7",
+              "r8"
+            ]
+          ]
+        ],
+        "pool_scope": "method_common_pool",
+        "prerank_order": [
+          [
+            [
+              "r0",
+              "r3"
+            ],
+            [
+              "r1",
+              "r4"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r6"
+            ],
+            [
+              "r4",
+              "r7"
+            ]
+          ],
+          [
+            [
+              "r1",
+              "r4"
+            ],
+            [
+              "r3",
+              "r4"
+            ],
+            [
+              "r4",
+              "r5"
+            ],
+            [
+              "r4",
+              "r7"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r1"
+            ],
+            [
+              "r1",
+              "r2"
+            ],
+            [
+              "r1",
+              "r4"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r2"
+            ],
+            [
+              "r1",
+              "r2"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r5"
+            ],
+            [
+              "r4",
+              "r5"
+            ]
+          ],
+          [
+            [
+              "r6",
+              "r8"
+            ],
+            [
+              "r7",
+              "r8"
+            ]
+          ]
+        ],
+        "scored_order": [
+          [
+            [
+              "r0",
+              "r3"
+            ],
+            [
+              "r1",
+              "r4"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r6"
+            ],
+            [
+              "r4",
+              "r7"
+            ]
+          ],
+          [
+            [
+              "r1",
+              "r4"
+            ],
+            [
+              "r3",
+              "r4"
+            ],
+            [
+              "r4",
+              "r5"
+            ],
+            [
+              "r4",
+              "r7"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r1"
+            ],
+            [
+              "r1",
+              "r2"
+            ],
+            [
+              "r1",
+              "r4"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r2"
+            ],
+            [
+              "r1",
+              "r2"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r5"
+            ],
+            [
+              "r4",
+              "r5"
+            ]
+          ],
+          [
+            [
+              "r6",
+              "r8"
+            ],
+            [
+              "r7",
+              "r8"
+            ]
+          ]
+        ],
+        "utility_rank_order": [
+          {
+            "edges": [
+              [
+                "r0",
+                "r3"
+              ],
+              [
+                "r1",
+                "r4"
+              ]
+            ],
+            "proxy": 0.6660000000000003,
+            "success_product": 0.09000000000000002,
+            "utility": 14.8
+          },
+          {
+            "edges": [
+              [
+                "r3",
+                "r6"
+              ],
+              [
+                "r4",
+                "r7"
+              ]
+            ],
+            "proxy": 0.6660000000000003,
+            "success_product": 0.09000000000000002,
+            "utility": 14.8
+          },
+          {
+            "edges": [
+              [
+                "r0",
+                "r2"
+              ],
+              [
+                "r1",
+                "r2"
+              ]
+            ],
+            "proxy": 0.008500000000000014,
+            "success_product": 0.0025000000000000044,
+            "utility": 6.8
+          },
+          {
+            "edges": [
+              [
+                "r3",
+                "r5"
+              ],
+              [
+                "r4",
+                "r5"
+              ]
+            ],
+            "proxy": 0.008500000000000014,
+            "success_product": 0.0025000000000000044,
+            "utility": 6.8
+          },
+          {
+            "edges": [
+              [
+                "r6",
+                "r8"
+              ],
+              [
+                "r7",
+                "r8"
+              ]
+            ],
+            "proxy": 0.008500000000000014,
+            "success_product": 0.0025000000000000044,
+            "utility": 6.8
+          },
+          {
+            "edges": [
+              [
+                "r0",
+                "r1"
+              ],
+              [
+                "r1",
+                "r2"
+              ],
+              [
+                "r1",
+                "r4"
+              ]
+            ],
+            "proxy": 0.0017500000000000035,
+            "success_product": 0.0007500000000000014,
+            "utility": 7.000000000000001
+          },
+          {
+            "edges": [
+              [
+                "r1",
+                "r4"
+              ],
+              [
+                "r3",
+                "r4"
+              ],
+              [
+                "r4",
+                "r5"
+              ],
+              [
+                "r4",
+                "r7"
+              ]
+            ],
+            "proxy": 0.00040500000000000085,
+            "success_product": 0.00022500000000000045,
+            "utility": 7.2
+          }
+        ],
+        "validated_order": [
+          [
+            [
+              "r0",
+              "r3"
+            ],
+            [
+              "r1",
+              "r4"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r6"
+            ],
+            [
+              "r4",
+              "r7"
+            ]
+          ],
+          [
+            [
+              "r1",
+              "r4"
+            ],
+            [
+              "r3",
+              "r4"
+            ],
+            [
+              "r4",
+              "r5"
+            ],
+            [
+              "r4",
+              "r7"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r1"
+            ],
+            [
+              "r1",
+              "r2"
+            ],
+            [
+              "r1",
+              "r4"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r2"
+            ],
+            [
+              "r1",
+              "r2"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r5"
+            ],
+            [
+              "r4",
+              "r5"
+            ]
+          ],
+          [
+            [
+              "r6",
+              "r8"
+            ],
+            [
+              "r7",
+              "r8"
+            ]
+          ]
+        ]
+      },
+      "logical_accesses_cumulative": 106,
+      "new_oracle_answers": 0,
+      "offline_opportunities": {
+        "H0": [
+          {
+            "depth": 2,
+            "edges": [
+              [
+                "r0",
+                "r3"
+              ],
+              [
+                "r1",
+                "r4"
+              ]
+            ],
+            "fn_added": 0,
+            "fp_removed": 18,
+            "loss_gain": 18
+          },
+          {
+            "depth": 2,
+            "edges": [
+              [
+                "r3",
+                "r6"
+              ],
+              [
+                "r4",
+                "r7"
+              ]
+            ],
+            "fn_added": 0,
+            "fp_removed": 18,
+            "loss_gain": 18
+          }
+        ],
+        "H9": [
+          {
+            "depth": 2,
+            "edges": [
+              [
+                "r0",
+                "r3"
+              ],
+              [
+                "r1",
+                "r4"
+              ]
+            ],
+            "fn_added": 9,
+            "fp_removed": 9,
+            "loss_gain": 0
+          },
+          {
+            "depth": 2,
+            "edges": [
+              [
+                "r3",
+                "r6"
+              ],
+              [
+                "r4",
+                "r7"
+              ]
+            ],
+            "fn_added": 9,
+            "fp_removed": 9,
+            "loss_gain": 0
+          }
+        ]
+      },
+      "remaining": 6,
+      "selected_action": [
+        [
+          "r0",
+          "r3"
+        ],
+        [
+          "r1",
+          "r4"
+        ]
+      ],
+      "selection_info": {
+        "candidate_actions": 7,
+        "candidate_cap": 64,
+        "candidate_depth_counts": {
+          "1": 0,
+          "2": 5,
+          "3": 1,
+          "4": 1
+        },
+        "candidate_truncated": 0,
+        "capped_candidate_depth_counts": {
+          "1": 0,
+          "2": 5,
+          "3": 1,
+          "4": 1
+        },
+        "centrality_seconds": 0.0003342999843880534,
+        "completion_utility_proxy": 14.8,
+        "depth_cap": 4,
+        "endpoint_aware": true,
+        "expected_fixed_plan_abort_cost": 1.3,
+        "factorized_all_negative_probability": 0.09000000000000002,
+        "flow_call_cap": 16,
+        "flow_calls": 10,
+        "flow_seconds": 0.002410899964161217,
+        "nonbond_candidates_rejected": 0,
+        "pending_remainder_retained": false,
+        "pending_transition": "no_previous_plan",
+        "plan_scoring_seconds": 0.00018319999799132347,
+        "planned_depth": 2,
+        "planned_edges": [
+          [
+            "r0",
+            "r3"
+          ],
+          [
+            "r1",
+            "r4"
+          ]
+        ],
+        "pool_prerank": "mean_error_weighted_edge_betweenness",
+        "previous_plan_invalidated_by_positive": false,
+        "previous_planned_depth": 0,
+        "raw_candidate_depth_counts": {
+          "1": 0,
+          "2": 5,
+          "3": 1,
+          "4": 1
+        },
+        "raw_candidate_plans": 7,
+        "raw_small_plans": 5,
+        "replan_after_each_answer": false,
+        "score_denominator": "full_plan_pair_count_in_both_fixed_and_adaptive",
+        "scored_candidate_actions": 7,
+        "scored_candidate_depth_counts": {
+          "1": 0,
+          "2": 5,
+          "3": 1,
+          "4": 1
+        },
+        "seeded_components": 1,
+        "selected_candidate_depth_counts": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 0
+        },
+        "selected_proxy_score": 0.6660000000000003,
+        "small_pool_seconds": 0.002352000097744167,
+        "topology_cache": {
+          "bonds_misses": 7,
+          "bridges_misses": 1,
+          "canonical_misses": 1,
+          "centrality_misses": 1,
+          "component_graph_misses": 1,
+          "component_partition_misses": 1,
+          "seed_bridges_misses": 13
+        },
+        "validation_and_cap_seconds": 0.00047940004151314497
+      },
+      "spent_before": 0
+    },
+    {
+      "batch": 2,
+      "candidates": {
+        "bc_eligible_order": [
+          [
+            "r3",
+            "r6"
+          ],
+          [
+            "r4",
+            "r7"
+          ],
+          [
+            "r3",
+            "r5"
+          ],
+          [
+            "r4",
+            "r5"
+          ],
+          [
+            "r6",
+            "r8"
+          ],
+          [
+            "r7",
+            "r8"
+          ],
+          [
+            "r3",
+            "r4"
+          ],
+          [
+            "r6",
+            "r7"
+          ],
+          [
+            "r0",
+            "r1"
+          ],
+          [
+            "r0",
+            "r2"
+          ],
+          [
+            "r1",
+            "r2"
+          ]
+        ],
+        "capped_order": [
+          [
+            [
+              "r3",
+              "r6"
+            ],
+            [
+              "r4",
+              "r7"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r4"
+            ],
+            [
+              "r4",
+              "r5"
+            ],
+            [
+              "r4",
+              "r7"
+            ]
+          ],
+          [
+            [
+              "r4",
+              "r7"
+            ],
+            [
+              "r6",
+              "r7"
+            ],
+            [
+              "r7",
+              "r8"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r5"
+            ],
+            [
+              "r4",
+              "r5"
+            ]
+          ],
+          [
+            [
+              "r6",
+              "r8"
+            ],
+            [
+              "r7",
+              "r8"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r1"
+            ],
+            [
+              "r0",
+              "r2"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r1"
+            ],
+            [
+              "r1",
+              "r2"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r2"
+            ],
+            [
+              "r1",
+              "r2"
+            ]
+          ]
+        ],
+        "depth_cap": 4,
+        "diagnostic_score_accesses": 64,
+        "generated_lexicographic": [
+          [
+            [
+              "r0",
+              "r1"
+            ],
+            [
+              "r0",
+              "r2"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r1"
+            ],
+            [
+              "r1",
+              "r2"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r2"
+            ],
+            [
+              "r1",
+              "r2"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r4"
+            ],
+            [
+              "r4",
+              "r5"
+            ],
+            [
+              "r4",
+              "r7"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r5"
+            ],
+            [
+              "r4",
+              "r5"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r6"
+            ],
+            [
+              "r4",
+              "r7"
+            ]
+          ],
+          [
+            [
+              "r4",
+              "r7"
+            ],
+            [
+              "r6",
+              "r7"
+            ],
+            [
+              "r7",
+              "r8"
+            ]
+          ],
+          [
+            [
+              "r6",
+              "r8"
+            ],
+            [
+              "r7",
+              "r8"
+            ]
+          ]
+        ],
+        "pool_scope": "method_common_pool",
+        "prerank_order": [
+          [
+            [
+              "r3",
+              "r6"
+            ],
+            [
+              "r4",
+              "r7"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r4"
+            ],
+            [
+              "r4",
+              "r5"
+            ],
+            [
+              "r4",
+              "r7"
+            ]
+          ],
+          [
+            [
+              "r4",
+              "r7"
+            ],
+            [
+              "r6",
+              "r7"
+            ],
+            [
+              "r7",
+              "r8"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r5"
+            ],
+            [
+              "r4",
+              "r5"
+            ]
+          ],
+          [
+            [
+              "r6",
+              "r8"
+            ],
+            [
+              "r7",
+              "r8"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r1"
+            ],
+            [
+              "r0",
+              "r2"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r1"
+            ],
+            [
+              "r1",
+              "r2"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r2"
+            ],
+            [
+              "r1",
+              "r2"
+            ]
+          ]
+        ],
+        "scored_order": [
+          [
+            [
+              "r3",
+              "r6"
+            ],
+            [
+              "r4",
+              "r7"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r4"
+            ],
+            [
+              "r4",
+              "r5"
+            ],
+            [
+              "r4",
+              "r7"
+            ]
+          ],
+          [
+            [
+              "r4",
+              "r7"
+            ],
+            [
+              "r6",
+              "r7"
+            ],
+            [
+              "r7",
+              "r8"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r5"
+            ],
+            [
+              "r4",
+              "r5"
+            ]
+          ],
+          [
+            [
+              "r6",
+              "r8"
+            ],
+            [
+              "r7",
+              "r8"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r1"
+            ],
+            [
+              "r0",
+              "r2"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r1"
+            ],
+            [
+              "r1",
+              "r2"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r2"
+            ],
+            [
+              "r1",
+              "r2"
+            ]
+          ]
+        ],
+        "utility_rank_order": [
+          {
+            "edges": [
+              [
+                "r3",
+                "r6"
+              ],
+              [
+                "r4",
+                "r7"
+              ]
+            ],
+            "proxy": 0.3420000000000001,
+            "success_product": 0.09000000000000002,
+            "utility": 7.6
+          },
+          {
+            "edges": [
+              [
+                "r3",
+                "r5"
+              ],
+              [
+                "r4",
+                "r5"
+              ]
+            ],
+            "proxy": 0.005500000000000009,
+            "success_product": 0.0025000000000000044,
+            "utility": 4.3999999999999995
+          },
+          {
+            "edges": [
+              [
+                "r6",
+                "r8"
+              ],
+              [
+                "r7",
+                "r8"
+              ]
+            ],
+            "proxy": 0.005500000000000009,
+            "success_product": 0.0025000000000000044,
+            "utility": 4.3999999999999995
+          },
+          {
+            "edges": [
+              [
+                "r0",
+                "r1"
+              ],
+              [
+                "r0",
+                "r2"
+              ]
+            ],
+            "proxy": 0.0025000000000000044,
+            "success_product": 0.0025000000000000044,
+            "utility": 2.0
+          },
+          {
+            "edges": [
+              [
+                "r0",
+                "r1"
+              ],
+              [
+                "r1",
+                "r2"
+              ]
+            ],
+            "proxy": 0.0025000000000000044,
+            "success_product": 0.0025000000000000044,
+            "utility": 2.0
+          },
+          {
+            "edges": [
+              [
+                "r0",
+                "r2"
+              ],
+              [
+                "r1",
+                "r2"
+              ]
+            ],
+            "proxy": 0.0025000000000000044,
+            "success_product": 0.0025000000000000044,
+            "utility": 2.0
+          },
+          {
+            "edges": [
+              [
+                "r4",
+                "r7"
+              ],
+              [
+                "r6",
+                "r7"
+              ],
+              [
+                "r7",
+                "r8"
+              ]
+            ],
+            "proxy": 0.0011500000000000024,
+            "success_product": 0.0007500000000000014,
+            "utility": 4.6000000000000005
+          },
+          {
+            "edges": [
+              [
+                "r3",
+                "r4"
+              ],
+              [
+                "r4",
+                "r5"
+              ],
+              [
+                "r4",
+                "r7"
+              ]
+            ],
+            "proxy": 0.0011500000000000021,
+            "success_product": 0.0007500000000000014,
+            "utility": 4.6
+          }
+        ],
+        "validated_order": [
+          [
+            [
+              "r3",
+              "r6"
+            ],
+            [
+              "r4",
+              "r7"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r4"
+            ],
+            [
+              "r4",
+              "r5"
+            ],
+            [
+              "r4",
+              "r7"
+            ]
+          ],
+          [
+            [
+              "r4",
+              "r7"
+            ],
+            [
+              "r6",
+              "r7"
+            ],
+            [
+              "r7",
+              "r8"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r5"
+            ],
+            [
+              "r4",
+              "r5"
+            ]
+          ],
+          [
+            [
+              "r6",
+              "r8"
+            ],
+            [
+              "r7",
+              "r8"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r1"
+            ],
+            [
+              "r0",
+              "r2"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r1"
+            ],
+            [
+              "r1",
+              "r2"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r2"
+            ],
+            [
+              "r1",
+              "r2"
+            ]
+          ]
+        ]
+      },
+      "logical_accesses_cumulative": 170,
+      "new_oracle_answers": 0,
+      "offline_opportunities": {
+        "H0": [
+          {
+            "depth": 2,
+            "edges": [
+              [
+                "r3",
+                "r6"
+              ],
+              [
+                "r4",
+                "r7"
+              ]
+            ],
+            "fn_added": 0,
+            "fp_removed": 9,
+            "loss_gain": 9
+          }
+        ],
+        "H9": [
+          {
+            "depth": 2,
+            "edges": [
+              [
+                "r3",
+                "r6"
+              ],
+              [
+                "r4",
+                "r7"
+              ]
+            ],
+            "fn_added": 0,
+            "fp_removed": 9,
+            "loss_gain": 9
+          }
+        ]
+      },
+      "remaining": 4,
+      "selected_action": [
+        [
+          "r3",
+          "r6"
+        ],
+        [
+          "r4",
+          "r7"
+        ]
+      ],
+      "selection_info": {
+        "candidate_actions": 8,
+        "candidate_cap": 64,
+        "candidate_depth_counts": {
+          "1": 0,
+          "2": 6,
+          "3": 2,
+          "4": 0
+        },
+        "candidate_truncated": 0,
+        "capped_candidate_depth_counts": {
+          "1": 0,
+          "2": 6,
+          "3": 2,
+          "4": 0
+        },
+        "centrality_seconds": 0.00023410003632307053,
+        "completion_utility_proxy": 7.6,
+        "depth_cap": 4,
+        "endpoint_aware": true,
+        "expected_fixed_plan_abort_cost": 1.3,
+        "factorized_all_negative_probability": 0.09000000000000002,
+        "flow_call_cap": 16,
+        "flow_calls": 11,
+        "flow_seconds": 0.0016513000009581447,
+        "nonbond_candidates_rejected": 0,
+        "pending_remainder_retained": false,
+        "pending_transition": "no_previous_plan",
+        "plan_scoring_seconds": 0.00014070002362132072,
+        "planned_depth": 2,
+        "planned_edges": [
+          [
+            "r3",
+            "r6"
+          ],
+          [
+            "r4",
+            "r7"
+          ]
+        ],
+        "pool_prerank": "mean_error_weighted_edge_betweenness",
+        "previous_plan_invalidated_by_positive": false,
+        "previous_planned_depth": 0,
+        "raw_candidate_depth_counts": {
+          "1": 0,
+          "2": 6,
+          "3": 2,
+          "4": 0
+        },
+        "raw_candidate_plans": 8,
+        "raw_small_plans": 6,
+        "replan_after_each_answer": false,
+        "score_denominator": "full_plan_pair_count_in_both_fixed_and_adaptive",
+        "scored_candidate_actions": 8,
+        "scored_candidate_depth_counts": {
+          "1": 0,
+          "2": 6,
+          "3": 2,
+          "4": 0
+        },
+        "seeded_components": 2,
+        "selected_candidate_depth_counts": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 0
+        },
+        "selected_proxy_score": 0.3420000000000001,
+        "small_pool_seconds": 0.001500300015322864,
+        "topology_cache": {
+          "bonds_misses": 8,
+          "bridges_misses": 1,
+          "canonical_misses": 1,
+          "centrality_misses": 1,
+          "component_graph_misses": 2,
+          "component_partition_misses": 1,
+          "seed_bridges_misses": 11
+        },
+        "validation_and_cap_seconds": 0.0003491999814286828
+      },
+      "spent_before": 2
+    },
+    {
+      "batch": 3,
+      "candidates": {
+        "bc_eligible_order": [
+          [
+            "r0",
+            "r1"
+          ],
+          [
+            "r0",
+            "r2"
+          ],
+          [
+            "r1",
+            "r2"
+          ],
+          [
+            "r3",
+            "r4"
+          ],
+          [
+            "r3",
+            "r5"
+          ],
+          [
+            "r4",
+            "r5"
+          ],
+          [
+            "r6",
+            "r7"
+          ],
+          [
+            "r6",
+            "r8"
+          ],
+          [
+            "r7",
+            "r8"
+          ]
+        ],
+        "capped_order": [
+          [
+            [
+              "r0",
+              "r1"
+            ],
+            [
+              "r0",
+              "r2"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r1"
+            ],
+            [
+              "r1",
+              "r2"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r2"
+            ],
+            [
+              "r1",
+              "r2"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r4"
+            ],
+            [
+              "r3",
+              "r5"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r4"
+            ],
+            [
+              "r4",
+              "r5"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r5"
+            ],
+            [
+              "r4",
+              "r5"
+            ]
+          ],
+          [
+            [
+              "r6",
+              "r7"
+            ],
+            [
+              "r6",
+              "r8"
+            ]
+          ],
+          [
+            [
+              "r6",
+              "r7"
+            ],
+            [
+              "r7",
+              "r8"
+            ]
+          ],
+          [
+            [
+              "r6",
+              "r8"
+            ],
+            [
+              "r7",
+              "r8"
+            ]
+          ]
+        ],
+        "depth_cap": 2,
+        "diagnostic_score_accesses": 45,
+        "generated_lexicographic": [
+          [
+            [
+              "r0",
+              "r1"
+            ],
+            [
+              "r0",
+              "r2"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r1"
+            ],
+            [
+              "r1",
+              "r2"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r2"
+            ],
+            [
+              "r1",
+              "r2"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r4"
+            ],
+            [
+              "r3",
+              "r5"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r4"
+            ],
+            [
+              "r4",
+              "r5"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r5"
+            ],
+            [
+              "r4",
+              "r5"
+            ]
+          ],
+          [
+            [
+              "r6",
+              "r7"
+            ],
+            [
+              "r6",
+              "r8"
+            ]
+          ],
+          [
+            [
+              "r6",
+              "r7"
+            ],
+            [
+              "r7",
+              "r8"
+            ]
+          ],
+          [
+            [
+              "r6",
+              "r8"
+            ],
+            [
+              "r7",
+              "r8"
+            ]
+          ]
+        ],
+        "pool_scope": "method_common_pool",
+        "prerank_order": [
+          [
+            [
+              "r0",
+              "r1"
+            ],
+            [
+              "r0",
+              "r2"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r1"
+            ],
+            [
+              "r1",
+              "r2"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r2"
+            ],
+            [
+              "r1",
+              "r2"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r4"
+            ],
+            [
+              "r3",
+              "r5"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r4"
+            ],
+            [
+              "r4",
+              "r5"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r5"
+            ],
+            [
+              "r4",
+              "r5"
+            ]
+          ],
+          [
+            [
+              "r6",
+              "r7"
+            ],
+            [
+              "r6",
+              "r8"
+            ]
+          ],
+          [
+            [
+              "r6",
+              "r7"
+            ],
+            [
+              "r7",
+              "r8"
+            ]
+          ],
+          [
+            [
+              "r6",
+              "r8"
+            ],
+            [
+              "r7",
+              "r8"
+            ]
+          ]
+        ],
+        "scored_order": [
+          [
+            [
+              "r0",
+              "r1"
+            ],
+            [
+              "r0",
+              "r2"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r1"
+            ],
+            [
+              "r1",
+              "r2"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r2"
+            ],
+            [
+              "r1",
+              "r2"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r4"
+            ],
+            [
+              "r3",
+              "r5"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r4"
+            ],
+            [
+              "r4",
+              "r5"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r5"
+            ],
+            [
+              "r4",
+              "r5"
+            ]
+          ],
+          [
+            [
+              "r6",
+              "r7"
+            ],
+            [
+              "r6",
+              "r8"
+            ]
+          ],
+          [
+            [
+              "r6",
+              "r7"
+            ],
+            [
+              "r7",
+              "r8"
+            ]
+          ],
+          [
+            [
+              "r6",
+              "r8"
+            ],
+            [
+              "r7",
+              "r8"
+            ]
+          ]
+        ],
+        "utility_rank_order": [
+          {
+            "edges": [
+              [
+                "r0",
+                "r1"
+              ],
+              [
+                "r0",
+                "r2"
+              ]
+            ],
+            "proxy": 0.0025000000000000044,
+            "success_product": 0.0025000000000000044,
+            "utility": 2.0
+          },
+          {
+            "edges": [
+              [
+                "r0",
+                "r1"
+              ],
+              [
+                "r1",
+                "r2"
+              ]
+            ],
+            "proxy": 0.0025000000000000044,
+            "success_product": 0.0025000000000000044,
+            "utility": 2.0
+          },
+          {
+            "edges": [
+              [
+                "r0",
+                "r2"
+              ],
+              [
+                "r1",
+                "r2"
+              ]
+            ],
+            "proxy": 0.0025000000000000044,
+            "success_product": 0.0025000000000000044,
+            "utility": 2.0
+          },
+          {
+            "edges": [
+              [
+                "r3",
+                "r4"
+              ],
+              [
+                "r3",
+                "r5"
+              ]
+            ],
+            "proxy": 0.0025000000000000044,
+            "success_product": 0.0025000000000000044,
+            "utility": 2.0
+          },
+          {
+            "edges": [
+              [
+                "r3",
+                "r4"
+              ],
+              [
+                "r4",
+                "r5"
+              ]
+            ],
+            "proxy": 0.0025000000000000044,
+            "success_product": 0.0025000000000000044,
+            "utility": 2.0
+          },
+          {
+            "edges": [
+              [
+                "r3",
+                "r5"
+              ],
+              [
+                "r4",
+                "r5"
+              ]
+            ],
+            "proxy": 0.0025000000000000044,
+            "success_product": 0.0025000000000000044,
+            "utility": 2.0
+          },
+          {
+            "edges": [
+              [
+                "r6",
+                "r7"
+              ],
+              [
+                "r6",
+                "r8"
+              ]
+            ],
+            "proxy": 0.0025000000000000044,
+            "success_product": 0.0025000000000000044,
+            "utility": 2.0
+          },
+          {
+            "edges": [
+              [
+                "r6",
+                "r7"
+              ],
+              [
+                "r7",
+                "r8"
+              ]
+            ],
+            "proxy": 0.0025000000000000044,
+            "success_product": 0.0025000000000000044,
+            "utility": 2.0
+          },
+          {
+            "edges": [
+              [
+                "r6",
+                "r8"
+              ],
+              [
+                "r7",
+                "r8"
+              ]
+            ],
+            "proxy": 0.0025000000000000044,
+            "success_product": 0.0025000000000000044,
+            "utility": 2.0
+          }
+        ],
+        "validated_order": [
+          [
+            [
+              "r0",
+              "r1"
+            ],
+            [
+              "r0",
+              "r2"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r1"
+            ],
+            [
+              "r1",
+              "r2"
+            ]
+          ],
+          [
+            [
+              "r0",
+              "r2"
+            ],
+            [
+              "r1",
+              "r2"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r4"
+            ],
+            [
+              "r3",
+              "r5"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r4"
+            ],
+            [
+              "r4",
+              "r5"
+            ]
+          ],
+          [
+            [
+              "r3",
+              "r5"
+            ],
+            [
+              "r4",
+              "r5"
+            ]
+          ],
+          [
+            [
+              "r6",
+              "r7"
+            ],
+            [
+              "r6",
+              "r8"
+            ]
+          ],
+          [
+            [
+              "r6",
+              "r7"
+            ],
+            [
+              "r7",
+              "r8"
+            ]
+          ],
+          [
+            [
+              "r6",
+              "r8"
+            ],
+            [
+              "r7",
+              "r8"
+            ]
+          ]
+        ]
+      },
+      "logical_accesses_cumulative": 215,
+      "new_oracle_answers": 0,
+      "offline_opportunities": {
+        "H0": [],
+        "H9": []
+      },
+      "remaining": 2,
+      "selected_action": [
+        [
+          "r0",
+          "r1"
+        ],
+        [
+          "r0",
+          "r2"
+        ]
+      ],
+      "selection_info": {
+        "candidate_actions": 9,
+        "candidate_cap": 64,
+        "candidate_depth_counts": {
+          "1": 0,
+          "2": 9,
+          "3": 0,
+          "4": 0
+        },
+        "candidate_truncated": 0,
+        "capped_candidate_depth_counts": {
+          "1": 0,
+          "2": 9,
+          "3": 0,
+          "4": 0
+        },
+        "centrality_seconds": 0.00016210007015615702,
+        "completion_utility_proxy": 2.0,
+        "depth_cap": 2,
+        "endpoint_aware": true,
+        "expected_fixed_plan_abort_cost": 1.05,
+        "factorized_all_negative_probability": 0.0025000000000000044,
+        "flow_call_cap": 16,
+        "flow_calls": 0,
+        "flow_seconds": 3.00002284348011e-07,
+        "nonbond_candidates_rejected": 0,
+        "pending_remainder_retained": false,
+        "pending_transition": "no_previous_plan",
+        "plan_scoring_seconds": 0.00014160003047436476,
+        "planned_depth": 2,
+        "planned_edges": [
+          [
+            "r0",
+            "r1"
+          ],
+          [
+            "r0",
+            "r2"
+          ]
+        ],
+        "pool_prerank": "mean_error_weighted_edge_betweenness",
+        "previous_plan_invalidated_by_positive": false,
+        "previous_planned_depth": 0,
+        "raw_candidate_depth_counts": {
+          "1": 0,
+          "2": 9,
+          "3": 0,
+          "4": 0
+        },
+        "raw_candidate_plans": 9,
+        "raw_small_plans": 9,
+        "replan_after_each_answer": false,
+        "score_denominator": "full_plan_pair_count_in_both_fixed_and_adaptive",
+        "scored_candidate_actions": 9,
+        "scored_candidate_depth_counts": {
+          "1": 0,
+          "2": 9,
+          "3": 0,
+          "4": 0
+        },
+        "seeded_components": 3,
+        "selected_candidate_depth_counts": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 0
+        },
+        "selected_proxy_score": 0.0025000000000000044,
+        "small_pool_seconds": 0.000559499952942133,
+        "topology_cache": {
+          "bonds_hits": 3,
+          "bonds_misses": 6,
+          "bridges_misses": 1,
+          "canonical_misses": 1,
+          "centrality_misses": 1,
+          "component_graph_hits": 1,
+          "component_graph_misses": 2,
+          "component_partition_misses": 1,
+          "seed_bridges_hits": 3,
+          "seed_bridges_misses": 6
+        },
+        "validation_and_cap_seconds": 0.00022549997083842754
+      },
+      "spent_before": 4
+    }
+  ],
+  "diagnostic_score_accesses": 215,
+  "events": [
+    {
+      "answer": false,
+      "batch": 1,
+      "category": "negative_no_split",
+      "partition_after_sha256": "7ee50ff90d18d88e02683fbd80f31bc35343a6c5172cfb125769fabf5ca9f2ce",
+      "partition_before_sha256": "7ee50ff90d18d88e02683fbd80f31bc35343a6c5172cfb125769fabf5ca9f2ce",
+      "spent": 1,
+      "u": "r0",
+      "v": "r3"
+    },
+    {
+      "answer": false,
+      "batch": 1,
+      "category": "negative_split",
+      "partition_after_sha256": "c7e0332f9671a04fefcd7e9c1b95f022bf2cd3a90dc975cf980d48265d077151",
+      "partition_before_sha256": "7ee50ff90d18d88e02683fbd80f31bc35343a6c5172cfb125769fabf5ca9f2ce",
+      "spent": 2,
+      "u": "r1",
+      "v": "r4"
+    },
+    {
+      "answer": false,
+      "batch": 2,
+      "category": "negative_no_split",
+      "partition_after_sha256": "c7e0332f9671a04fefcd7e9c1b95f022bf2cd3a90dc975cf980d48265d077151",
+      "partition_before_sha256": "c7e0332f9671a04fefcd7e9c1b95f022bf2cd3a90dc975cf980d48265d077151",
+      "spent": 3,
+      "u": "r3",
+      "v": "r6"
+    },
+    {
+      "answer": false,
+      "batch": 2,
+      "category": "negative_split",
+      "partition_after_sha256": "450c05085ea4b3ec83313e4b11edf1ffbc2ffaa931a249f58cf03a7983145488",
+      "partition_before_sha256": "c7e0332f9671a04fefcd7e9c1b95f022bf2cd3a90dc975cf980d48265d077151",
+      "spent": 4,
+      "u": "r4",
+      "v": "r7"
+    },
+    {
+      "answer": true,
+      "batch": 3,
+      "category": "positive",
+      "partition_after_sha256": "450c05085ea4b3ec83313e4b11edf1ffbc2ffaa931a249f58cf03a7983145488",
+      "partition_before_sha256": "450c05085ea4b3ec83313e4b11edf1ffbc2ffaa931a249f58cf03a7983145488",
+      "spent": 5,
+      "u": "r0",
+      "v": "r1"
+    },
+    {
+      "answer": true,
+      "batch": 3,
+      "category": "positive",
+      "partition_after_sha256": "450c05085ea4b3ec83313e4b11edf1ffbc2ffaa931a249f58cf03a7983145488",
+      "partition_before_sha256": "450c05085ea4b3ec83313e4b11edf1ffbc2ffaa931a249f58cf03a7983145488",
+      "spent": 6,
+      "u": "r0",
+      "v": "r2"
+    }
+  ],
+  "k": 2,
+  "logical_score_accesses": 215,
+  "method": "cut_plan_fixed",
+  "new_oracle_answers": 0,
+  "requested_budget": 6,
+  "run_id": "k2_uniform_cut_plan_fixed_B6",
+  "schema": "cut-audit-review-v4-synthetic-replay-v1",
+  "score_profile": "uniform",
+  "states": [
+    {
+      "edges": [
+        [
+          "r0",
+          "r1"
+        ],
+        [
+          "r0",
+          "r2"
+        ],
+        [
+          "r0",
+          "r3"
+        ],
+        [
+          "r1",
+          "r2"
+        ],
+        [
+          "r1",
+          "r4"
+        ],
+        [
+          "r3",
+          "r4"
+        ],
+        [
+          "r3",
+          "r5"
+        ],
+        [
+          "r3",
+          "r6"
+        ],
+        [
+          "r4",
+          "r5"
+        ],
+        [
+          "r4",
+          "r7"
+        ],
+        [
+          "r6",
+          "r7"
+        ],
+        [
+          "r6",
+          "r8"
+        ],
+        [
+          "r7",
+          "r8"
+        ]
+      ],
+      "partition": [
+        [
+          "r0",
+          "r1",
+          "r2",
+          "r3",
+          "r4",
+          "r5",
+          "r6",
+          "r7",
+          "r8"
+        ]
+      ],
+      "partition_sha256": "7ee50ff90d18d88e02683fbd80f31bc35343a6c5172cfb125769fabf5ca9f2ce",
+      "references": {
+        "H0": {
+          "fn": 0,
+          "fp": 27,
+          "loss": 27
+        },
+        "H9": {
+          "fn": 0,
+          "fp": 18,
+          "loss": 18
+        }
+      },
+      "spent": 0
+    },
+    {
+      "edges": [
+        [
+          "r0",
+          "r1"
+        ],
+        [
+          "r0",
+          "r2"
+        ],
+        [
+          "r1",
+          "r2"
+        ],
+        [
+          "r1",
+          "r4"
+        ],
+        [
+          "r3",
+          "r4"
+        ],
+        [
+          "r3",
+          "r5"
+        ],
+        [
+          "r3",
+          "r6"
+        ],
+        [
+          "r4",
+          "r5"
+        ],
+        [
+          "r4",
+          "r7"
+        ],
+        [
+          "r6",
+          "r7"
+        ],
+        [
+          "r6",
+          "r8"
+        ],
+        [
+          "r7",
+          "r8"
+        ]
+      ],
+      "partition": [
+        [
+          "r0",
+          "r1",
+          "r2",
+          "r3",
+          "r4",
+          "r5",
+          "r6",
+          "r7",
+          "r8"
+        ]
+      ],
+      "partition_sha256": "7ee50ff90d18d88e02683fbd80f31bc35343a6c5172cfb125769fabf5ca9f2ce",
+      "references": {
+        "H0": {
+          "fn": 0,
+          "fp": 27,
+          "loss": 27
+        },
+        "H9": {
+          "fn": 0,
+          "fp": 18,
+          "loss": 18
+        }
+      },
+      "spent": 1
+    },
+    {
+      "edges": [
+        [
+          "r0",
+          "r1"
+        ],
+        [
+          "r0",
+          "r2"
+        ],
+        [
+          "r1",
+          "r2"
+        ],
+        [
+          "r3",
+          "r4"
+        ],
+        [
+          "r3",
+          "r5"
+        ],
+        [
+          "r3",
+          "r6"
+        ],
+        [
+          "r4",
+          "r5"
+        ],
+        [
+          "r4",
+          "r7"
+        ],
+        [
+          "r6",
+          "r7"
+        ],
+        [
+          "r6",
+          "r8"
+        ],
+        [
+          "r7",
+          "r8"
+        ]
+      ],
+      "partition": [
+        [
+          "r0",
+          "r1",
+          "r2"
+        ],
+        [
+          "r3",
+          "r4",
+          "r5",
+          "r6",
+          "r7",
+          "r8"
+        ]
+      ],
+      "partition_sha256": "c7e0332f9671a04fefcd7e9c1b95f022bf2cd3a90dc975cf980d48265d077151",
+      "references": {
+        "H0": {
+          "fn": 0,
+          "fp": 9,
+          "loss": 9
+        },
+        "H9": {
+          "fn": 9,
+          "fp": 9,
+          "loss": 18
+        }
+      },
+      "spent": 2
+    },
+    {
+      "edges": [
+        [
+          "r0",
+          "r1"
+        ],
+        [
+          "r0",
+          "r2"
+        ],
+        [
+          "r1",
+          "r2"
+        ],
+        [
+          "r3",
+          "r4"
+        ],
+        [
+          "r3",
+          "r5"
+        ],
+        [
+          "r4",
+          "r5"
+        ],
+        [
+          "r4",
+          "r7"
+        ],
+        [
+          "r6",
+          "r7"
+        ],
+        [
+          "r6",
+          "r8"
+        ],
+        [
+          "r7",
+          "r8"
+        ]
+      ],
+      "partition": [
+        [
+          "r0",
+          "r1",
+          "r2"
+        ],
+        [
+          "r3",
+          "r4",
+          "r5",
+          "r6",
+          "r7",
+          "r8"
+        ]
+      ],
+      "partition_sha256": "c7e0332f9671a04fefcd7e9c1b95f022bf2cd3a90dc975cf980d48265d077151",
+      "references": {
+        "H0": {
+          "fn": 0,
+          "fp": 9,
+          "loss": 9
+        },
+        "H9": {
+          "fn": 9,
+          "fp": 9,
+          "loss": 18
+        }
+      },
+      "spent": 3
+    },
+    {
+      "edges": [
+        [
+          "r0",
+          "r1"
+        ],
+        [
+          "r0",
+          "r2"
+        ],
+        [
+          "r1",
+          "r2"
+        ],
+        [
+          "r3",
+          "r4"
+        ],
+        [
+          "r3",
+          "r5"
+        ],
+        [
+          "r4",
+          "r5"
+        ],
+        [
+          "r6",
+          "r7"
+        ],
+        [
+          "r6",
+          "r8"
+        ],
+        [
+          "r7",
+          "r8"
+        ]
+      ],
+      "partition": [
+        [
+          "r0",
+          "r1",
+          "r2"
+        ],
+        [
+          "r3",
+          "r4",
+          "r5"
+        ],
+        [
+          "r6",
+          "r7",
+          "r8"
+        ]
+      ],
+      "partition_sha256": "450c05085ea4b3ec83313e4b11edf1ffbc2ffaa931a249f58cf03a7983145488",
+      "references": {
+        "H0": {
+          "fn": 0,
+          "fp": 0,
+          "loss": 0
+        },
+        "H9": {
+          "fn": 9,
+          "fp": 0,
+          "loss": 9
+        }
+      },
+      "spent": 4
+    },
+    {
+      "edges": [
+        [
+          "r0",
+          "r1"
+        ],
+        [
+          "r0",
+          "r2"
+        ],
+        [
+          "r1",
+          "r2"
+        ],
+        [
+          "r3",
+          "r4"
+        ],
+        [
+          "r3",
+          "r5"
+        ],
+        [
+          "r4",
+          "r5"
+        ],
+        [
+          "r6",
+          "r7"
+        ],
+        [
+          "r6",
+          "r8"
+        ],
+        [
+          "r7",
+          "r8"
+        ]
+      ],
+      "partition": [
+        [
+          "r0",
+          "r1",
+          "r2"
+        ],
+        [
+          "r3",
+          "r4",
+          "r5"
+        ],
+        [
+          "r6",
+          "r7",
+          "r8"
+        ]
+      ],
+      "partition_sha256": "450c05085ea4b3ec83313e4b11edf1ffbc2ffaa931a249f58cf03a7983145488",
+      "references": {
+        "H0": {
+          "fn": 0,
+          "fp": 0,
+          "loss": 0
+        },
+        "H9": {
+          "fn": 9,
+          "fp": 0,
+          "loss": 9
+        }
+      },
+      "spent": 5
+    },
+    {
+      "edges": [
+        [
+          "r0",
+          "r1"
+        ],
+        [
+          "r0",
+          "r2"
+        ],
+        [
+          "r1",
+          "r2"
+        ],
+        [
+          "r3",
+          "r4"
+        ],
+        [
+          "r3",
+          "r5"
+        ],
+        [
+          "r4",
+          "r5"
+        ],
+        [
+          "r6",
+          "r7"
+        ],
+        [
+          "r6",
+          "r8"
+        ],
+        [
+          "r7",
+          "r8"
+        ]
+      ],
+      "partition": [
+        [
+          "r0",
+          "r1",
+          "r2"
+        ],
+        [
+          "r3",
+          "r4",
+          "r5"
+        ],
+        [
+          "r6",
+          "r7",
+          "r8"
+        ]
+      ],
+      "partition_sha256": "450c05085ea4b3ec83313e4b11edf1ffbc2ffaa931a249f58cf03a7983145488",
+      "references": {
+        "H0": {
+          "fn": 0,
+          "fp": 0,
+          "loss": 0
+        },
+        "H9": {
+          "fn": 9,
+          "fp": 0,
+          "loss": 9
+        }
+      },
+      "spent": 6
+    }
+  ],
+  "stop_reason": "budget_exhausted",
+  "visible_sha256": "265e481614e6e23cba3cc098d32f501974ba60c7e8341d99bc610a68f29d1cc6"
+}

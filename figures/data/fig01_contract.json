@@ -1,0 +1,7 @@
+{
+  "certificate_scope": "same reached state, same legal searched pool, same computed proxy and ties",
+  "constructive_controls_not_natural": true,
+  "gold_only_offline": true,
+  "no_expected_value_certificate": true,
+  "type": "schematic"
+}

@@ -1,0 +1,23 @@
+{
+  "figure": "fig01_contract",
+  "scope": "V4 fixed study; see figure-specific public projection",
+  "sources": [
+    "evidence/manifest.json"
+  ],
+  "data": {
+    "scope": "Illustrative contract; the three-layer procedure is not a novelty claim",
+    "contract": {
+      "kind": "illustrative schematic, not measured data",
+      "shared_depth_cap": 4,
+      "shared_candidate_cap": 64,
+      "singleton_filter_order": "after common cap",
+      "positive_answer": "one paid query, edge retained, becomes ineligible",
+      "gold_enters_selector": false
+    },
+    "three_layers": [
+      "Opportunity\nfeasible cuts + budget",
+      "Use\ncommitted batches",
+      "Incremental value\npaired trajectories"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "cut-audit-v7-known-law-controls",
+  "scope": "Constructive initial-state diagnostics, not sampled benchmark evidence",
+  "cases": [
+    {"id": "bayes_null_100", "kind": "matching", "budget": 1, "pair_count": 100, "error_probabilities": ["1/10", "9/100"]},
+    {"id": "path_aligned", "kind": "path", "budget": 1, "error_probabilities": ["3/10", "3/10", "3/10"]},
+    {"id": "path_reversal", "kind": "path", "budget": 1, "error_probabilities": ["7/20", "3/10", "7/20"]},
+    {"id": "two_edge_batch", "kind": "cliques", "budget": 2, "error_probabilities": ["1/4", "1/4"]}
+  ],
+  "resources": {"cpu_threads": 1, "per_stage_timeout_seconds": 120, "suite_timeout_seconds": 600},
+  "new_natural_acquisitions": 0,
+  "monte_carlo": false,
+  "selector": "cut_plan_cover_fixed",
+  "fn_weight": 1,
+  "depth_cap": 4,
+  "score_cap": 64,
+  "refit": false
+}

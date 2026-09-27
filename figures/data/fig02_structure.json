@@ -1,0 +1,51 @@
+{
+  "denominators": "Each panel uses its own component or FP-mass denominator",
+  "offline_only": true,
+  "rows": [
+    {
+      "components": 117,
+      "covered_fp": 13,
+      "dataset": "wdc",
+      "edges": 2047,
+      "exact_components": 97,
+      "headroom": 286,
+      "initial_fn": 898,
+      "initial_fp": 76006,
+      "nodes": 806,
+      "phase": "natural",
+      "reference": "natural",
+      "skipped_components": 20,
+      "status": "partial_component_diagnosis"
+    },
+    {
+      "components": 452,
+      "covered_fp": 15,
+      "dataset": "dblp_acm",
+      "edges": 363,
+      "exact_components": 452,
+      "headroom": 0,
+      "initial_fn": 19,
+      "initial_fp": 15,
+      "nodes": 810,
+      "phase": "natural",
+      "reference": "natural",
+      "skipped_components": 0,
+      "status": "exact"
+    },
+    {
+      "components": 515,
+      "covered_fp": 25,
+      "dataset": "dblp_unused",
+      "edges": 413,
+      "exact_components": 515,
+      "headroom": 0,
+      "initial_fn": 30,
+      "initial_fp": 25,
+      "nodes": 910,
+      "phase": "natural",
+      "reference": "natural",
+      "skipped_components": 0,
+      "status": "exact"
+    }
+  ]
+}

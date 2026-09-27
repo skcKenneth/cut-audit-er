@@ -1,0 +1,41 @@
+{
+  "counterfactual": "One complete proxy evaluation for every legal pool member versus original recorded complete scores.",
+  "excluded_costs_from_count": "Generation, legality, numeric scans, upper bounds, sorting, caches and fallback still cost computation.",
+  "gold_loaded": false,
+  "groups": [
+    {
+      "all_scored_states": 0,
+      "fallback_states": 0,
+      "graph_wide_bonds_complete_states": 168,
+      "phase": "natural",
+      "pool_count": 73292,
+      "positive_certificate_states": 241,
+      "score_limit_unscored_count": 0,
+      "scored_count": 256,
+      "states": 241,
+      "strict_pruned_count": 73036,
+      "strict_pruned_states": 241,
+      "uncertified_states": 0
+    },
+    {
+      "all_scored_states": 12,
+      "fallback_states": 14,
+      "graph_wide_bonds_complete_states": 60,
+      "phase": "synthetic",
+      "pool_count": 492,
+      "positive_certificate_states": 46,
+      "score_limit_unscored_count": 0,
+      "scored_count": 128,
+      "states": 60,
+      "strict_pruned_count": 364,
+      "strict_pruned_states": 34,
+      "uncertified_states": 0
+    }
+  ],
+  "new_acquisitions": 0,
+  "new_score_computations": 0,
+  "schema": "cut-audit-v7-same-pool-summary-v1",
+  "scope": "Saved Full reached states and the same searched pool; dependent budgets; counts are not independent opportunities.",
+  "speedup_claim": false,
+  "states": 301
+}

@@ -1,0 +1,231 @@
+{
+  "checkpoint_telemetry": {
+    "completed_result_available": false,
+    "confirmed_paid_answers": 1,
+    "decisions": [
+      {
+        "batch": 1,
+        "observed_match": false,
+        "pair": [
+          "r0",
+          "r3"
+        ],
+        "selection_info": {
+          "topology_cache": {
+            "original_centrality_misses": 1
+          }
+        },
+        "selection_seconds": 0.0003891999367624521,
+        "spent": 1
+      }
+    ],
+    "journal_sha256": "fdb6350ad9c08033af1dc2fa29a5cd82f68528bb75f04a6bea504b45bdec4f06",
+    "journal_status": "terminal_marker",
+    "last_evaluated_checkpoint": {
+      "b3_f1": 0.8,
+      "b3_precision": 0.6666666666666666,
+      "b3_recall": 1.0,
+      "fn": 0,
+      "fp": 9,
+      "largest_impure_component": 6,
+      "loss": 9.0,
+      "n_components": 2,
+      "n_edges": 10,
+      "n_records": 9,
+      "normalized_loss": 0.25,
+      "pair_f1": 0.6666666666666666,
+      "precision": 0.5,
+      "recall": 1.0,
+      "spent": 1,
+      "tp": 9
+    },
+    "last_record_sha256": "8b7390e810c37b9c12506582ae64e2c52f7012573100d01b2bb6faf5b7294d40",
+    "paid_count_exact": true,
+    "paid_count_lower_bound": 1,
+    "paid_count_upper_bound": 1,
+    "scope": "Durable observed prefix only. At most one unlogged purchased answer under this sequential fail-fast callback contract; never fill forward partial performance.",
+    "terminal_marker": {
+      "complete": true,
+      "kind": "terminal",
+      "spent": 1,
+      "stop_reason": "budget_exhausted"
+    },
+    "trace": [
+      {
+        "b3_f1": 0.5,
+        "b3_precision": 0.3333333333333333,
+        "b3_recall": 1.0,
+        "fn": 0,
+        "fp": 27,
+        "largest_impure_component": 9,
+        "loss": 27.0,
+        "n_components": 1,
+        "n_edges": 11,
+        "n_records": 9,
+        "normalized_loss": 0.75,
+        "pair_f1": 0.4,
+        "precision": 0.25,
+        "recall": 1.0,
+        "spent": 0,
+        "tp": 9
+      },
+      {
+        "b3_f1": 0.8,
+        "b3_precision": 0.6666666666666666,
+        "b3_recall": 1.0,
+        "fn": 0,
+        "fp": 9,
+        "largest_impure_component": 6,
+        "loss": 9.0,
+        "n_components": 2,
+        "n_edges": 10,
+        "n_records": 9,
+        "normalized_loss": 0.25,
+        "pair_f1": 0.6666666666666666,
+        "precision": 0.5,
+        "recall": 1.0,
+        "spent": 1,
+        "tp": 9
+      }
+    ],
+    "truncated_tail_bytes": 0,
+    "valid_records": 5
+  },
+  "cleanup_worker_still_alive": false,
+  "deadline_scope": "result wait after synchronous start; start/payload receive may block; cleanup joins bounded to one second each",
+  "identity": {
+    "data_kind": "constructed_synthetic",
+    "freeze_sha256": "b64c88426943ad58c5aa89abe7d22da5ab802cc6b4b0761a772dd299a1b20808",
+    "k": 1,
+    "method": "edge_betweenness",
+    "requested_budget": 1,
+    "run_id": "k1_ranked_edge_betweenness_B1",
+    "score_profile": "ranked",
+    "visible_sha256": "55e775c6dfc92b0b3d5c74e9bd387124857e043616332edfa96696b5822d292b"
+  },
+  "observed_wall_exceeded_requested_deadline": false,
+  "requested_result_deadline_seconds": 30,
+  "run": {
+    "batch_timings": [
+      {
+        "action_size": 1,
+        "batch": 1,
+        "seconds": 0.0003891999367624521
+      }
+    ],
+    "complete": true,
+    "decisions": [
+      {
+        "batch": 1,
+        "observed_match": false,
+        "pair": [
+          "r0",
+          "r3"
+        ],
+        "selection_info": {
+          "topology_cache": {
+            "original_centrality_misses": 1
+          }
+        },
+        "selection_seconds": 0.0003891999367624521,
+        "spent": 1
+      }
+    ],
+    "final": {
+      "b3_f1": 0.8,
+      "b3_precision": 0.6666666666666666,
+      "b3_recall": 1.0,
+      "fn": 0,
+      "fp": 9,
+      "largest_impure_component": 6,
+      "loss": 9.0,
+      "n_components": 2,
+      "n_edges": 10,
+      "n_records": 9,
+      "normalized_loss": 0.25,
+      "pair_f1": 0.6666666666666666,
+      "precision": 0.5,
+      "recall": 1.0,
+      "spent": 1,
+      "tp": 9
+    },
+    "fn_weight": 1.0,
+    "initial": {
+      "b3_f1": 0.5,
+      "b3_precision": 0.3333333333333333,
+      "b3_recall": 1.0,
+      "fn": 0,
+      "fp": 27,
+      "largest_impure_component": 9,
+      "loss": 27.0,
+      "n_components": 1,
+      "n_edges": 11,
+      "n_records": 9,
+      "normalized_loss": 0.75,
+      "pair_f1": 0.4,
+      "precision": 0.25,
+      "recall": 1.0,
+      "spent": 0,
+      "tp": 9
+    },
+    "loss_reduction": 18.0,
+    "method": "edge_betweenness",
+    "noise": 0.0,
+    "requested_budget": 1,
+    "score_accesses": 11,
+    "seconds": 0.0027734999312087893,
+    "seed": 7,
+    "selection_seconds": 0.0003891999367624521,
+    "spent": 1,
+    "stop_reason": "budget_exhausted",
+    "telemetry_seconds": 0.0016313999658450484,
+    "trace": [
+      {
+        "b3_f1": 0.5,
+        "b3_precision": 0.3333333333333333,
+        "b3_recall": 1.0,
+        "fn": 0,
+        "fp": 27,
+        "largest_impure_component": 9,
+        "loss": 27.0,
+        "n_components": 1,
+        "n_edges": 11,
+        "n_records": 9,
+        "normalized_loss": 0.75,
+        "pair_f1": 0.4,
+        "precision": 0.25,
+        "recall": 1.0,
+        "spent": 0,
+        "tp": 9
+      },
+      {
+        "b3_f1": 0.8,
+        "b3_precision": 0.6666666666666666,
+        "b3_recall": 1.0,
+        "fn": 0,
+        "fp": 9,
+        "largest_impure_component": 6,
+        "loss": 9.0,
+        "n_components": 2,
+        "n_edges": 10,
+        "n_records": 9,
+        "normalized_loss": 0.25,
+        "pair_f1": 0.6666666666666666,
+        "precision": 0.5,
+        "recall": 1.0,
+        "spent": 1,
+        "tp": 9
+      }
+    ]
+  },
+  "status": "completed",
+  "worker_exit_code": 0,
+  "worker_pid": 28404,
+  "worker_timing": {
+    "cleanup_seconds": 0.27319370000623167,
+    "payload_receive_seconds": 9.300000965595245e-05,
+    "process_start_seconds": 0.011928699910640717,
+    "result_wait_seconds": 1.6693723000353202
+  },
+  "worker_wall_seconds": 1.9545992999337614
+}

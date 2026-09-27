@@ -1,0 +1,18 @@
+{
+  "cases": 9,
+  "files_sha256": {
+    "evaluator_reference.json": "d8488e67d418075e1261b8436036d2a8fc5fad9d08699948db1b83179f9e4cb5",
+    "observable.json": "8e9c10a512240056c00b428d5b2ac031692219ba71e290dbf9057b3df6b984a1",
+    "paid_cases.json": "56a031ddc56ffacb43bedcd14f574bf30f65302d735e1c97fd6958e1e41fb259",
+    "scores.npy": "72012b77e79ec400c85e73ae9d3563c0713ea3efe8919abc8aace9e80ea2db85"
+  },
+  "label": "DBLP_ACM_exposed_development_9_cases",
+  "new_oracle_answers": 0,
+  "schema": "cut-audit-public-replay-v4",
+  "scope": "Replay of saved paid answers, not new experiments; original IDs/text omitted",
+  "source_hashes": {
+    "original_observable_graph": "63d72b600ab93608bee6d361b85a6b1d17e8ffb40ccf781669e243e8b73d3ab1",
+    "original_scores": "72012b77e79ec400c85e73ae9d3563c0713ea3efe8919abc8aace9e80ea2db85",
+    "private_v3_archive": "ccafbdcbf02b9be650e9acd96ab8fdbe6b4fc7d7f90a67664474959700f5f5a1"
+  }
+}

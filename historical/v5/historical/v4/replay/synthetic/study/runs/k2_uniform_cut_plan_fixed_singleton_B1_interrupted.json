@@ -1,0 +1,30 @@
+{
+  "checkpoint_telemetry": {
+    "completed_result_available": false,
+    "confirmed_paid_answers": null,
+    "decisions": [],
+    "journal_status": "missing_journal",
+    "last_evaluated_checkpoint": null,
+    "paid_count_exact": false,
+    "paid_count_lower_bound": 0,
+    "paid_count_upper_bound": 1,
+    "terminal_marker": null,
+    "trace": []
+  },
+  "cleanup_worker_still_alive": false,
+  "error": "Host continuation lost original worker; endpoint unavailable; never retried",
+  "identity": {
+    "data_kind": "constructed_synthetic",
+    "freeze_sha256": "b64c88426943ad58c5aa89abe7d22da5ab802cc6b4b0761a772dd299a1b20808",
+    "k": 2,
+    "method": "cut_plan_fixed_singleton",
+    "requested_budget": 1,
+    "run_id": "k2_uniform_cut_plan_fixed_singleton_B1",
+    "score_profile": "uniform",
+    "visible_sha256": "265e481614e6e23cba3cc098d32f501974ba60c7e8341d99bc610a68f29d1cc6"
+  },
+  "not_a_complete_endpoint": true,
+  "observed_process_absence_source": "calling task process check",
+  "status": "interrupted",
+  "worker_wall_seconds": null
+}

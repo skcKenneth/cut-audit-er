@@ -1,0 +1,18 @@
+{
+  "config_sha256": "2b471ea162513778663f8fa1ef7ca5185d6307f5139280be347baf6991f1fb87",
+  "files_sha256": {
+    "controls_actions.csv": "59b2c87310a5d3f494d1c3dc041d26b285a4b56f78b96411cc92d87e337e8e22",
+    "controls_summary.json": "0fc500f983fec91d8a5dd17982f6843808ea6c2e45ce9a16f1dde62d10106afe",
+    "controls_visible.json": "a0fedbf96d805c3b7dd045c83025d350b019d8b7a9d5f63567aaf8a0f775cd4f",
+    "controls_worlds.csv": "e63004d02c579acb7dd7be02bac3f072dae8fa1bd8289be5b8bc6f82e79fd675",
+    "same_pool_states.csv": "44a48f819421ba986879a0be8666abd9762aa39613f772c2cf6a42573fa72171",
+    "same_pool_summary.json": "aab786d4183dcc3f08ac031be28d7855bf6765ef9c3c81c2e1529e588a8398b5"
+  },
+  "natural_identifiers_exported": false,
+  "new_natural_acquisitions": 0,
+  "predecessor_evidence_manifest_sha256": "ba95b5ef40de2616a9c7e3a16c2feb805a89d658956c37a8bfbd64b30128e9c8",
+  "schema": "cut-audit-v7-public-evidence",
+  "source_reference_manifest_sha256": "723b1c96eb70772679a78755f5eaf401f22cdbbfea0c85376079a1b130513744",
+  "source_same_pool_manifest_sha256": "6c6e1e37fc74b4b209fcc12859272435aaa648fe3f2d5ffa3413a8f28f11adad",
+  "source_visible_manifest_sha256": "ea91c7818cc7bd4a078da50262e2294c4be79b818c765943f0697c11f5a2e971"
+}

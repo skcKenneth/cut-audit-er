@@ -1,0 +1,111 @@
+{
+  "schema": "cut-audit-figures-v4",
+  "input_manifest_sha256": "4297e99b923f41bdc3c7c01434b12b3cde62d86152fb449c3659a31b750aa530",
+  "validation": {
+    "status": "PASS",
+    "natural_slots": 27,
+    "natural_completed": 27,
+    "synthetic_reference_slots": 180,
+    "synthetic_reference_completed": 178,
+    "synthetic_independent_observations_claimed": false,
+    "legacy_status": "PASS"
+  },
+  "figures": [
+    {
+      "name": "fig01_contract",
+      "width_inches": 4.8,
+      "height_inches": 2.5,
+      "minimum_font_pt": 8,
+      "scope": "V4 fixed study; see figure-specific public projection",
+      "sources": [
+        "evidence/manifest.json"
+      ],
+      "files_sha256": {
+        "fig01_contract.pdf": "4a653a222361b175c32e1d583b6984309b3be03d1520df6fccc6c4aaaf1a7f5a",
+        "fig01_contract.svg": "79ef78f4a184945b3fb94f89967bbcfc638f4cc67ddeb3e94cbcc574ba3fb96d",
+        "fig01_contract.png": "17d13d23ee3102e64dcc9e1d2876dd021ddd53def87aa7915c023eae6ed4da45"
+      },
+      "data_sha256": "81b308c09b36c1804a4b1d084a1a26a5fa98ae5ce841261a0baf0c4ffcc5c16e"
+    },
+    {
+      "name": "fig02_structure",
+      "width_inches": 4.8,
+      "height_inches": 2.5,
+      "minimum_font_pt": 8,
+      "scope": "V4 fixed study; see figure-specific public projection",
+      "sources": [
+        "evidence/manifest.json"
+      ],
+      "files_sha256": {
+        "fig02_structure.pdf": "dafa7843e09be794f1df903d5d039a343fb604843bd254c459a8516d2064186a",
+        "fig02_structure.svg": "cd204bff80c2247f163e2585334868131d3c283ba81a9b766b8279858250a19e",
+        "fig02_structure.png": "12803f4211bfd5bb8dca3025052441f652a9ffd5de72fdc0efa92a17f64bc01f"
+      },
+      "data_sha256": "754d2a881ea94822f66e5a01c70fdac5d8ac59fb2bc0eab49fa949785bd1d7a8"
+    },
+    {
+      "name": "fig03_outcomes",
+      "width_inches": 4.8,
+      "height_inches": 3.6,
+      "minimum_font_pt": 8,
+      "scope": "V4 fixed study; see figure-specific public projection",
+      "sources": [
+        "evidence/manifest.json"
+      ],
+      "files_sha256": {
+        "fig03_outcomes.pdf": "b7cd8eaa92d51b3b429a2e2161adbdb3726fcc3ec06396ea05dbbcf34acdacd2",
+        "fig03_outcomes.svg": "fc9f09d520aeb81249e1f85c40ce121e9b41dc48f4dc596d1193e0260e158806",
+        "fig03_outcomes.png": "39b00fa4b71b6fba20171a4f97b983d39146511c4a99ec408fee8396c5743573"
+      },
+      "data_sha256": "8b44270230c61a6a83395f8eb5d35a60ef6389b81c098c6f088cbd5a92dbd2ac"
+    },
+    {
+      "name": "fig04_events",
+      "width_inches": 4.8,
+      "height_inches": 4.3,
+      "minimum_font_pt": 8,
+      "scope": "V4 fixed study; see figure-specific public projection",
+      "sources": [
+        "evidence/manifest.json"
+      ],
+      "files_sha256": {
+        "fig04_events.pdf": "2cc5cc11d33d63c2d5e609a4d9ba0649e9643107199d1435a957d3f00bf33c01",
+        "fig04_events.svg": "fa833cc64ba1ea1b9f21d935451f7b27df376362a0cc2e1c512df3adfdb8a2b2",
+        "fig04_events.png": "19cf69a709ca2eaa26570de2237079402d98fafcc70c0bc43b3a7259ade79a57"
+      },
+      "data_sha256": "5de1babcb302f295c948faa3b512165faf48802371d0b042f879ad782e424735"
+    },
+    {
+      "name": "fig05_controlled",
+      "width_inches": 4.8,
+      "height_inches": 3.5,
+      "minimum_font_pt": 8,
+      "scope": "V4 fixed study; see figure-specific public projection",
+      "sources": [
+        "evidence/manifest.json"
+      ],
+      "files_sha256": {
+        "fig05_controlled.pdf": "77e2e318af4f8b739af8b68f9cb9d95800c29ee8b21b8622d3cb52f0b32a8f0e",
+        "fig05_controlled.svg": "3274ff1c3801d737710cbb479c3d805cbe37408578d6252713caf2ae29c331a1",
+        "fig05_controlled.png": "f6abb5aafd17543d6940c36ee08257449cb596e35d5bdf893e95df7d6c302544"
+      },
+      "data_sha256": "847d72fddc356bf417a42dd62ca3568c448954b897384267665738b156dfdf98"
+    },
+    {
+      "name": "fig06_use",
+      "width_inches": 4.8,
+      "height_inches": 3.0,
+      "minimum_font_pt": 8,
+      "scope": "V4 fixed study; see figure-specific public projection",
+      "sources": [
+        "evidence/manifest.json"
+      ],
+      "files_sha256": {
+        "fig06_use.pdf": "f39e934c05c76c9716f717663819909fb9ad7085ba305ace3dcc39ad0d814c71",
+        "fig06_use.svg": "fea4da6a81e9236ca041a0ea3678ba988afe686ff9f543ef2cd347d6cc7c02da",
+        "fig06_use.png": "7971057891332cc0980c3863ee07a4b9bab8b72ef8d59bdb5746684b125d9683"
+      },
+      "data_sha256": "15e6ce19cd049bdc5c15d212a0aff15fc8f2e3cd6824f0b955c09ed4a5a97cff"
+    }
+  ]
+}

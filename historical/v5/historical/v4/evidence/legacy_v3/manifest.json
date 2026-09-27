@@ -1,0 +1,65 @@
+{
+  "counts": {
+    "batches": 493,
+    "endpoints": 18,
+    "events": 504,
+    "states": 522
+  },
+  "files": {
+    "batches.csv": {
+      "bytes": 71489,
+      "rows": 493,
+      "sha256": "232be2dde0b80c46082d7084a796c7ba92ed1da7340a5dddd8616496d2a85731"
+    },
+    "bound_curve.csv": {
+      "bytes": 1478,
+      "rows": 49,
+      "sha256": "9a2171dd3d238ff2538e779e86aeb2680feca5fc11b283f0c222dceb19d75f9d"
+    },
+    "cache_counts.csv": {
+      "bytes": 7123,
+      "rows": 90,
+      "sha256": "e2f1bee98c4473aef8caad5e8676330b6a53c3ad945a64860255554acff03a8f"
+    },
+    "candidate_depths.csv": {
+      "bytes": 18100,
+      "rows": 192,
+      "sha256": "53f5c3c699dfc9741a48c9866db896c482d078d090b9743013ca510c82f8d592"
+    },
+    "contrasts.csv": {
+      "bytes": 1567,
+      "rows": 12,
+      "sha256": "64ef59e6faa18efe06036c99d318737cc2ce71a89a5e33fd2d273458058db526"
+    },
+    "coverage.csv": {
+      "bytes": 294,
+      "rows": 2,
+      "sha256": "80eb70cfbdce8d3a7a69b8a55f3fb2c72facb71086e40e9e24c648a3b0fe727b"
+    },
+    "endpoints.csv": {
+      "bytes": 6164,
+      "rows": 18,
+      "sha256": "ce44db3d32c70d367ddd58958c3b1724d90edad78ae635418955388adbc7d16b"
+    },
+    "events.csv": {
+      "bytes": 49449,
+      "rows": 504,
+      "sha256": "722f070fa5c42a91d6da2f422817564b896b085d48ba90c4b97c1e137b123391"
+    },
+    "historical_missing.csv": {
+      "bytes": 954,
+      "rows": 11,
+      "sha256": "bbb33cced0e4ad8d6169c28ca3108072524abab76de040b58fb3882e3b635df5"
+    },
+    "states.csv": {
+      "bytes": 40293,
+      "rows": 522,
+      "sha256": "783bff630f693afd54f5b8616c105e400bf54c9e6722d3ca8744b92af63be625"
+    }
+  },
+  "schema": "cut-audit-public-evidence-v3",
+  "scope": "exposed_development_projection_no_new_experiments",
+  "sequence_provenance": "private_pair_audit_not_recomputable_from_public_rows",
+  "source_archive_sha256": "b19bb2499f28a014b7a83404fff431d5592537577802133b13e192d7121643aa",
+  "source_verification": "archive_hash_all_member_hashes_and_private_arithmetic_passed"
+}

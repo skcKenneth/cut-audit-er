@@ -1,0 +1,75 @@
+{
+  "contemporaneous_v5_costs": [
+    {
+      "full_scores": 15416,
+      "logical_score_accesses": 3617360,
+      "method": "cut_plan_fixed",
+      "selector_seconds": 42.466313399607316,
+      "worker_wall_seconds": 61.12125480000395
+    },
+    {
+      "full_scores": 15416,
+      "logical_score_accesses": 3617674,
+      "method": "cut_plan_cover_bccap",
+      "selector_seconds": 69.72714289999567,
+      "worker_wall_seconds": 91.74673580029048
+    },
+    {
+      "full_scores": 256,
+      "logical_score_accesses": 13213720,
+      "method": "cut_plan_bound_fixed",
+      "selector_seconds": 44.749283600831404,
+      "worker_wall_seconds": 70.04299350013025
+    },
+    {
+      "full_scores": 256,
+      "logical_score_accesses": 13213720,
+      "method": "cut_plan_cover_fixed",
+      "selector_seconds": 72.00360239914153,
+      "worker_wall_seconds": 95.68714829988312
+    }
+  ],
+  "same_pool": {
+    "counterfactual": "One complete proxy evaluation for every legal pool member versus original recorded complete scores.",
+    "excluded_costs_from_count": "Generation, legality, numeric scans, upper bounds, sorting, caches and fallback still cost computation.",
+    "gold_loaded": false,
+    "groups": [
+      {
+        "all_scored_states": 0,
+        "fallback_states": 0,
+        "graph_wide_bonds_complete_states": 168,
+        "phase": "natural",
+        "pool_count": 73292,
+        "positive_certificate_states": 241,
+        "score_limit_unscored_count": 0,
+        "scored_count": 256,
+        "states": 241,
+        "strict_pruned_count": 73036,
+        "strict_pruned_states": 241,
+        "uncertified_states": 0
+      },
+      {
+        "all_scored_states": 12,
+        "fallback_states": 14,
+        "graph_wide_bonds_complete_states": 60,
+        "phase": "synthetic",
+        "pool_count": 492,
+        "positive_certificate_states": 46,
+        "score_limit_unscored_count": 0,
+        "scored_count": 128,
+        "states": 60,
+        "strict_pruned_count": 364,
+        "strict_pruned_states": 34,
+        "uncertified_states": 0
+      }
+    ],
+    "new_acquisitions": 0,
+    "new_score_computations": 0,
+    "schema": "cut-audit-v7-same-pool-summary-v1",
+    "scope": "Saved Full reached states and the same searched pool; dependent budgets; counts are not independent opportunities.",
+    "speedup_claim": false,
+    "states": 301
+  },
+  "speedup_claim": false,
+  "timer_aggregation": "Separate within-method sums, nested timers not summed"
+}

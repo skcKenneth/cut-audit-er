@@ -1,0 +1,13 @@
+dataset,budget,comparison,status,loss_difference,fp_difference,fn_difference,first_paid_sequence_divergence,first_paid_or_batch_divergence,equal_endpoint_loss,same_paid_and_batch_sequence,sequence_provenance
+wdc,12,raw_minus_singleton,available,0,0,0,,,true,true,private_pair_audit_not_recomputable_from_public_rows
+wdc,12,raw_minus_bc,available,-8487,-8487,0,2,2,false,false,private_pair_audit_not_recomputable_from_public_rows
+wdc,24,raw_minus_singleton,available,-6498,-6489,-9,15,15,false,false,private_pair_audit_not_recomputable_from_public_rows
+wdc,24,raw_minus_bc,available,3523,3515,8,2,2,false,false,private_pair_audit_not_recomputable_from_public_rows
+wdc,48,raw_minus_singleton,available,-12544,-12576,32,15,15,false,false,private_pair_audit_not_recomputable_from_public_rows
+wdc,48,raw_minus_bc,available,895,862,33,2,2,false,false,private_pair_audit_not_recomputable_from_public_rows
+dblp_acm,12,raw_minus_singleton,available,0,0,0,,,true,true,private_pair_audit_not_recomputable_from_public_rows
+dblp_acm,12,raw_minus_bc,available,0,0,0,,,true,true,private_pair_audit_not_recomputable_from_public_rows
+dblp_acm,24,raw_minus_singleton,available,0,0,0,,,true,true,private_pair_audit_not_recomputable_from_public_rows
+dblp_acm,24,raw_minus_bc,available,4,4,0,14,14,false,false,private_pair_audit_not_recomputable_from_public_rows
+dblp_acm,48,raw_minus_singleton,available,0,0,0,,,true,true,private_pair_audit_not_recomputable_from_public_rows
+dblp_acm,48,raw_minus_bc,available,4,4,0,14,14,false,false,private_pair_audit_not_recomputable_from_public_rows

@@ -1,0 +1,236 @@
+{
+  "analytic_check": "passed",
+  "diagnostic": {
+    "assumptions": {
+      "gold_positive_edges_retained": true,
+      "lambda": 1,
+      "node_preserving": true,
+      "oracle_answers_known_offline_without_discovery_cost": true,
+      "original_edges_only": true,
+      "perfect_oracle": true
+    },
+    "components": [
+      {
+        "best_exact_spend": [
+          {
+            "fn": 0,
+            "fp": 18,
+            "loss": 18,
+            "removed_edges": [],
+            "spent": 0
+          },
+          {
+            "fn": 9,
+            "fp": 9,
+            "loss": 18,
+            "removed_edges": [
+              [
+                "r0",
+                "r3"
+              ]
+            ],
+            "spent": 1
+          },
+          {
+            "fn": 9,
+            "fp": 0,
+            "loss": 9,
+            "removed_edges": [
+              [
+                "r0",
+                "r3"
+              ],
+              [
+                "r3",
+                "r6"
+              ]
+            ],
+            "spent": 2
+          }
+        ],
+        "component_index": 0,
+        "edges": 11,
+        "eligibility_uses": "original visible node and edge counts only",
+        "eligible": true,
+        "enumerated_subsets": 4,
+        "initial": {
+          "fn": 0,
+          "fp": 18,
+          "loss": 18
+        },
+        "loss_curve": [
+          18,
+          18,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "node_ids_sha256": "a5f638415dd2526e0475aad4d7dbb5e372f13be071bbe9b0a1a1d220bf88772a",
+        "nodes": 9,
+        "original_negative_edges": 2,
+        "status": "exact",
+        "topology_sha256": "4fb0319bd2a8fb6c13ead2355cfeed827172f79448e4a910856a22477ac71f9b",
+        "witness_rule": "Lookup best_exact_spend by witness_spend_curve[B]; ties prefer fewer deletions then lexical pairs",
+        "witness_spend_curve": [
+          0,
+          0,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    ],
+    "components_exact": 1,
+    "components_skipped": 0,
+    "components_total": 1,
+    "curve": [
+      {
+        "budget": 0,
+        "exact_fn": 0,
+        "exact_fp": 18,
+        "exact_loss": 18,
+        "exact_witness_id": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "feasible_deleted_edges": 0,
+        "feasible_fn": 0,
+        "feasible_fp": 18,
+        "feasible_upper_bound": 18,
+        "feasible_witness_id": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "optimistic_lower_bound": 18,
+        "status": "exact"
+      },
+      {
+        "budget": 1,
+        "exact_fn": 0,
+        "exact_fp": 18,
+        "exact_loss": 18,
+        "exact_witness_id": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "feasible_deleted_edges": 0,
+        "feasible_fn": 0,
+        "feasible_fp": 18,
+        "feasible_upper_bound": 18,
+        "feasible_witness_id": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "optimistic_lower_bound": 18,
+        "status": "exact"
+      },
+      {
+        "budget": 2,
+        "exact_fn": 9,
+        "exact_fp": 0,
+        "exact_loss": 9,
+        "exact_witness_id": "f648468ba956914147a691249630679a53429781d79fb4780f02cc78b8325c36",
+        "feasible_deleted_edges": 2,
+        "feasible_fn": 9,
+        "feasible_fp": 0,
+        "feasible_upper_bound": 9,
+        "feasible_witness_id": "f648468ba956914147a691249630679a53429781d79fb4780f02cc78b8325c36",
+        "optimistic_lower_bound": 9,
+        "status": "exact"
+      },
+      {
+        "budget": 3,
+        "exact_fn": 9,
+        "exact_fp": 0,
+        "exact_loss": 9,
+        "exact_witness_id": "f648468ba956914147a691249630679a53429781d79fb4780f02cc78b8325c36",
+        "feasible_deleted_edges": 2,
+        "feasible_fn": 9,
+        "feasible_fp": 0,
+        "feasible_upper_bound": 9,
+        "feasible_witness_id": "f648468ba956914147a691249630679a53429781d79fb4780f02cc78b8325c36",
+        "optimistic_lower_bound": 9,
+        "status": "exact"
+      },
+      {
+        "budget": 4,
+        "exact_fn": 9,
+        "exact_fp": 0,
+        "exact_loss": 9,
+        "exact_witness_id": "f648468ba956914147a691249630679a53429781d79fb4780f02cc78b8325c36",
+        "feasible_deleted_edges": 2,
+        "feasible_fn": 9,
+        "feasible_fp": 0,
+        "feasible_upper_bound": 9,
+        "feasible_witness_id": "f648468ba956914147a691249630679a53429781d79fb4780f02cc78b8325c36",
+        "optimistic_lower_bound": 9,
+        "status": "exact"
+      },
+      {
+        "budget": 5,
+        "exact_fn": 9,
+        "exact_fp": 0,
+        "exact_loss": 9,
+        "exact_witness_id": "f648468ba956914147a691249630679a53429781d79fb4780f02cc78b8325c36",
+        "feasible_deleted_edges": 2,
+        "feasible_fn": 9,
+        "feasible_fp": 0,
+        "feasible_upper_bound": 9,
+        "feasible_witness_id": "f648468ba956914147a691249630679a53429781d79fb4780f02cc78b8325c36",
+        "optimistic_lower_bound": 9,
+        "status": "exact"
+      },
+      {
+        "budget": 6,
+        "exact_fn": 9,
+        "exact_fp": 0,
+        "exact_loss": 9,
+        "exact_witness_id": "f648468ba956914147a691249630679a53429781d79fb4780f02cc78b8325c36",
+        "feasible_deleted_edges": 2,
+        "feasible_fn": 9,
+        "feasible_fp": 0,
+        "feasible_upper_bound": 9,
+        "feasible_witness_id": "f648468ba956914147a691249630679a53429781d79fb4780f02cc78b8325c36",
+        "optimistic_lower_bound": 9,
+        "status": "exact"
+      }
+    ],
+    "edges": 11,
+    "formal_test_access": false,
+    "initial": {
+      "fn": 0,
+      "fp": 18,
+      "loss": 18
+    },
+    "initial_cross_component_fn": 0,
+    "initial_fp_in_skipped_components": 0,
+    "max_budget": 6,
+    "model_fits": 0,
+    "new_oracle_queries": 0,
+    "new_policy_runs": 0,
+    "nodes": 9,
+    "permitted_gold_mapping_sha256": "52fb7cf466a1fe2c9cfed53c77e506a5576ed4864b393d04f64ea8b6bf1499dd",
+    "schema": "cut-audit-offline-finite-budget-graph-v1",
+    "scope": "clairvoyant offline exposed-graph diagnosis; not an adaptive policy guarantee",
+    "status": "exact",
+    "topology_sha256": "4fb0319bd2a8fb6c13ead2355cfeed827172f79448e4a910856a22477ac71f9b",
+    "visible_component_caps": {
+      "edges": 16,
+      "nodes": 16
+    },
+    "witnesses": {
+      "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945": {
+        "removed_edges": [],
+        "spent": 0
+      },
+      "f648468ba956914147a691249630679a53429781d79fb4780f02cc78b8325c36": {
+        "removed_edges": [
+          [
+            "r0",
+            "r3"
+          ],
+          [
+            "r3",
+            "r6"
+          ]
+        ],
+        "spent": 2
+      }
+    }
+  },
+  "independent_check": "passed",
+  "k": 1,
+  "reference": "H9"
+}

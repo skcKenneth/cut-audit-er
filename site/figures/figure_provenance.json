@@ -1,0 +1,123 @@
+{
+  "editorial_change": "Figure 6 panel b title and time-axis label only; scientific data projections unchanged.",
+  "figures": [
+    {
+      "files_sha256": {
+        "fig01_contract.pdf": "fa967fe6b142fe392631fe02aede8fb0e9b3391875e43f424385a6187c645933",
+        "fig01_contract.png": "8922ff0461dd0fc4b639b3485b9a73d1f05f2ace83f6e0ce22467e8facb3e776",
+        "fig01_contract.svg": "81832d03e8664af9b340b30bae159f06ba2f7223dbf7284dca2154c957cb255f"
+      },
+      "height_inches": 2.2,
+      "minimum_font_pt": 8.0,
+      "name": "fig01_contract",
+      "projection_sha256": "903cf948302c19816fefae10c82c84cedd84216082c1539405872f658f94b2c2",
+      "text_bounds_within_canvas": true,
+      "width_inches": 4.8
+    },
+    {
+      "files_sha256": {
+        "fig02_structure.pdf": "37dc0527f1d8086a1294154288841c4d33846e981f2e1eba0ab6a024c486d505",
+        "fig02_structure.png": "3e4bb092cbc77c02a9f25e546a74925747a90bff7b4342a1ef9de3c639904a54",
+        "fig02_structure.svg": "53bd961e09520753103dc46512569c3e0f598a73c7b0e4a1c7cfef417e033fe7"
+      },
+      "height_inches": 2.75,
+      "minimum_font_pt": 8.0,
+      "name": "fig02_structure",
+      "projection_sha256": "582a1b4b5d4c1ea2c7496380bf6420341777f916606354442df1870e27bd2c66",
+      "text_bounds_within_canvas": true,
+      "width_inches": 4.8
+    },
+    {
+      "files_sha256": {
+        "fig03_natural.pdf": "076d784264ec78a74f354da277f80c0ab5f56d3c19193853773d1a679b60b550",
+        "fig03_natural.png": "2af6d18ae05ab96c650826d32e612883fac46c2bdeae38787d8e29f382a7e56f",
+        "fig03_natural.svg": "a09b4f3fad4a6bd0ee60730366268d295fe8b6160871946e66a054efc1297465"
+      },
+      "height_inches": 2.25,
+      "minimum_font_pt": 8.0,
+      "name": "fig03_natural",
+      "projection_sha256": "e9c241b36d112f7e41e8e7c80c4d4bdc4c2742ebcda37d55f8ab676db8bff48f",
+      "text_bounds_within_canvas": true,
+      "width_inches": 4.8
+    },
+    {
+      "files_sha256": {
+        "fig04_realized_gap.pdf": "21d757364c53a7d5ec3fe735bf9a317b971e6e36d39d451c3c064506f93506a2",
+        "fig04_realized_gap.png": "f592de989711e7b1074920caa7b8b46693c38b71c447ba4897729fe3626863b6",
+        "fig04_realized_gap.svg": "406bc3873a35f96a05978e6c8bf7dfc1f543a1f6da5c1157d46fedb08ba74843"
+      },
+      "height_inches": 2.8,
+      "minimum_font_pt": 8.0,
+      "name": "fig04_realized_gap",
+      "projection_sha256": "fedd20a2ea3b51f8ce20590ded16b7024dcf2d25ca6a1514d1ca900ff9a83054",
+      "text_bounds_within_canvas": true,
+      "width_inches": 4.8
+    },
+    {
+      "files_sha256": {
+        "fig05_known_law.pdf": "6ffa0bf9c4ddac9b9e921f2039147d08689875592fc34337e295f0468ac2ca2b",
+        "fig05_known_law.png": "2f7012a10ca688a330c4f015b046e9b08bcfa1a053b60dd565303f1e702ed145",
+        "fig05_known_law.svg": "7c90307add35a45f7af2e093451de3379450f25d7fb046062cad236ef7af54fe"
+      },
+      "height_inches": 2.95,
+      "minimum_font_pt": 8.0,
+      "name": "fig05_known_law",
+      "projection_sha256": "dbd188b59e1ecb2ee7539fd7a8b98efef35a2f7a768a39317d3e4c63a8b3fbbe",
+      "text_bounds_within_canvas": true,
+      "width_inches": 4.8
+    },
+    {
+      "files_sha256": {
+        "fig06_cost.pdf": "4088abc969a8a0f5c1e3a2d23106156046143cbefe40c0c06b44a2604b61d938",
+        "fig06_cost.png": "a199c9410e66544ba6d3d359a46c9c23277f3ecb148ea87412e2238dc967d55e",
+        "fig06_cost.svg": "2f6e8b966a9c904a0d164a9ec68b506510e2dbae776e3cf76fa8706d87946396"
+      },
+      "height_inches": 3.0,
+      "minimum_font_pt": 8.0,
+      "name": "fig06_cost",
+      "projection_sha256": "b5a5375e43fb12cbfed0c8bfc8b051eb6b82a51ed907bd5581287a32bdec2728",
+      "text_bounds_within_canvas": true,
+      "width_inches": 4.8
+    }
+  ],
+  "files_sha256": {
+    "data/fig01_contract.json": "903cf948302c19816fefae10c82c84cedd84216082c1539405872f658f94b2c2",
+    "data/fig02_structure.json": "582a1b4b5d4c1ea2c7496380bf6420341777f916606354442df1870e27bd2c66",
+    "data/fig03_natural.json": "e9c241b36d112f7e41e8e7c80c4d4bdc4c2742ebcda37d55f8ab676db8bff48f",
+    "data/fig04_realized_gap.json": "fedd20a2ea3b51f8ce20590ded16b7024dcf2d25ca6a1514d1ca900ff9a83054",
+    "data/fig05_known_law.json": "dbd188b59e1ecb2ee7539fd7a8b98efef35a2f7a768a39317d3e4c63a8b3fbbe",
+    "data/fig06_cost.json": "b5a5375e43fb12cbfed0c8bfc8b051eb6b82a51ed907bd5581287a32bdec2728",
+    "fig01_contract.pdf": "fa967fe6b142fe392631fe02aede8fb0e9b3391875e43f424385a6187c645933",
+    "fig01_contract.png": "8922ff0461dd0fc4b639b3485b9a73d1f05f2ace83f6e0ce22467e8facb3e776",
+    "fig01_contract.svg": "81832d03e8664af9b340b30bae159f06ba2f7223dbf7284dca2154c957cb255f",
+    "fig02_structure.pdf": "37dc0527f1d8086a1294154288841c4d33846e981f2e1eba0ab6a024c486d505",
+    "fig02_structure.png": "3e4bb092cbc77c02a9f25e546a74925747a90bff7b4342a1ef9de3c639904a54",
+    "fig02_structure.svg": "53bd961e09520753103dc46512569c3e0f598a73c7b0e4a1c7cfef417e033fe7",
+    "fig03_natural.pdf": "076d784264ec78a74f354da277f80c0ab5f56d3c19193853773d1a679b60b550",
+    "fig03_natural.png": "2af6d18ae05ab96c650826d32e612883fac46c2bdeae38787d8e29f382a7e56f",
+    "fig03_natural.svg": "a09b4f3fad4a6bd0ee60730366268d295fe8b6160871946e66a054efc1297465",
+    "fig04_realized_gap.pdf": "21d757364c53a7d5ec3fe735bf9a317b971e6e36d39d451c3c064506f93506a2",
+    "fig04_realized_gap.png": "f592de989711e7b1074920caa7b8b46693c38b71c447ba4897729fe3626863b6",
+    "fig04_realized_gap.svg": "406bc3873a35f96a05978e6c8bf7dfc1f543a1f6da5c1157d46fedb08ba74843",
+    "fig05_known_law.pdf": "6ffa0bf9c4ddac9b9e921f2039147d08689875592fc34337e295f0468ac2ca2b",
+    "fig05_known_law.png": "2f7012a10ca688a330c4f015b046e9b08bcfa1a053b60dd565303f1e702ed145",
+    "fig05_known_law.svg": "7c90307add35a45f7af2e093451de3379450f25d7fb046062cad236ef7af54fe",
+    "fig06_cost.pdf": "4088abc969a8a0f5c1e3a2d23106156046143cbefe40c0c06b44a2604b61d938",
+    "fig06_cost.png": "a199c9410e66544ba6d3d359a46c9c23277f3ecb148ea87412e2238dc967d55e",
+    "fig06_cost.svg": "2f6e8b966a9c904a0d164a9ec68b506510e2dbae776e3cf76fa8706d87946396"
+  },
+  "helper_renderer_sha256": "223532bfa02bdcd6d73e7cd8a81565de772c2050221c820379802283f94b9d8b",
+  "historical_manifest_sha256": "4639ddb28ac894b06e3be11c73d00f6589a016bf8f811525f1fd2fc02ed4ea15",
+  "input_manifest_sha256": "ba95b5ef40de2616a9c7e3a16c2feb805a89d658956c37a8bfbd64b30128e9c8",
+  "new_natural_experiments": 0,
+  "new_scientific_computations": 0,
+  "renderer_sha256": "164db48a5fd7302d3c7570d1be6d47cc638a57ae083cc0b4932ff187bb15d3da",
+  "retained_renderer_sha256": "c5fa6883d337f49954521e7b976fe4ca00d91e216269448b3593b9291345e447",
+  "schema": "cut-audit-public-figures-v7-1",
+  "scope": "Fixed constructed-law controls and retained natural evidence; expected natural decision gaps unidentified.",
+  "style": {
+    "minimum_font_pt": 8,
+    "width_inches": 4.8
+  },
+  "v7_input_manifest_sha256": "4c5722c27183fcbfc56572826e6f06629f2fd95146f23de5aa9852dabad1ca10"
+}

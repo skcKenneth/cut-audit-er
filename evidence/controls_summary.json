@@ -1,0 +1,145 @@
+{
+  "cases": [
+    {
+      "analytic_world_count": "1267650600228229401496703205376",
+      "budget": 1,
+      "case": "bayes_null_100",
+      "certificate_status": "strict_upper_bound_separation",
+      "evpi": "8999206877356228945297406557491299445661850166100010515421674046817321243165378474253714319342572275163285920881249335235036890801796205048982000222580150376223278399049697558226172984596261421352901/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "evpi_float": 0.899920687735623,
+      "expected_decision_gap": "0",
+      "expected_decision_gap_float": 0.0,
+      "expected_hindsight_gap": "8999206877356228945297406557491299445661850166100010515421674046817321243165378474253714319342572275163285920881249335235036890801796205048982000222580150376223278399049697558226172984596261421352901/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "expected_hindsight_gap_float": 0.899920687735623,
+      "independent_pair_error_law": true,
+      "kind": "matching",
+      "materialized_worlds": 0,
+      "new_oracle_answers": 0,
+      "optimal_expected_value": "1/10",
+      "optimal_expected_value_float": 0.1,
+      "pool_count": 100,
+      "positive_hindsight_probability": "8999206877356228945297406557491299445661850166100010515421674046817321243165378474253714319342572275163285920881249335235036890801796205048982000222580150376223278399049697558226172984596261421352901/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "positive_hindsight_probability_float": 0.899920687735623,
+      "positive_pool_certificate": true,
+      "scope": "known-law initial single-batch per-paid-query diagnostic",
+      "scored_count": 1,
+      "selected_action": [
+        [
+          "P000a",
+          "P000b"
+        ]
+      ],
+      "selected_expected_value": "1/10",
+      "selected_expected_value_float": 0.1,
+      "selected_proxy_float": 0.09999999999999998,
+      "status": "passed",
+      "world_count": null
+    },
+    {
+      "budget": 1,
+      "case": "path_aligned",
+      "certificate_status": "all_searched_candidates_scored",
+      "evpi": "1071/1000",
+      "evpi_float": 1.071,
+      "expected_decision_gap": "0",
+      "expected_decision_gap_float": 0.0,
+      "expected_hindsight_gap": "1071/1000",
+      "expected_hindsight_gap_float": 1.071,
+      "kind": "path",
+      "new_oracle_answers": 0,
+      "optimal_expected_value": "6/5",
+      "optimal_expected_value_float": 1.2,
+      "pool_count": 3,
+      "positive_hindsight_probability": "357/1000",
+      "positive_hindsight_probability_float": 0.357,
+      "positive_pool_certificate": true,
+      "scope": "known-law initial single-batch per-paid-query diagnostic",
+      "scored_count": 3,
+      "selected_action": [
+        [
+          "v1",
+          "v2"
+        ]
+      ],
+      "selected_expected_value": "6/5",
+      "selected_expected_value_float": 1.2,
+      "selected_proxy_float": 0.4062000000000002,
+      "status": "passed",
+      "world_count": 8
+    },
+    {
+      "budget": 1,
+      "case": "path_reversal",
+      "certificate_status": "all_searched_candidates_scored",
+      "evpi": "4851/4000",
+      "evpi_float": 1.21275,
+      "expected_decision_gap": "3/20",
+      "expected_decision_gap_float": 0.15,
+      "expected_hindsight_gap": "5451/4000",
+      "expected_hindsight_gap_float": 1.36275,
+      "kind": "path",
+      "new_oracle_answers": 0,
+      "optimal_expected_value": "6/5",
+      "optimal_expected_value_float": 1.2,
+      "pool_count": 3,
+      "positive_hindsight_probability": "1837/4000",
+      "positive_hindsight_probability_float": 0.45925,
+      "positive_pool_certificate": true,
+      "scope": "known-law initial single-batch per-paid-query diagnostic",
+      "scored_count": 3,
+      "selected_action": [
+        [
+          "v0",
+          "v1"
+        ]
+      ],
+      "selected_expected_value": "21/20",
+      "selected_expected_value_float": 1.05,
+      "selected_proxy_float": 0.524475,
+      "status": "passed",
+      "world_count": 8
+    },
+    {
+      "budget": 2,
+      "case": "two_edge_batch",
+      "certificate_status": "strict_upper_bound_separation",
+      "evpi": "3/16",
+      "evpi_float": 0.1875,
+      "expected_decision_gap": "7/8",
+      "expected_decision_gap_float": 0.875,
+      "expected_hindsight_gap": "17/16",
+      "expected_hindsight_gap_float": 1.0625,
+      "kind": "cliques",
+      "new_oracle_answers": 0,
+      "optimal_expected_value": "9/8",
+      "optimal_expected_value_float": 1.125,
+      "pool_count": 4,
+      "positive_hindsight_probability": "1/4",
+      "positive_hindsight_probability_float": 0.25,
+      "positive_pool_certificate": true,
+      "scope": "known-law initial single-batch per-paid-query diagnostic",
+      "scored_count": 2,
+      "selected_action": [
+        [
+          "R0",
+          "R1"
+        ]
+      ],
+      "selected_expected_value": "1/4",
+      "selected_expected_value_float": 0.25,
+      "selected_proxy_float": 0.25,
+      "status": "passed",
+      "world_count": 4
+    }
+  ],
+  "config_sha256": "2b471ea162513778663f8fa1ef7ca5185d6307f5139280be347baf6991f1fb87",
+  "finite_worlds": 20,
+  "initial_decisions": 4,
+  "natural_acquisitions": 0,
+  "new_oracle_answers": 0,
+  "reference_evaluation_only": true,
+  "schema": "cut-audit-v7-known-law-summary",
+  "scope": "Constructive known-law initial single-batch diagnostics; not natural data or sampled independent observations",
+  "status": "passed",
+  "visible_manifest_sha256": "ea91c7818cc7bd4a078da50262e2294c4be79b818c765943f0697c11f5a2e971"
+}

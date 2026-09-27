@@ -1,0 +1,19 @@
+{
+  "cases": 9,
+  "files_sha256": {
+    "evaluator_reference.json": "00110f43d6c3cd108d8a762ce06bced0e61c2508d74205bdef5c9280b59b50e2",
+    "observable.json": "f13a53c20ec0e3ca2ab0635888ef17b980131a3c38acac83078be38faae51bbb",
+    "paid_cases.json": "c7cc6c014c2f98eb29061f5da5d1a70a1391cb6bf5fc61aadb75ec377476661a",
+    "scores.npy": "64ffdb6574e50d14c834e7a2309107d4e4e1806a52a399cdf83b4b37a402a329"
+  },
+  "label": "DBLP_ACM_previously_unused_910_records_492_entities",
+  "new_oracle_answers": 0,
+  "schema": "cut-audit-public-replay-v4",
+  "scope": "Replay of saved paid answers, not new experiments; original IDs/text omitted",
+  "source_hashes": {
+    "original_observable_graph": "984d88200a79bc6a1e0e0ea0cc5e1229cf4b89f52d2ebedd05cd4ea58dd8499b",
+    "original_scores": "64ffdb6574e50d14c834e7a2309107d4e4e1806a52a399cdf83b4b37a402a329",
+    "original_study_suite": "a4708b4f098554feca6fa0cd54c27d879a907e8ff4dc1db5d3390e68842889fa",
+    "prospective_freeze": "692bfb12e4ef2a7dfabd7c979a4ca8aeecdf0e3dbfc2562781f833054cf49a22"
+  }
+}
